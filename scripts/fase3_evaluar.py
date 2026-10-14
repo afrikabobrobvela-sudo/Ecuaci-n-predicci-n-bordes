@@ -109,8 +109,13 @@ def main():
             n, ne, (mae, rmse, bias), (ci_mae, _, ci_b) = metricas(d)
             print(f"tipo {tp} {mod}: n={n} estudios={ne} MAE {mae:.2f} [{ci_mae[0]:.2f}, {ci_mae[1]:.2f}] sesgo {bias:+.2f} [{ci_b[0]:.2f}, {ci_b[1]:.2f}]")
     # Sensibilidad (C2: solo como análisis secundario): normalización nernstiana a pH 0 en registros con pH
-    e = [f["U"] + C.NERNST * f["pH"] - f["M0a"] for f in filas if f["pH"] is not None and f["tipo"] != "p"]
-    print(f"sensibilidad tipo n, U llevado a pH 0 (59 mV/pH): n={len(e)} MAE {sum(map(abs, e))/len(e):.2f} sesgo {sum(e)/len(e):+.2f}")
+    sub = [f for f in filas if f["pH"] is not None and f["tipo"] != "p"]
+    e0 = [f["U"] - f["M0a"] for f in sub]
+    e = [f["U"] + C.NERNST * f["pH"] - f["M0a"] for f in sub]
+    print(f"sensibilidad tipo n con pH conocido (n={len(sub)}): sin normalizar MAE {sum(map(abs, e0))/len(e0):.2f} "
+          f"sesgo {sum(e0)/len(e0):+.2f}; llevado a pH 0 (59 mV/pH) MAE {sum(map(abs, e))/len(e):.2f} sesgo {sum(e)/len(e):+.2f}")
+    xs = [f["pH"] for f in sub]; mx = sum(xs) / len(xs); my = sum(e0) / len(e0)
+    print(f"pendiente del residuo de M0a frente al pH entre estudios: {sum((x-mx)*(y-my) for x, y in zip(xs, e0))/sum((x-mx)**2 for x in xs)*1000:.1f} mV/pH")
     # Por familia, M0a
     print("M0a por familia:")
     fam = defaultdict(list)

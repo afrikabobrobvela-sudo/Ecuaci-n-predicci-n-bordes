@@ -1,0 +1,22 @@
+M0a 52 40 MAE 0.74 [0.55, 0.95]  RMSE 1.00 [0.79, 1.20]  sesgo -0.67 [-0.91, -0.45]
+M0b 52 40 MAE 0.70 [0.52, 0.90]  RMSE 0.96 [0.75, 1.15]  sesgo -0.60 [-0.84, -0.38]
+M3 50 38 MAE 0.70 [0.57, 0.86]  RMSE 0.85 [0.66, 1.09]  sesgo -0.24 [-0.47, 0.01]
+M4a 52 40 MAE 0.55 [0.45, 0.66]  RMSE 0.67 [0.51, 0.85]  sesgo -0.00 [-0.20, 0.21]
+M4b 52 40 MAE 0.55 [0.45, 0.68]  RMSE 0.69 [0.51, 0.92]  sesgo +0.01 [-0.20, 0.23]
+M4c 52 40 MAE 0.47 [0.38, 0.57]  RMSE 0.57 [0.44, 0.73]  sesgo +0.00 [-0.17, 0.18]
+tipo n M0a: n=37 estudios=28 MAE 0.38 [0.28, 0.48] sesgo -0.29 [-0.43, -0.15]
+tipo n M0b: n=37 estudios=28 MAE 0.35 [0.26, 0.44] sesgo -0.22 [-0.36, -0.08]
+tipo n M3: n=35 estudios=26 MAE 0.52 [0.43, 0.62] sesgo -0.03 [-0.25, 0.19]
+tipo n M4c: n=37 estudios=28 MAE 0.43 [0.36, 0.52] sesgo -0.18 [-0.35, -0.02]
+tipo p M0a: n=15 estudios=13 MAE 1.64 [1.36, 1.88] sesgo -1.62 [-1.88, -1.32]
+tipo p M0b: n=15 estudios=13 MAE 1.58 [1.32, 1.81] sesgo -1.56 [-1.81, -1.25]
+tipo p M3: n=15 estudios=13 MAE 1.11 [0.84, 1.52] sesgo -0.71 [-1.15, -0.06]
+tipo p M4c: n=15 estudios=13 MAE 0.56 [0.33, 0.83] sesgo +0.45 [0.14, 0.76]
+sensibilidad tipo n con pH conocido (n=22): sin normalizar MAE 0.35 sesgo -0.25; llevado a pH 0 (59 mV/pH) MAE 0.37 sesgo +0.26
+pendiente del residuo de M0a frente al pH entre estudios: -8.1 mV/pH
+M0a por familia:
+  oxido_binario: n=17 MAE 0.68 sesgo -0.65
+  oxido_ternario: n=15 MAE 1.06 sesgo -0.94
+  oxido_ternario_Bi: n=11 MAE 0.56 sesgo -0.43
+  sulfuro: n=9 MAE 0.56 sesgo -0.56
+tipo p: 15 de 52
