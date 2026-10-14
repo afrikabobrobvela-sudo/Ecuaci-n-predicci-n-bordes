@@ -1,0 +1,16 @@
+  parámetros p K3 (toda la base): {'d': '-1.772 [-2.011, -1.561]', 's': '-0.017 [-0.073, +0.025]'}
+  parámetros p K4 (toda la base): {'d_O': '-1.494 [-1.782, -1.134]', 'd_S': '-2.173 [-2.173, -2.173]', 'd': '-1.537 [-1.822, -1.189]'}
+modelo elegido (tipo n, LOFO): M0a
+RESERVA BiOX: 21 registros, 15 estudios, tipo p: 1
+  reserva n M0a: n=20 estudios=15 MAE 0.67 [0.52, 0.80] sesgo -0.65 [-0.80, -0.47]
+  reserva n M0b: n=20 estudios=15 MAE 0.61 [0.48, 0.74] sesgo -0.58 [-0.73, -0.40]
+  reserva n K1: n=20 estudios=15 MAE 0.47 [0.38, 0.57] sesgo -0.38 [-0.53, -0.20]
+  reserva p M0a: n=1 estudios=1 MAE 1.16 [1.16, 1.16] sesgo -1.16 [-1.16, -1.16]
+  reserva p M0b: n=1 estudios=1 MAE 1.09 [1.09, 1.09] sesgo -1.09 [-1.09, -1.09]
+  reserva p K1: n=1 estudios=1 MAE 0.38 [0.38, 0.38] sesgo +0.38 [+0.38, +0.38]
+  reserva todos M0a: n=21 estudios=15 MAE 0.69 [0.54, 0.82] sesgo -0.67 [-0.82, -0.50]
+  reserva todos M0b: n=21 estudios=15 MAE 0.64 [0.50, 0.76] sesgo -0.60 [-0.75, -0.43]
+  reserva todos K1: n=21 estudios=15 MAE 0.47 [0.38, 0.56] sesgo -0.35 [-0.50, -0.16]
+escrito prueba_reserva_BiOX.csv
+reserva n: reducción MAE M0a−K1 +0.197 [+0.103, +0.256] (bootstrap por estudio)
+Counter({'BiOBr': 5, 'BiOCl': 4, 'Bi24O31Br10': 4, 'BiOI': 3, 'Bi24O31Cl10': 1, 'Bi4O5I2': 1, 'Bi12O17Cl2': 1, 'Bi5O7I': 1})

@@ -1,0 +1,82 @@
+[
+{
+"rid": "ronda3_oxidos:0",
+"doi": "10.3762/bjnano.9.42",
+"acceso_url": "https://www.beilstein-journals.org/bjnano/articles/9/42",
+"muestra": "ZFO-500 (combustión en solución, calcinado 500 °C)",
+"compuesto": "ZnFe2O4",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_oxidos:1",
+"doi": "10.1021/acsami.6b02901",
+"acceso_url": "https://bpb-us-w2.wpmucdn.com/web.sas.upenn.edu/dist/2/579/files/2019/11/acsami2E6b02901.pdf",
+"muestra": "Película de 5 capas de nanoláminas Ca2Nb3O10 (exfoliadas de HCa2Nb3O10/KCa2Nb3O10) sobre FTO",
+"compuesto": "Ca2Nb3O10",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_oxidos:2",
+"doi": "10.3390/nano16161025",
+"acceso_url": "https://www.mdpi.com/2079-4991/16/16/1025/htm",
+"muestra": "Bi2O3 puro (0% La; combustión con glicina, 500 °C)",
+"compuesto": "Bi2O3",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_oxidos:3",
+"doi": "10.3390/catal11020199",
+"acceso_url": "https://www.mdpi.com/2073-4344/11/2/199/htm",
+"muestra": "ZFO MNAs (red mesoporosa de nanopartículas de ZnFe2O4)",
+"compuesto": "ZnFe2O4",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_oxidos:4",
+"doi": "10.3390/catal11020199",
+"acceso_url": "https://www.mdpi.com/2073-4344/11/2/199/htm",
+"muestra": "MFO MNAs (red mesoporosa de nanopartículas de MnFe2O4)",
+"compuesto": "MnFe2O4",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_oxidos:5",
+"doi": "10.3390/coatings15040447",
+"acceso_url": "https://www.mdpi.com/2079-6412/15/4/447/htm",
+"muestra": "Bi2O3/CFb (control Bi2O3 solvotermal sobre fibra de carbono, sin g-C3N4 ni MoS2)",
+"compuesto": "Bi2O3",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_oxidos:6",
+"doi": "10.3390/nano9111643",
+"acceso_url": "https://www.mdpi.com/2079-4991/9/11/1643/htm",
+"muestra": "Nanoláminas de CeO2 puras (hidrotermal; sin Ag ni carbono)",
+"compuesto": "CeO2",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_oxidos:7",
+"doi": "10.3390/nano12183151",
+"acceso_url": "https://www.mdpi.com/2079-4991/12/18/3151/htm",
+"muestra": "In2O3 puro (control del compuesto In2O3/SnO2)",
+"compuesto": "In2O3",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_oxidos:8",
+"doi": "10.3390/nano12183151",
+"acceso_url": "https://www.mdpi.com/2079-4991/12/18/3151/htm",
+"muestra": "SnO2 puro (control del compuesto In2O3/SnO2)",
+"compuesto": "SnO2",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_oxidos:9",
+"doi": "10.1007/s12678-019-00561-2",
+"acceso_url": "https://link.springer.com/article/10.1007/s12678-019-00561-2",
+"muestra": "Película MoO3/FTO prístina (Mo pulverizado 100 nm, recocido al aire 450 °C 2 h), antes de intercalación de K+",
+"compuesto": "MoO3",
+"observable": "U_fb (MS)"
+}
+]

@@ -1,0 +1,14 @@
+entrenamiento tipo n: DE combinada entre estudios del mismo compuesto = 0.43 V
+  ('WO3', 3, 3, -0.55, 0.64)
+  ('CdS', 4, 3, -1.0, -0.4)
+  ('TiO2', 4, 4, -0.66, -0.22)
+  ('BiVO4', 3, 3, -0.33, 0.53)
+  ('Fe2O3', 4, 3, -0.33, 0.61)
+  ('ZnO', 2, 2, -0.34, -0.22)
+  ('Bi2O3', 3, 2, -0.4, 0.49)
+  ('ZnFe2O4', 2, 2, -0.58, 0.51)
+  ('ZnIn2S4', 4, 4, -1.2, -0.5)
+reserva BiOX tipo n: DE combinada = 0.39 V
+  ('BiOBr', 5, 5, -0.73, 0.36)
+  ('BiOCl', 4, 4, -0.68, 0.28)
+  ('BiOI', 3, 2, -0.33, -0.13)

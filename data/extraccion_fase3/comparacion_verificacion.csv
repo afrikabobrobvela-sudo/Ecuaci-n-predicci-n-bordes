@@ -125,6 +125,16 @@ ronda2_sulfuros_BiOX:3,Nie2024,10.3390/nano14070576,BiOI,-0.57,-0.57,coincide,
 ronda2_sulfuros_BiOX:4,Wang2021,10.1039/d0ra10799a,ZnIn2S4,-1.2,-1.2,coincide,
 ronda2_sulfuros_BiOX:5,Liu2026,10.3390/nano16110652,ZnIn2S4,-1.28,-1.28,coincide,
 ronda2_sulfuros_BiOX:6,Chen2020,10.3390/nano11010038,CdS,-1.2,-1.2,coincide,
+ronda3_oxidos:0,Behera2018,10.3762/bjnano.9.42,ZnFe2O4,-0.69,-0.69,coincide,
+ronda3_oxidos:1,Xu2016,10.1021/acsami.6b02901,Ca2Nb3O10,-0.944,-0.944,coincide,
+ronda3_oxidos:2,Wang2026,10.3390/nano16161025,Bi2O3,-0.64,-0.64,coincide,
+ronda3_oxidos:3,Skliri2021,10.3390/catal11020199,ZnFe2O4,-0.17,-0.17,coincide,
+ronda3_oxidos:4,Skliri2021,10.3390/catal11020199,MnFe2O4,-0.31,-0.31,coincide,
+ronda3_oxidos:5,Niu2025,10.3390/coatings15040447,Bi2O3,2.57,2.57,coincide,
+ronda3_oxidos:6,Zheng2019,10.3390/nano9111643,CeO2,-0.83,-0.83,coincide,
+ronda3_oxidos:7,Wang2022,10.3390/nano12183151,In2O3,-0.82,-0.82,coincide,
+ronda3_oxidos:8,Wang2022,10.3390/nano12183151,SnO2,-0.7,-0.7,coincide,
+ronda3_oxidos:9,Szkoda2019,10.1007/s12678-019-00561-2,MoO3,0.0,0.0,coincide,
 ronda3_sulfuros:0,Yang2025,10.1039/d5lf00219b,In2S3,-0.17,-0.75,coincide_valor,valor coincide en la otra escala publicada
 ronda3_sulfuros:1,Yang2025,10.1039/d5lf00219b,In2S3,-0.28,-0.86,coincide_valor,valor coincide en la otra escala publicada
 ronda3_sulfuros:2,Yang2025,10.1039/d5lf00219b,In2S3,-0.25,-0.83,coincide_valor,valor coincide en la otra escala publicada

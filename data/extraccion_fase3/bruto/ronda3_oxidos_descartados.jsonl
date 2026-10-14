@@ -1,0 +1,77 @@
+{"doi": "10.1039/D5RA08476H", "motivo": "sin_medicion", "detalle": "KNbO3 V-dopado, estudio puramente DFT; sin Mott-Schottky experimental"}
+{"doi": "10.3390/catal10121480", "motivo": "solo_en_figura", "detalle": "Nb2O5 nanotubos: U_fb no escrito como número en el texto (solo Fig. 7c); pH n.r."}
+{"doi": "10.3390/nano15070537", "motivo": "ronda2_filtro", "detalle": "CeO2 control: escala ambigua (Ag/AgCl vs VSCE), relleno y electrolito del MS n.r. en texto (en SI)"}
+{"doi": "10.3390/nano13060981", "motivo": "no_monofasico", "detalle": "Solo compuestos Fe-Ce/LDH y óxidos mixtos derivados; sin CeO2 o Fe2O3 puro"}
+{"doi": "10.3390/mi12030338", "motivo": "sin_medicion", "detalle": "Cu2O desnudo sin U_fb; MS solo de capas ZnO/AZO (ZnO evitado) y oscuridad/pH del MS n.r."}
+{"doi": "10.3390/catal14040275", "motivo": "ronda2_filtro", "detalle": "Bi2Sn2O7 prístino: Vfb -0.38 V con escala/relleno no especificado en experimental (solo 'Ag/AgCl' en discusión), valor atribuido a ref [36]"}
+{"doi": "10.3390/catal12121596", "motivo": "ronda2_filtro", "detalle": "alpha-MnO2/BiOI: Ag/AgCl sin relleno; electrolito del MS n.r."}
+{"doi": "10.1038/ncomms6122", "motivo": "ronda2_filtro", "detalle": "Fe2TiO5/TiO2 nanotubos: condiciones del MS solo en SI; Eg de Fe2TiO5 citado de literatura; Fe2TiO5 no puro (capa sobre TiO2)"}
+{"doi": "10.3390/molecules30122561", "motivo": "sin_medicion", "detalle": "Co3O4/Nb2O5: sin Mott-Schottky; bordes de Nb2O5 citados de literatura"}
+{"doi": "10.3390/nano15110846", "motivo": "sin_medicion", "detalle": "Fases de Nb2O5: sin medidas electroquímicas"}
+{"doi": "10.3390/nano12101695", "motivo": "ronda2_filtro", "detalle": "La2Ti2O7/Co3O4: Ag/AgCl sin relleno; frecuencia y oscuridad n.r."}
+{"doi": "10.3390/nano9050781", "motivo": "ronda2_filtro", "detalle": "delta-Bi2O3: electrodo de referencia, electrolito y condiciones del MS n.r.; solo valores vs NHE"}
+{"doi": "10.1038/s41598-026-64862-5", "motivo": "ecuacion_electronegatividad", "detalle": "ZnWO4: sin Mott-Schottky; bordes por ecuación de electronegatividad"}
+{"doi": "10.1038/srep07770", "motivo": "sin_medicion", "detalle": "Bi2O3 / Bi2O(OH)2SO4: sin Mott-Schottky ni U_fb"}
+{"doi": "10.1038/s41598-024-75614-8", "motivo": "sin_medicion", "detalle": "Ag2O verde: sin Mott-Schottky"}
+{"doi": "10.1038/s41598-024-64090-9", "motivo": "no_monofasico", "detalle": "Nanocompuesto Fe2O3–CuO–CuFe2O4; sin MS"}
+{"doi": "10.1038/srep27241", "motivo": "sin_medicion", "detalle": "CdS/ZnCdS/ZnS (no óxido); sin MS"}
+{"doi": "10.1038/srep01021", "motivo": "sin_medicion", "detalle": "In2O3 nanocubos: sin Mott-Schottky; Eg citado"}
+{"doi": "10.3389/fmats.2022.1049189", "motivo": "sin_medicion", "detalle": "V2O5 películas: mezcla alfa/beta, sin MS"}
+{"doi": "10.3390/nano14141189", "motivo": "ronda2_filtro", "detalle": "alpha-MoO3 prístino: U_fb -0.47 V vs Ag/AgCl sat, pero Eg citado de literatura (no medido) y electrolito del MS n.r."}
+{"doi": "10.1038/s41598-021-85532-8", "motivo": "sin_medicion", "detalle": "In2O3/MoS2/Fe3O4: sin Mott-Schottky"}
+{"doi": "10.1039/d0nr06319c", "motivo": "ronda2_filtro", "detalle": "Ga2O3 monocristal: U_fb solo del compuesto TiO2/Au/Ga2O3; sin valor de Ga2O3 puro; pH n.r."}
+{"doi": "10.1039/d5ta08157b", "motivo": "ronda2_filtro", "detalle": "Tungstatos: solo CuWO4 con U_fb numérico (0.5 V RHE) pero pH del MS no vinculado y Eg efectivo por fotorrespuesta (Tauc solo en SI); resto sin valor numérico"}
+{"doi": "10.1007/s10008-023-05770-w", "motivo": "sin_medicion", "detalle": "Revisión (Kavan 2024), sin medidas propias"}
+{"doi": "osti:3013731 (Ye et al., Nb2O5 protection layers on p-InP)", "motivo": "no_monofasico", "detalle": "Nb2O5 amorfo ALD sobre p-InP; U_fb del conjunto InP/Nb2O5; electrolito con par redox V3+/2+; Eg citado"}
+{"doi": "10.3390/nano15221748", "motivo": "sin_medicion", "detalle": "SnO2/CuO: sin Mott-Schottky; SnO2 amorfo"}
+{"doi": "10.3390/catal16090839", "motivo": "no_monofasico", "detalle": "Cu2O sin Cl: EFB 0.79 V vs SCE, oscuridad, 1000 Hz, Eg 1.94 eV, pero sin XRD/evidencia de fase del film no modificado (XRD solo de muestras con KCl)"}
+{"doi": "10.3390/nano13071272", "motivo": "no_monofasico", "detalle": "n-Cu2O: películas mezcla Cu2O+CuO; referencia y electrolito del MS n.r."}
+{"doi": "10.1039/d4nr00676c", "motivo": "sin_medicion", "detalle": "Revisión de CeO2; sin MS propio"}
+{"doi": "10.1039/d5ma00321k", "motivo": "sin_medicion", "detalle": "Ag/CeO2 electrocatálisis: sin Mott-Schottky"}
+{"doi": "10.1038/s41467-019-13987-5", "motivo": "sin_medicion", "detalle": "Cu2O band-tail: sin U_fb numérico de Cu2O en el texto (solo CuSCN); datos de Cu2O en SI"}
+{"doi": "10.1038/srep23435", "motivo": "ecuacion_electronegatividad", "detalle": "alpha-Bi2O3/(BiO)2CO3: sin MS; bordes por electronegatividad"}
+{"doi": "10.1038/s41598-020-80640-3", "motivo": "sin_medicion", "detalle": "NiOx capa HTL en fotodiodo; sin MS"}
+{"doi": "arXiv:2303.03332", "motivo": "solo_en_figura", "detalle": "LiInO2, SrIn2O4, Ca2Sb2O7, Sr2Sb2O7: U_fb por iluminación pulsada solo en Fig. 4; sin valor numérico en texto"}
+{"doi": "10.3390/inorganics14040103", "motivo": "ronda2_filtro", "detalle": "FeWO4 puro: +1.68 V vs SCE pero electrolito, frecuencia y condiciones del MS n.r. en texto"}
+{"doi": "10.3390/catal15010073", "motivo": "ronda2_filtro", "detalle": "Bi12GeO20 y W18O49 puros: U_fb vs SCE pero electrolito del MS n.r. en texto"}
+{"doi": "10.3390/ma15072564", "motivo": "ronda2_filtro", "detalle": "CeO2 puro: Ufb -0.63 'eV' sin escala escrita para el valor (ref. SCE en experimental, conversión a NHE inconsistente)"}
+{"doi": "10.3390/nano15131039", "motivo": "sin_medicion", "detalle": "Ba2Bi2O6 sin dopar: sin MS ni Eg medido; solo dopados (MS en SI)"}
+{"doi": "10.3390/nano9091341", "motivo": "sin_medicion", "detalle": "Bi2MoO6 S-dopado: sin Mott-Schottky"}
+{"doi": "10.3390/ma15124099", "motivo": "no_monofasico", "detalle": "Silicatos de Bi: compuestos Bi2SiO5+Bi12SiO20; valores solo en tabla imagen"}
+{"doi": "10.3390/condmat9030031", "motivo": "ronda2_filtro", "detalle": "ZnFe2O4 y CuFe2O4 monocapa: U_fb vs Ag/AgCl sin relleno; electrolito/condiciones del MS n.r."}
+{"doi": "10.3390/catal10121372", "motivo": "sin_medicion", "detalle": "Zn2Ti3O8/ZnTiO3: sin MS; fases mixtas"}
+{"doi": "10.3390/nano12081345", "motivo": "sin_medicion", "detalle": "ZnTiO3/ZnO: sin medidas electroquímicas"}
+{"doi": "10.3390/molecules29194561", "motivo": "ronda2_filtro", "detalle": "CoFe2O4 puro: U_fb vs SCE pero electrolito del MS n.r.; sin XRD propio de CoFe2O4"}
+{"doi": "10.3390/molecules31162772", "motivo": "ecuacion_electronegatividad", "detalle": "ZnO/CoFe2O4: sin MS; bordes por Mulliken"}
+{"doi": "10.3390/ma16237451", "motivo": "sin_medicion", "detalle": "Bi4Ti3O12 PLAL: sin electroquímica"}
+{"doi": "10.3390/catal13071142", "motivo": "otro", "detalle": "Solo control ZnO (material evitado en esta ronda); valor publicado vs NHE pH 7 sin conversión explícita; oscuridad n.r."}
+{"doi": "10.3390/ma18184252", "motivo": "ronda2_filtro", "detalle": "CuO/TiO2: electrolito, frecuencia y condiciones del MS n.r.; TiO2 bifásico"}
+{"doi": "10.1038/ncomms9340", "motivo": "sin_medicion", "detalle": "Bi2WO6 monocapa: sin Mott-Schottky"}
+{"doi": "10.3390/catal9020169", "motivo": "ronda2_filtro", "detalle": "Nb2O5 TT: Ag/AgCl sin relleno; conflicto escala NHE/Ag/AgCl; Eg de Nb2O5 no medido en texto (SI); fase descrita como amorfa pseudohexagonal"}
+{"doi": "10.1038/s41598-021-02161-x", "motivo": "ronda2_filtro", "detalle": "Nb2O5 nanofibras: solo ECB derivado sin escala; referencia/electrolito del MS en SI"}
+{"doi": "10.3390/separations11030077", "motivo": "ronda2_filtro", "detalle": "NiTiO3: Ag/AgCl sin relleno; electrolito y condiciones del MS n.r."}
+{"doi": "10.3389/fchem.2021.680632", "motivo": "sin_medicion", "detalle": "Bi2S3 (no óxido); sin MS"}
+{"doi": "10.1038/s41598-024-60250-z", "motivo": "sin_medicion", "detalle": "Bi2WO6/Ag2CO3: sin Mott-Schottky"}
+{"doi": "10.3390/surfaces7040059", "motivo": "sin_acceso", "detalle": "CeO2 electrodepositado (serie de recocido): condiciones MS completas (Ag/AgCl sat NaCl, 0.10 M Na2SO4 pH 7, 1000 Hz) pero Efb solo en Tabla 4 como imagen no legible; reintentar con PDF"}
+{"doi": "10.3390/nano13111798", "motivo": "sin_medicion", "detalle": "WO3/CeO2: sin MS; bordes por XPS-VB y Eg"}
+{"doi": "10.3390/ijms24097950", "motivo": "ronda2_filtro", "detalle": "In2O3 puro: Vfb -2.1 'eV vs reference electrode' ambiguo; Ag/AgCl sin relleno"}
+{"doi": "10.3390/nano13030401", "motivo": "ronda2_filtro", "detalle": "In2O3/CdO puros: U_fb vs NHE, pero Eg solo en SI (Tabla S2) y SCE sin conversión explícita"}
+{"doi": "10.3390/catal8100453", "motivo": "sin_medicion", "detalle": "SnO2 películas compuestas: sin MS"}
+{"doi": "10.3390/nano13081371", "motivo": "sin_medicion", "detalle": "CeO2@ZnO: sin MS"}
+{"doi": "10.3390/molecules27217489", "motivo": "no_monofasico", "detalle": "CeO2 puro: -0.69 V vs SCE, 0.2 M Na2SO4 pH 6.8, Eg 3.20 eV, pero sin XRD del CeO2 puro (solo dentro del patrón CeAu)"}
+{"doi": "10.3390/molecules28062435", "motivo": "ronda2_filtro", "detalle": "NiO: Ag/AgCl sin relleno; electrolito del MS ambiguo (Na2SO4 o ferri/ferrocianuro)"}
+{"doi": "10.3390/c12010006", "motivo": "ronda2_filtro", "detalle": "2D-Cu2O: Ag/AgCl sin relleno (conversión +0.197 implícita); RHE no usado"}
+{"doi": "10.3390/nano12030574", "motivo": "ronda2_filtro", "detalle": "Bi2MoO6/TiO2: valores vs NHE sin conversión explícita desde calomel sin relleno; pH n.r."}
+{"doi": "10.3390/molecules29143255", "motivo": "ronda2_filtro", "detalle": "Bi2MoO6 morfologías: U_fb por muestra solo en SI (Tabla S1)"}
+{"doi": "10.3390/pr11010115", "motivo": "sin_medicion", "detalle": "Bi3NbO7 prístino: sin Mott-Schottky"}
+{"doi": "10.1038/s41598-022-14811-9", "motivo": "sin_medicion", "detalle": "MgO–Bi2-xCrxO3: sin MS"}
+{"doi": "10.1038/s41598-018-26504-3", "motivo": "sin_medicion", "detalle": "SnO2 Ce-dopado sensores: sin MS"}
+{"doi": "10.3390/electrochem6020021", "motivo": "solo_en_figura", "detalle": "CuO/TiO2: U_fb solo en Fig. 13; sin XRD de CuO"}
+{"doi": "10.1038/s41598-026-44358-y", "motivo": "no_monofasico", "detalle": "Zeolita/Co3O4 compuesto; sin Co3O4 puro"}
+{"doi": "10.1038/s41598-023-41211-4", "motivo": "no_monofasico", "detalle": "C/Cu2O/Cu0: sin Cu2O puro; MS bajo iluminación; escala n.r."}
+{"doi": "10.1038/s41598-025-89031-y", "motivo": "no_monofasico", "detalle": "NiO cocatalizador sobre g-C3N4, sin control puro; sin Eg"}
+{"doi": "10.3390/nano11010214", "motivo": "sin_medicion", "detalle": "Co3O4-TiO2: sin valores numéricos de U_fb; sin Co3O4 puro"}
+{"doi": "10.1039/C5CP05833C", "motivo": "sin_medicion", "detalle": "In2O3/In2S3/Ag: sin MS; Eg citado"}
+{"doi": "10.1039/C3NR05429B", "motivo": "otro", "detalle": "alpha-Fe2O3 (material evitado): sin XRD del film y Eg citado"}
+{"doi": "10.1039/d1ma00539a", "motivo": "sin_medicion", "detalle": "Revisión CeO2"}
+{"doi": "10.1038/s41598-022-16614-4", "motivo": "no_monofasico", "detalle": "CuO con NiO dopante in situ; sin valor numérico de U_fb"}

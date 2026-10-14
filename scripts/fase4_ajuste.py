@@ -159,16 +159,31 @@ def main():
     elegida = min(ok, key=lambda r: (r[3], -float(r[8])))[2] if ok else "M0a"
     print("modelo elegido (tipo n, LOFO):", elegida)
     if "--abrir-reserva" in sys.argv:
+        # Prueba final: M0a, M0b, el modelo elegido y, como secundaria, K1 ajustado por separado en n y en p.
         res = cargar_reserva()
-        pk = ajustar(elegida, n) if elegida != "M0a" else None
-        print(f"RESERVA BiOX: {len(res)} registros, {len({f['estudio'] for f in res})} estudios")
+        k1 = {"n": ajustar("K1", n), "p": ajustar("K1", p)}
+        pe = ajustar(elegida, n) if elegida != "M0a" else None
+        print(f"RESERVA BiOX: {len(res)} registros, {len({f['estudio'] for f in res})} estudios, tipo p: {sum(f['tipo'] == 'p' for f in res)}")
+        filas_r = []
+        for f in res:
+            sh = f["Eg"] if f["tipo"] == "p" else 0
+            g = dict(f, M0a=f["M0a"] + sh)
+            el = g["M0a"] if pe is None else predecir(elegida, pe, f) + sh
+            filas_r.append(dict(f, p_M0a=f["M0a"] + sh, p_M0b=f["M0b"] + sh, p_elegido=el,
+                                p_K1=predecir("K1", k1["p" if f["tipo"] == "p" else "n"], g)))
         with open(os.path.join(SAL, "prueba_reserva_BiOX.csv"), "w", newline="") as fh:
-            w = csv.writer(fh); w.writerow(["id", "estudio", "formula", "tipo", "pH", "Eg", "U_obs", "M0a", "M0b", elegida])
-            for f in res:
-                cb = predecir(elegida, pk, f) if pk else f["M0a"]
-                sh = f["Eg"] if f["tipo"] == "p" else 0
-                w.writerow([f["id"], f["estudio"], f["formula"], f["tipo"], f["pH"], f["Eg"], f["U"],
-                            round(f["M0a"] + sh, 3), round(f["M0b"] + sh, 3), None if cb is None else round(cb + sh, 3)])
+            w = csv.writer(fh); w.writerow(["id", "estudio", "formula", "tipo", "pH", "Eg", "U_obs", "M0a", "M0b", "elegido_" + elegida, "K1_por_tipo"])
+            for f in filas_r:
+                w.writerow([f["id"], f["estudio"], f["formula"], f["tipo"], f["pH"], f["Eg"], f["U"]] +
+                           [round(f[k], 3) for k in ("p_M0a", "p_M0b", "p_elegido", "p_K1")])
+        for tp in ("n", "p", "todos"):
+            sub = [f for f in filas_r if tp == "todos" or f["tipo"] == tp]
+            if not sub: continue
+            for k in ("p_M0a", "p_M0b", "p_K1"):
+                d = defaultdict(list)
+                for f in sub: d[f["estudio"]].append(f["U"] - f[k])
+                nn, ne, (mae, rmse, bias), (ci, _, cb) = F3.metricas(d)
+                print(f"  reserva {tp} {k[2:]}: n={nn} estudios={ne} MAE {mae:.2f} [{ci[0]:.2f}, {ci[1]:.2f}] sesgo {bias:+.2f} [{cb[0]:+.2f}, {cb[1]:+.2f}]")
         print("escrito prueba_reserva_BiOX.csv")
 
 if __name__ == "__main__":

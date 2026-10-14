@@ -51,3 +51,7 @@ Archivos: `resultados/fase3/predicciones_comparadores.csv`, `errores_comparadore
 
 1. **La base no llega a la meta en registros** (52 de 60) **ni en BiOX** (15 de 20). La regla aprobada dice que, en ese caso, la fase 4 se limita a K1. Propongo una ronda 3 de extracción antes, centrada en BiOX y en tipo n. La ronda 2 muestra que es factible.
 2. **Estructuras para M5.** Necesito que habilites el dominio www.crystallography.net en el entorno, o que me pases los CIF de las fases medidas.
+
+## Nota posterior (2026-10-14)
+
+Tras la ronda 3 la base pasó a 65 registros aptos de 48 estudios y la reserva BiOX a 21. Las tablas actualizadas están en `fase4/fase4_resultados.md` §0 y los CSV de `fase3/datos/` ya corresponden a la base nueva.
