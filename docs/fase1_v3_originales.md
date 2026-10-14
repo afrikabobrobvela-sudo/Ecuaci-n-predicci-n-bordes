@@ -25,7 +25,14 @@ Lectura: los ocho artículos se leyeron en texto completo (TC). Las tablas que l
    - Entre las fuentes hay revisiones, una tesis y artículos explícitamente computacionales ("first-principles", "computational screening").
    - **No hay ningún oxihaluro de Bi.**
    - Su RMSE de 0.27 V en el conjunto "unseen experimental" es con partición aleatoria (70/15/15).
-   - **Respuesta a E5:** la independencia de sus etiquetas no está demostrada y parte de ellas probablemente no son mediciones. Para afirmar que provienen de la ecuación de electronegatividad habría que abrir sus 18 referencias, y eso no lo afirmo. Mi sospecha de que el 7.32 eV para TiO2 coincide con χ + ½Eg de Butler–Ginley (5.83 + 1.5 = 7.33) es una inferencia sin verificar.
+   - **Artículo principal (leído en TC).** Dice "87 samples" y remite a la "Table S1". El SI la rotula como Tabla S5 y en el texto extraído cuento 86 filas; la fila que falta no está resuelta.
+   - **Normalización.** Todos los VBM se llevan a pH 0 sumando −0.059 V por unidad de pH. Eso supone una respuesta nernstiana en todos los materiales, sulfuros incluidos, y no consta que hayan distinguido los valores ya dados en RHE.
+   - **Respuesta a E5 (verificada en parte).**
+     - En la validación de superficies, el artículo dice que en TiO2 anatasa (101) y rutilo (110) "physical VBMs were measured to range from − 7.5 to − 7.32 V vs. vacuum for both [49]", y la ref. 49 es Butler y Ginley 1978.
+     - Butler y Ginley no miden ningún VBM ni distinguen facetas. Su Tabla I se titula "Calculated electronegativity and electron affinity and measured flatband potential", con χ(TiO2) = 5.83 eV y EA = 4.33 eV, ambos calculados (comprobado en la imagen, p. 231).
+     - χ + ½Eg = 5.83 + 1.5 = 7.33 eV, que coincide con el −7.32 V.
+     - **Conclusión:** Haghshenas presenta como medido un valor que es compatible con un cálculo por la propia ecuación de electronegatividad. Esto afecta a su validación de superficies, no a su conjunto de entrenamiento: las tres filas de TiO2 de la Tabla S5 (−7.24, −7.55 y −7.41) citan otras fuentes, no a Butler y Ginley.
+     - Que el entrenamiento esté contaminado no está demostrado. Para afirmarlo habría que abrir sus 18 referencias.
 2. **Chandramohan 2026.**
    - Promedia la fórmula de electronegatividad con dos modelos de ML; no la corrige.
    - Los datos son solo de perovskitas híbridas, con particiones aleatorias.
@@ -46,4 +53,4 @@ Lectura: los ocho artículos se leyeron en texto completo (TC). Las tablas que l
 
 ## D. Pendiente
 
-Solo queda el artículo principal de Haghshenas et al. 2024 (10.1016/j.mtphys.2024.101519), para resolver lo de la Tabla S1 frente a la S5 y la duda del 7.32 eV.
+Ninguno de lectura. La sección D de la v2 queda cerrada. Lo único opcional es abrir las 18 referencias de la Tabla S5 de Haghshenas, que propongo hacer en la fase 3, como parte de la auditoría del comparador M5.
