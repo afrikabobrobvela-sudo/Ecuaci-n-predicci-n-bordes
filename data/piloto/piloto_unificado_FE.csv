@@ -1,0 +1,10 @@
+id,estudio,doi,compuesto,familia_a_priori,subconjunto,magnitud,valor,referencia,admision,apto_ajuste,confianza,extraido_por,verificado_por,banderas_QC
+V01,Hwang2015?,10.1021/acscentsci.5b00402,TiO2 rutilo,oxido_binario,enlace,IP (UPS),7.61,eV vs vacío,admitido,pendiente,medio,ChatGPT,ChatGPT,par EQ/FE con U24; no pude abrir el artículo
+V02,Hwang2015?,10.1021/acscentsci.5b00402,BiVO4,oxido_ternario_Bi,enlace,IP (UPS),6.99,eV vs vacío,admitido,pendiente,medio,ChatGPT,ChatGPT,par EQ/FE con U25
+V03,Baddorf2023,10.1038/s41598-023-40187-5,WO3-x,oxido_binario,principal,"función de trabajo (UPS, SECO)",4.6,eV vs vacío,admitido,no (solo WF),medio,Claude,Claude,sin IP
+V04,Bhachu2016,10.1039/c6sc00389c,BiOCl,oxihaluro_Bi,reserva_BiOX,VBM − E_F (XPS),2.9,eV vs E_F,admitido,no (relativo),bajo,Claude,Claude,no absoluto
+V05,Bhachu2016,10.1039/c6sc00389c,BiOBr,oxihaluro_Bi,reserva_BiOX,VBM − E_F (XPS),2.2,eV vs E_F,admitido,no (relativo),bajo,Claude,Claude,no absoluto
+V06,Bhachu2016,10.1039/c6sc00389c,BiOI,oxihaluro_Bi,reserva_BiOX,VBM − E_F (XPS),1.6,eV vs E_F,admitido,no (relativo),bajo,Claude,Claude,no absoluto
+V07,Xu2016,10.1038/srep32457,BiOCl,oxihaluro_Bi,reserva_BiOX,VBM − E_F (XPS),2.16,eV vs E_F,admitido,no (relativo),bajo,Claude,Claude,no absoluto
+V08,Lv2016,10.1038/srep19347,Bi2WO6,oxido_ternario_Bi,principal,VBM − E_F (XPS),1.78,eV vs E_F,admitido,no (relativo),bajo,Claude,Claude,no absoluto
+V09,Zhao2024,10.1039/d4ta02605e,BiVO4,oxido_ternario_Bi,principal,VBM − E_F (XPS),1.9,eV vs E_F,admitido,no (relativo),bajo,Claude,Claude,no absoluto
