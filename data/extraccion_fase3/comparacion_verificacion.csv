@@ -125,3 +125,16 @@ ronda2_sulfuros_BiOX:3,Nie2024,10.3390/nano14070576,BiOI,-0.57,-0.57,coincide,
 ronda2_sulfuros_BiOX:4,Wang2021,10.1039/d0ra10799a,ZnIn2S4,-1.2,-1.2,coincide,
 ronda2_sulfuros_BiOX:5,Liu2026,10.3390/nano16110652,ZnIn2S4,-1.28,-1.28,coincide,
 ronda2_sulfuros_BiOX:6,Chen2020,10.3390/nano11010038,CdS,-1.2,-1.2,coincide,
+ronda3_sulfuros:0,Yang2025,10.1039/d5lf00219b,In2S3,-0.17,-0.75,coincide_valor,valor coincide en la otra escala publicada
+ronda3_sulfuros:1,Yang2025,10.1039/d5lf00219b,In2S3,-0.28,-0.86,coincide_valor,valor coincide en la otra escala publicada
+ronda3_sulfuros:2,Yang2025,10.1039/d5lf00219b,In2S3,-0.25,-0.83,coincide_valor,valor coincide en la otra escala publicada
+ronda3_sulfuros:3,Pan2019,10.3390/nano9091266,ZnIn2S4,-0.54,-0.54,coincide,
+ronda3_sulfuros:4,Zhang2023,10.3390/nano13020305,ZnIn2S4,-0.74,-0.74,coincide,
+ronda3_sulfuros:5,Ding2025,10.3390/inorganics13070208,SnS,-0.67,-0.67,coincide,
+ronda3_BiOX:0,Stephenson2018,10.1016/j.jelechem.2017.10.024,BiOCl,0.079,79,coincide_valor,valor coincide (la 2.ª extracción lo dio en mV); Eg 3.34 vs 3.41 (se toma n.r.)
+ronda3_BiOX:1,Zenaba2026,10.3390/coatings16010138,BiOCl,-0.19,-0.19,coincide,
+ronda3_BiOX:2,Din2022,10.3390/ijms232315028,Bi12O17Cl2,-0.51,-0.51,coincide,
+ronda3_BiOX:3,Yan2019,10.3390/catal9100795,BiOCl,0.04,0.04,coincide_valor,pH None vs 7.0 (se toma n.r.)
+ronda3_BiOX:4,MartinezTopete2025,10.1186/s40712-025-00251-6,BiOI,-0.14,-0.14,coincide_valor,Eg de una sola extracción
+ronda3_BiOX:5,MartinezTopete2025,10.1186/s40712-025-00251-6,BiOI,-0.13,-0.13,coincide_valor,Eg de una sola extracción
+ronda3_BiOX:6,MartinezTopete2025,10.1186/s40712-025-00251-6,Bi5O7I,-0.28,-0.28,coincide_valor,Eg de una sola extracción

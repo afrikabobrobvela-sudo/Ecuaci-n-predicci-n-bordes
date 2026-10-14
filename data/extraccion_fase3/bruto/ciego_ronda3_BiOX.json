@@ -1,0 +1,58 @@
+[
+{
+"rid": "ronda3_BiOX:0",
+"doi": "10.1016/j.jelechem.2017.10.024",
+"acceso_url": "https://eprints.whiterose.ac.uk/123387/14/Photoelectrochemical%20properties%20of%20BiOCl%20microplatelets.pdf",
+"muestra": "BiOCl microplatelets (película sobre FTO)",
+"compuesto": "BiOCl",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_BiOX:1",
+"doi": "10.3390/coatings16010138",
+"acceso_url": "https://www.mdpi.com/2079-6412/16/1/138/htm",
+"muestra": "BiOCl puro (control de la heterounión)",
+"compuesto": "BiOCl",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_BiOX:2",
+"doi": "10.3390/ijms232315028",
+"acceso_url": "https://www.mdpi.com/1422-0067/23/23/15028/htm",
+"muestra": "BOC-3 (Bi12O17Cl2 puro, control)",
+"compuesto": "Bi12O17Cl2",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_BiOX:3",
+"doi": "10.3390/catal9100795",
+"acceso_url": "https://www.mdpi.com/2073-4344/9/10/795/htm",
+"muestra": "BiOCl nanoplates prístinos (control)",
+"compuesto": "BiOCl",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_BiOX:4",
+"doi": "10.1186/s40712-025-00251-6",
+"acceso_url": "https://link.springer.com/article/10.1186/s40712-025-00251-6",
+"muestra": "BiOI-co pH 1 (coprecipitación, microláminas)",
+"compuesto": "BiOI",
+"observable": "U_fb (MS), publicado como E_F = E_CB vs SHE"
+},
+{
+"rid": "ronda3_BiOX:5",
+"doi": "10.1186/s40712-025-00251-6",
+"acceso_url": "https://link.springer.com/article/10.1186/s40712-025-00251-6",
+"muestra": "BiOI-co pH 10 (coprecipitación, microesferas)",
+"compuesto": "BiOI",
+"observable": "U_fb (MS), publicado como E_F = E_CB vs SHE"
+},
+{
+"rid": "ronda3_BiOX:6",
+"doi": "10.1186/s40712-025-00251-6",
+"acceso_url": "https://link.springer.com/article/10.1186/s40712-025-00251-6",
+"muestra": "Bi5O7I pH 13 (texto no especifica si -co o -hy; ambas Eg 3.1, ECB −0.3 en Tabla 1)",
+"compuesto": "Bi5O7I",
+"observable": "U_fb (MS), publicado como E_F = E_CB vs SHE"
+}
+]

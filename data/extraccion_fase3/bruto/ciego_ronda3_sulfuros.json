@@ -1,0 +1,50 @@
+[
+{
+"rid": "ronda3_sulfuros:0",
+"doi": "10.1039/d5lf00219b",
+"acceso_url": "https://pubs.rsc.org/en/content/articlehtml/2025/lf/d5lf00219b",
+"muestra": "película In2S3 LC-IS-3 (L-cisteína, rampa 3 °C/min)",
+"compuesto": "In2S3",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_sulfuros:1",
+"doi": "10.1039/d5lf00219b",
+"acceso_url": "https://pubs.rsc.org/en/content/articlehtml/2025/lf/d5lf00219b",
+"muestra": "película In2S3 LCHCl-IS-3 (L-cisteína HCl, rampa 3 °C/min)",
+"compuesto": "In2S3",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_sulfuros:2",
+"doi": "10.1039/d5lf00219b",
+"acceso_url": "https://pubs.rsc.org/en/content/articlehtml/2025/lf/d5lf00219b",
+"muestra": "película In2S3 LC-IS-10 (L-cisteína, rampa 10 °C/min)",
+"compuesto": "In2S3",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_sulfuros:3",
+"doi": "10.3390/nano9091266",
+"acceso_url": "https://www.mdpi.com/2079-4991/9/9/1266/htm",
+"muestra": "ZnIn2S4 puro (ZIS), microesferas tipo flor, hidrotermal 80 °C 12 h (control)",
+"compuesto": "ZnIn2S4",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_sulfuros:4",
+"doi": "10.3390/nano13020305",
+"acceso_url": "https://www.mdpi.com/2079-4991/13/2/305",
+"muestra": "ZnIn2S4 quantum dots puros (ZIS QDs), control",
+"compuesto": "ZnIn2S4",
+"observable": "U_fb (MS)"
+},
+{
+"rid": "ronda3_sulfuros:5",
+"doi": "10.3390/inorganics13070208",
+"acceso_url": "https://www.mdpi.com/2304-6740/13/7/208/htm",
+"muestra": "película SnS pura por pulverización catódica (control)",
+"compuesto": "SnS",
+"observable": "U_fb (MS)"
+}
+]

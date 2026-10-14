@@ -62,6 +62,11 @@ def comparar(r, v):
     if v.get("no_encontrado"): return "no_encontrado", v.get("nota") or v.get("notas") or "", ph1, eg1
     d = []
     a = num(r.get("valor")); b = num(v.get("U_fb_publicado", v.get("U_fb")))
+    otras = [num(x) for x in (v.get("U_fb_otras_escalas") or [])]  # el verificador leyó primero otra escala
+    if a is not None and b is not None and abs(a - b) > 0.006 and any(o is not None and abs(a - o) <= 0.006 for o in otras):
+        b = a; d.append("valor coincide en la otra escala publicada")
+    if a is not None and b is not None and abs(a - b) > 0.006 and abs(a - b / 1000) <= 0.006:
+        b = a; d.append("valor coincide (la 2.ª extracción lo dio en mV)")
     if a is None or b is None or abs(a - b) > 0.006:
         return "discrepa_valor", f"valor {a} vs {b}", ph1, eg1
     ph2, eg2 = num(v.get("pH")), num(v.get("Eg_eV"))
@@ -95,6 +100,7 @@ def admision(r, esc, defin, estado):
     if defin is None: motivos.append("sin conversión definitiva")
     if r.get("pH") is None: motivos.append("pH n.r.")
     if r.get("Eg_eV") is None: motivos.append("Eg n.r.")
+    if r.get("tipo") not in ("n", "p"): motivos.append("tipo n/p n.r.")
     if estado not in ("coincide", "coincide_valor"): motivos.append(f"verificación: {estado}")
     adm = "cuarentena" if ("electrolito con par redox" in motivos or esc is None) else "admitido"
     # A4 solo exige el pH para convertir desde RHE (ya cubierto por "sin conversión definitiva").

@@ -1,0 +1,64 @@
+{"doi": "10.1038/srep31449", "motivo": "sin_medicion", "detalle": "Estudio DFT de soluciones sólidas BiOX1−xYx; sin Mott–Schottky."}
+{"doi": "10.3390/catal7050153", "motivo": "ronda2_filtro", "detalle": "BiOBrxI1−x: sin Mott–Schottky en el texto (bordes por cálculo); falla filtro 1."}
+{"doi": "10.3390/catal10020257", "motivo": "ronda2_filtro", "detalle": "Bi24O31Br10: U_fb no escrito en texto (bordes por VB-XPS − Eg); Ag/AgCl sin relleno. Falla filtro 1."}
+{"doi": "10.3390/catal15080714", "motivo": "ronda2_filtro", "detalle": "Bi5O7I (NB −0.76, NS −0.64, NT −0.65 V vs Ag/AgCl, Eg 2.40/2.63/3.08, pH 6.8): relleno del Ag/AgCl no escrito (solo conversión +0.198 V). Falla filtro 1."}
+{"doi": "10.3390/ma15176035", "motivo": "no_monofasico", "detalle": "80%BiOCl/20%BiOI es compuesto BiOCl+BiOI (XRD/HRTEM); sin Mott–Schottky."}
+{"doi": "10.3390/inorganics12050127", "motivo": "ronda2_filtro", "detalle": "Bi4O5Br2 control −0.49 V vs Ag/AgCl, Eg 2.65 eV: relleno Ag/AgCl y electrolito del MS no escritos. Falla filtros 1 y 3."}
+{"doi": "10.1039/d3ra08514g", "motivo": "sin_medicion", "detalle": "AgCl/BiOCl: sin Mott–Schottky; bordes por XPS/Eg."}
+{"doi": "10.1039/d0ra02916e", "motivo": "sin_medicion", "detalle": "BiOCl/WS2: sin Mott–Schottky; bordes por ecuación empírica."}
+{"doi": "10.3390/w16111467", "motivo": "ronda2_filtro", "detalle": "BiO(OH)xI1−x: Efb −0.56 eV sin escala declarada junto al valor (MS con SCE); fase hidroxi-yoduro sin identificación monofásica clara; bordes incoherentes. Falla filtro 1."}
+{"doi": "10.1038/srep32764", "motivo": "sin_medicion", "detalle": "Estudio DFT BiOBr/BiOI bicapa; sin medición."}
+{"doi": "10.1021/acsami.3c11525", "motivo": "sin_medicion", "detalle": "I-dopado BiOBr (solución sólida): sin Mott–Schottky; solo onsets de fotocorriente no declarados como banda plana; Eg por composición no escritos."}
+{"doi": "10.3390/ma18235442", "motivo": "ronda2_filtro", "detalle": "BiOBr/Bi4O5Br2/Bi5O7Br: MS −0.81/−0.55/−0.54 eV vs Ag/AgCl sin relleno ni electrolito escritos; Eg inconsistentes (2.25 vs 2.81). Falla filtros 1 y 3."}
+{"doi": "10.1038/s41545-024-00382-x", "motivo": "solo_en_figura", "detalle": "BiOI control: MS solo en Fig. S17; texto da VB derivada (1.05 eV) sin U_fb ni relleno Ag/AgCl."}
+{"doi": "10.3389/fchem.2026.1753678", "motivo": "sin_medicion", "detalle": "Revisión de heterouniones de Bi; sin datos MS propios."}
+{"doi": "10.3389/fchem.2021.634630", "motivo": "sin_medicion", "detalle": "Revisión de perovskitas; fuera de familia, sin MS."}
+{"doi": "10.1002/eem2.70204", "motivo": "sin_acceso", "detalle": "Bi4O5IBr/Bi5O7I0.7Br0.3 (Wiley EEM 2026): página no accesible."}
+{"doi": "10.1039/d3en00548h", "motivo": "sin_medicion", "detalle": "Fases BiOI/Bi4O5I2/Bi5O7I: sin Mott–Schottky; CB/VB tomados de literatura."}
+{"doi": "10.1039/d2ra00375a", "motivo": "sin_medicion", "detalle": "BiOBr nanosheets: sin Mott–Schottky; bordes por ecuación empírica."}
+{"doi": "10.1039/d5ra07896b", "motivo": "ronda2_filtro", "detalle": "BiOBr control Efb +0.038 V vs Ag/AgCl (p-type), Eg 2.59: relleno Ag/AgCl y electrolito MS no escritos. Falla filtros 1 y 3."}
+{"doi": "10.3762/bjnano.9.72", "motivo": "sin_medicion", "detalle": "ZnO–BiOI: sin medidas electroquímicas."}
+{"doi": "10.3390/catal16040326", "motivo": "ronda2_filtro", "detalle": "PbBiO2Br: Efb −0.92 V sin escala de referencia ni electrolito escritos. Falla filtro 1."}
+{"doi": "10.3390/molecules27238474", "motivo": "ronda2_filtro", "detalle": "Bi4O5Br2 (BOB) −0.68 V vs SCE, Eg 2.27: electrolito del MS no escrito (métodos electroquímicos ausentes, quizá en SI). Falla filtro 3."}
+{"doi": "10.3390/molecules28196786", "motivo": "ronda2_filtro", "detalle": "Bi5O7I −0.85 'eV' vs Ag/AgCl, Eg 2.77, 0.1 M Na2SO4, 1000 Hz, oscuridad: relleno Ag/AgCl no escrito. Falla filtro 1."}
+{"doi": "10.3390/nano14242048", "motivo": "ronda2_filtro", "detalle": "BiOI n/p: EF 0.91/−0.13 eV vs Ag/AgCl sin relleno ni electrolito. Falla filtros 1 y 3."}
+{"doi": "10.3390/ma15020508", "motivo": "solo_en_figura", "detalle": "ZnO@Bi5O7I: MS de Bi5O7I solo en Fig. 11; sin valor en texto; Ag/AgCl sin relleno."}
+{"doi": "10.3390/toxics12040298", "motivo": "sin_medicion", "detalle": "BiOBr/BiOI@Bi5O7I: sin Mott–Schottky."}
+{"doi": "10.3390/molecules28196949", "motivo": "ronda2_filtro", "detalle": "BiOCl control Vfb −1.02 'eV' sin escala; Ag/AgCl sin relleno. Falla filtro 1."}
+{"doi": "10.3390/nano11113130", "motivo": "ronda2_filtro", "detalle": "BiOCl control −0.47 V vs Ag/AgCl, Eg 3.31, 0.5 M Na2SO4: relleno Ag/AgCl no escrito. Falla filtro 1."}
+{"doi": "10.3390/ma17133199", "motivo": "ronda2_filtro", "detalle": "BiOBr control −0.45 V vs Ag/AgCl (pH 7), Eg 2.92, 0.5 M Na2SO4, 1000–2000 Hz: relleno Ag/AgCl no escrito. Falla filtro 1."}
+{"doi": "10.3390/nano14161352", "motivo": "ronda2_filtro", "detalle": "BiOCl puro sin MS; valores de compuestos en 'eV' sin escala ni electrolito."}
+{"doi": "10.3390/ma16031111", "motivo": "ronda2_filtro", "detalle": "PbBiO2I −0.62 V vs NHE (pH 7), Ag/AgCl saturado, Eg 1.92: electrolito del MS no escrito. Falla filtro 3."}
+{"doi": "10.1039/d6ra02619b", "motivo": "sin_medicion", "detalle": "Bi3O4Br@quitosano: sin Mott–Schottky."}
+{"doi": "10.3389/fchem.2022.890287", "motivo": "sin_medicion", "detalle": "Revisión; sin datos propios."}
+{"doi": "10.3390/molecules29225418", "motivo": "ronda2_filtro", "detalle": "BiOI control Ef 0.68 eV vs Ag/AgCl, Eg 2.02: relleno y electrolito del MS no escritos. Falla filtros 1 y 3."}
+{"doi": "10.3389/fmats.2022.845664", "motivo": "sin_medicion", "detalle": "Revisión de MAl2O4; sin MS de oxihaluros."}
+{"doi": "10.1039/d2nr03726b", "motivo": "sin_acceso", "detalle": "Series BiOBrxI1−x/BiOClxI1−x/BiOClxBr1−x (Nanoscale 2022): texto completo no accesible."}
+{"doi": "10.1038/s41467-021-24882-3", "motivo": "otro", "detalle": "Bi3TiNbO9 (no oxihaluro); U_fb solo en SI."}
+{"doi": "10.1038/s41598-025-25451-0", "motivo": "sin_medicion", "detalle": "BiOCl: sin Mott–Schottky."}
+{"doi": "10.1038/s41598-023-33338-1", "motivo": "otro", "detalle": "g-C3N4/óxidos de Fe; sin oxihaluros de Bi ni MS."}
+{"doi": "10.1038/s41598-017-12266-x", "motivo": "sin_medicion", "detalle": "BiOI/carbón activado: sin Mott–Schottky."}
+{"doi": "10.1038/srep39411", "motivo": "otro", "detalle": "CZTS/MoS2; no oxihaluro, sin MS."}
+{"doi": "10.1039/d5nr05038c", "motivo": "ronda2_filtro", "detalle": "Bi24O31Br10/Bi4O5Br2/Bi5O7Br/Bi12O17Br2: −0.39/−0.36/−0.38/−0.32 V vs Ag/AgCl, Eg 2.91/2.49/2.47/2.40; relleno y electrolito solo en SI (Text S4). Falla filtros 1 y 3 en texto principal."}
+{"doi": "10.1039/d1na00396h", "motivo": "sin_medicion", "detalle": "BiOCl/ZnO: sin Mott–Schottky en texto principal."}
+{"doi": "10.1039/c6ra14155b", "motivo": "ecuacion_electronegatividad", "detalle": "BiOIO3/BiOBr: bordes por Mulliken; sin MS."}
+{"doi": "10.1039/d2na00881e", "motivo": "otro", "detalle": "BiFeO3; sin oxihaluros ni MS."}
+{"doi": "10.1038/s41598-026-38566-9", "motivo": "sin_medicion", "detalle": "Bi4O5Br2 adsorción/fotocatálisis paraquat: sin Mott–Schottky."}
+{"doi": "10.1038/s41598-020-71139-y", "motivo": "sin_medicion", "detalle": "BiOCl-GO: sin Mott–Schottky."}
+{"doi": "10.1007/s43939-025-00202-0", "motivo": "ronda2_filtro", "detalle": "BiOCl −0.39 eV vs Ag/AgCl: relleno y electrolito no escritos; MS solo en Fig. S1. Falla filtros 1 y 3."}
+{"doi": "10.1039/d5ra07838e", "motivo": "ecuacion_electronegatividad", "detalle": "BiOCl/BiOBr/BiOI: bordes por Mulliken; sin MS."}
+{"doi": "10.1039/d5ra06049d", "motivo": "sin_medicion", "detalle": "LaBi2Cl1−yXyO4 DFT; sin medidas."}
+{"doi": "10.3390/nano11092221", "motivo": "sin_medicion", "detalle": "S-BiOCl: sin Mott–Schottky."}
+{"doi": "10.3390/catal11030312", "motivo": "ecuacion_electronegatividad", "detalle": "BiOX con manitol: bordes teóricos; sin MS."}
+{"doi": "10.3390/catal14090654", "motivo": "sin_medicion", "detalle": "Bi/(110)BiOBr: bordes por XPS+Eg; sin MS."}
+{"doi": "10.3390/catal13060947", "motivo": "ronda2_filtro", "detalle": "BiOCl −1.26 eV vs Ag/AgCl (pH 7), Eg 3.46, 0.5 M Na2SO4: relleno Ag/AgCl no escrito. Falla filtro 1."}
+{"doi": "10.1039/d6ra04577d", "motivo": "sin_acceso", "detalle": "Bi24O31Br10/MIL (RSC Adv 2026): artículo no accesible (solo SI indexado)."}
+{"doi": "10.3389/fenvs.2022.994152", "motivo": "sin_medicion", "detalle": "BiOBr/UiO-66-NH2: bordes por UPS+Tauc; sin MS."}
+{"doi": "10.3389/fchem.2022.1102528", "motivo": "ecuacion_electronegatividad", "detalle": "Bi2O2CO3/BiOI: MS sin valor en texto; bordes por electronegatividad."}
+{"doi": "10.1038/s41598-023-38715-4", "motivo": "sin_medicion", "detalle": "biochar/Bi12O17Cl2: sin Mott–Schottky."}
+{"doi": "10.1038/s41598-020-75003-x", "motivo": "sin_medicion", "detalle": "Bi2WO6–BiOCl: bordes por XPS−Eg; sin MS."}
+{"doi": "10.1038/s41467-022-29825-0", "motivo": "solo_en_figura", "detalle": "BiOBr facetas: MS solo en SI (Fig. S7); Ag/AgCl sin relleno."}
+{"doi": "10.3390/catal13050812", "motivo": "sin_medicion", "detalle": "SrBiO2X: bordes por UPS−Eg; sin MS."}
+{"doi": "10.20964/2020.11.60", "motivo": "sin_medicion", "detalle": "Bi5O7I/BiOI supercondensador-fotocatálisis: sin Mott–Schottky."}
+{"doi": "10.1039/c9cc01937e", "motivo": "otro", "detalle": "BiOCl ánodo de batería K; sin MS."}
+{"doi": "10.3389/fchem.2018.00058", "motivo": "ecuacion_electronegatividad", "detalle": "BiOI/BiOCl películas: bordes por electronegatividad; sin MS."}
