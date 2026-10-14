@@ -1,6 +1,6 @@
 id,estudio,doi,compuesto,familia_a_priori,subconjunto,magnitud,valor,referencia,admision,apto_ajuste,confianza,extraido_por,verificado_por,banderas_QC
-V01,Hwang2015?,10.1021/acscentsci.5b00402,TiO2 rutilo,oxido_binario,enlace,IP (UPS),7.61,eV vs vacío,admitido,pendiente,medio,ChatGPT,ChatGPT,par EQ/FE con U24; no pude abrir el artículo
-V02,Hwang2015?,10.1021/acscentsci.5b00402,BiVO4,oxido_ternario_Bi,enlace,IP (UPS),6.99,eV vs vacío,admitido,pendiente,medio,ChatGPT,ChatGPT,par EQ/FE con U25
+V01,Resasco2016,10.1021/acscentsci.5b00402,TiO2 rutilo,oxido_binario,enlace,IP (UPS),7.61,eV vs vacío,admitido,sí (enlace exploratorio),medio,ChatGPT,ambos,"UPS He I 21.22 eV, bias −3 V, E_F con estándar metálico; el autor lo llama posición de VB vs Evac; WF 4.64 eV; limpieza superficial n.r.; misma muestra que U24 no declarada"
+V02,Resasco2016,10.1021/acscentsci.5b00402,BiVO4,oxido_ternario_Bi,enlace,IP (UPS),6.99,eV vs vacío,admitido,sí (enlace exploratorio),medio,ChatGPT,ambos,igual que V01; WF 4.56 eV
 V03,Baddorf2023,10.1038/s41598-023-40187-5,WO3-x,oxido_binario,principal,"función de trabajo (UPS, SECO)",4.6,eV vs vacío,admitido,no (solo WF),medio,Claude,Claude,sin IP
 V04,Bhachu2016,10.1039/c6sc00389c,BiOCl,oxihaluro_Bi,reserva_BiOX,VBM − E_F (XPS),2.9,eV vs E_F,admitido,no (relativo),bajo,Claude,Claude,no absoluto
 V05,Bhachu2016,10.1039/c6sc00389c,BiOBr,oxihaluro_Bi,reserva_BiOX,VBM − E_F (XPS),2.2,eV vs E_F,admitido,no (relativo),bajo,Claude,Claude,no absoluto
