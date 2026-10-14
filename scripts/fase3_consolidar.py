@@ -22,26 +22,36 @@ def num(x):
     return float(m.group(0).replace("−", "-").replace("–", "-").replace(" ", "")) if m else None
 
 def escala(ref, relleno):
-    """Normaliza la escala publicada a una clave de REF/ESCENARIO, 'RHE', o None si no se reconoce."""
+    """Normaliza la escala publicada a una clave de REF/ESCENARIO, 'RHE', o None si no se reconoce.
+    Manda la escala que se nombra primero en el texto (p. ej. "NHE (convertido desde Ag/AgCl 3 M)" es NHE;
+    "Ag/AgCl (3 M NaCl, +0.210 V vs NHE)" es Ag/AgCl). Un valor "vs NHE" al que el autor sumó 0.059·pH es RHE."""
     t = f"{ref or ''} {relleno or ''}".lower()
     if not t.strip(): return None
-    if "rhe" in t: return "RHE"
-    if "nhe" in t or "she" in t: return "SHE"
-    if "hg2so4" in t or "mse" in t: return "Hg/Hg2SO4 sat" if "sat" in t else None
-    if "hg/hgo" in t: return "Hg/HgO"            # sin valor verificado en nuestra tabla
-    if "sce" in t or "calomel" in t:
+    if ("nhe" in t or "she" in t) and re.search(r"0\.059\d*\s*[×x*·]?\s*ph", t): return "RHE"
+    pos = {k: m.start() for k, pat in (("rhe", r"rhe"), ("she", r"nhe|she"), ("mse", r"hg2so4|mse"), ("hgo", r"hg/hgo"),
+                                       ("sce", r"sce|calomel"), ("agcl", r"agcl")) if (m := re.search(pat, t))}
+    if not pos: return None
+    k = min(pos, key=pos.get)
+    if k in ("agcl", "sce", "mse", "hgo"):  # potencial del electrodo declarado por los autores
+        m = re.search(r"(\d\.\d+)\s*v\s*(?:vs\.?|versus)\s*(?:nhe|she)", t)
+        if m: return f"declarada:{m.group(1)}"
+    if k == "rhe": return "RHE"
+    if k == "she": return "SHE"
+    if k == "mse": return "Hg/Hg2SO4 sat" if "sat" in t else None
+    if k == "hgo": return "Hg/HgO"            # sin valor verificado en nuestra tabla
+    if k == "sce":
         return "SCE sat" if ("sat" in t or t.strip() in ("sce", "sce sce")) else "SCE n.r."
-    if "ag/agcl" in t or "agcl" in t:
-        if "sat" in t: return "Ag/AgCl sat"
-        if re.search(r"\b3(\.0)?\s*m\b", t): return "Ag/AgCl 3 M"
-        if re.search(r"\d", t): return "Ag/AgCl otro relleno"  # 3.5 M, 4 M, 1 M, 0.1 M: sin valor verificado
-        return "Ag/AgCl n.r."
-    return None
+    if "sat" in t: return "Ag/AgCl sat"
+    if re.search(r"\b3(\.0)?\s*m\b", t): return "Ag/AgCl 3 M"
+    if re.search(r"\d", t): return "Ag/AgCl otro relleno"  # 3.5 M, 4 M, 1 M, 0.1 M: sin valor verificado
+    return "Ag/AgCl n.r."
 
 def convertir(v, esc, ph):
     if v is None or esc is None: return None, None, None
     if esc == "RHE":
         return (None, None, None) if ph is None else (round(v - NERNST * ph, 3),) * 3
+    if esc.startswith("declarada:"):
+        u = round(v + float(esc.split(":")[1]), 3); return u, u, u
     if esc in REF:
         u = round(v + REF[esc], 3); return u, u, u
     if esc in ESCENARIO:
