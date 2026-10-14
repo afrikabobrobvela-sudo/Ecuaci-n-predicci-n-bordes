@@ -101,7 +101,23 @@ Ese ruido entre estudios (muestra, método de preparación, condiciones) es del 
   - Se declara que en tipo n no pasó el criterio LOFO preregistrado, pero sí la prueba externa en BiOX, y que el término p es exploratorio.
 - **B.** M0a sin cambios (estrictamente lo que dice el criterio), con la banda de ±0.4 V y la advertencia de que en tipo p no sirve.
 
-## 7. Pendientes
+## 7. M5 (Haghshenas et al. 2024), completado en otro hilo
 
-- M5 (Haghshenas) sigue sin estructuras, porque crystallography.net está bloqueado. No lo necesito para cerrar esta fase: entraría solo como comparador en la tabla.
+Detalle en `fase4/fase4_M5_resultados.md` (código y 36 CIF del COD en la rama `claude/project-thread-ho6xsd`). En los mismos registros:
+
+| Conjunto | M0a MAE | M5 MAE | MAE(M5) − MAE(M0a) |
+|---|---|---|---|
+| Tipo n (45 reg., 32 est.) | 0.41 | 0.70 | +0.29 [+0.12, +0.47] |
+| Tipo p (12 reg., 10 est.) | 1.59 | 1.16 | −0.43 [−0.66, −0.15] |
+| Reserva BiOX tipo n (15 reg., 13 est.) | 0.63 | 2.41 | +1.78 [+0.99, +2.74] |
+
+- **Tipo n.** El modelo ML es peor que la ecuación simple, incluso en compuestos de su propio ajuste.
+- **BiOX.** Fuera de su dominio colapsa: predice VBM de −11.7 eV en BiOCl.
+- **Tipo p.** Mejora algo, pero deja un sesgo de −1.2 V.
+- **Causa dominante.** La fase cristalina: el modelo cambia más de 1 eV entre polimorfos (TiO2 anatasa −8.63 eV, la Pmm2 de los autores −7.25 eV).
+
+Esto refuerza la conclusión de §2: una ecuación simple, con su incertidumbre declarada, no es peor que el modelo ML frente a datos experimentales reales. No cambia la decisión pendiente.
+
+## 8. Pendientes
+
 - Faltan soluciones sólidas BiOX1−xYx con Mott–Schottky trazable. La fase 5 puede tratarlas con DFT en lugar de con datos experimentales.
