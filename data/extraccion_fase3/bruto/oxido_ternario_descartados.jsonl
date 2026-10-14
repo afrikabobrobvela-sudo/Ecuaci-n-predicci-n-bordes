@@ -1,0 +1,8 @@
+{"doi": "10.1039/c9dt04752b", "motivo": "otro", "detalle": "U_fb (−0.03 V vs RHE) reportado solo para Sn2O(NCN) (oxicarbodiimida); CuWO4 sin U_fb en texto"}
+{"doi": "10.1039/d3ta07695d", "motivo": "otro", "detalle": "SrTiO3 CBVD: E_FB en Tabla 3 (vs Ag/AgCl) pero electrolito y relleno n.r. ('neutral pH solution'); autores declaran MS de frecuencia única no fiable; posible fase SrOx amorfa"}
+{"doi": "10.1039/d5sc01816a", "motivo": "otro", "detalle": "Nb:SrTiO3 monocristal; U_fb aproximados medidos bajo UV (−0.3/−0.1 V_RHE); condiciones experimentales y valores en oscuridad solo en ESI/figura; sin evidencia de fase en el texto"}
+{"doi": "10.3390/ma9050348", "motivo": "solo_en_figura", "detalle": "U_fb de CuWO4 puro determinado por MS pero sin valor numérico en texto/tablas"}
+{"doi": "10.3390/molecules26102900", "motivo": "otro", "detalle": "CuWO4 nanorods: valores inconsistentes (resumen 0.14 V vs texto −0.14 V; 0.46 V fuera del rango declarado), MS aparentemente bajo iluminación, fase sin ficha JCPDS (grupo Cmcm atípico)"}
+{"doi": "10.1039/c7ra11283a", "motivo": "otro", "detalle": "Ag3PO4/TiO2: no hay control de Ag3PO4 puro; único U_fb de fase pura es TiO2 (familia binaria)"}
+{"doi": "10.1038/s41598-023-33249-1", "motivo": "solo_en_figura", "detalle": "SrTiO3 y Al-SrTiO3: U_fb solo descrito cualitativamente, sin valor numérico en texto/tablas"}
+{"doi": "10.1039/c1jm11259g", "motivo": "sin_acceso", "detalle": "CuWO4 electrodepositado: solo resumen accesible (+0.4 V vs NHE en resumen); no admitido"}

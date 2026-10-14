@@ -1,0 +1,13 @@
+{"doi": "10.1038/srep29907", "motivo": "sin_medicion", "detalle": "ZnO nanorods/Au/Al2O3: no Mott-Schottky ni U_fb reportado en texto (solo LSV/EIS); Ag/AgCl sin relleno, 0.5 M Na2SO4 pH ~7."}
+{"doi": "10.1039/d1ra08863g", "motivo": "no_monofasico", "detalle": "Cu2O recocido 350 °C forma heteroestructura Cu2O/CuO (valores 0.84–1.11 V vs RHE en texto corresponden a muestras bifásicas); el Cu2O prístino solo en Fig. 6a (solo_en_figura)."}
+{"doi": "10.1039/c8ra09403a", "motivo": "no_monofasico", "detalle": "U_fb solo para C/Cu2O (modificado con carbono) y TiO2−x NR (mezcla TiO0.5 + anatasa por XRD; Raman indica rutilo); no hay valor de Cu2O puro."}
+{"doi": "10.1038/s41598-017-01300-7", "motivo": "sin_medicion", "detalle": "WO3 nanoplacas: sin Mott–Schottky ni U_fb en el texto principal (solo EIS Nyquist)."}
+{"doi": "10.1038/s41598-025-92008-6", "motivo": "ecuacion_electronegatividad", "detalle": "WO3/Ta:WO3: bordes de banda calculados con Mulliken + Tauc; sin Mott–Schottky."}
+{"doi": "10.3390/surfaces7040059", "motivo": "solo_en_figura", "detalle": "CeO2 electrodepositado: Efb solo en Tabla 4 renderizada como imagen y Fig. 9; no legible en texto (PDF no accesible). Condiciones: 0.10 M Na2SO4 pH 7.0, Ag/AgCl NaCl sat., 1000 Hz."}
+{"doi": "10.3390/molecules25122916", "motivo": "solo_en_figura", "detalle": "WO3 anódico: Efb por muestra solo en Tabla 3 (no legible como texto) y Tabla S1 (200/500/1000 Hz); en el texto solo rango −0.08 a −0.25 V vs SCE; electrodo de referencia inconsistente (SCE vs Ag/AgCl 3 M), pH n.r."}
+{"doi": "10.1038/srep02681", "motivo": "solo_en_figura", "detalle": "Hematita wormlike: Vfb solo en Fig. S8; texto cualitativo."}
+{"doi": "10.1039/d4na00036f", "motivo": "no_monofasico", "detalle": "Solo se descarta el control Co3O4: XRD sin picos de Co3O4 (fase no identificada); el registro ZnO del mismo estudio sí se incluye."}
+{"doi": "10.1038/s41598-023-32804-0", "motivo": "sin_medicion", "detalle": "MS solo para FTO/CuO/CuBi2O4; no hay U_fb de CuO desnudo en texto."}
+{"doi": "10.1038/s41598-025-94813-5", "motivo": "otro", "detalle": "MoO3: Efb −0.12 V vs NHE en texto, pero sin electrolito, pH, referencia ni frecuencia declarados; no se puede confirmar medio acuoso."}
+{"doi": "arXiv:2408.00266", "motivo": "solo_en_figura", "detalle": "Fe2O3/CuxO (Ma et al.): U_fb y UPS de α-Fe2O3 solo en Fig. S2; CuxO bifásico; electrolito con Na4Fe(CN)6/1 M NaOH."}
+{"doi": "10.3762/bjnano.2.15", "motivo": "no_monofasico", "detalle": "TiO2 comercial 'anatase >90%' / 'rutile >95%' (pureza del proveedor, sin XRD); MS en 10 % MeOH acuoso bajo irradiación, Efb −0.16 V vs Ag/AgCl pH 8.5."}

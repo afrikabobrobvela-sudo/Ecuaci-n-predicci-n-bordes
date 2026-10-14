@@ -1,0 +1,12 @@
+{"doi": "10.1038/srep16660", "motivo": "sin_medicion", "detalle": "Sin Mott–Schottky; solo inicio de fotocorriente no declarado como banda plana"}
+{"doi": "10.1039/c9ra02105a", "motivo": "solo_en_figura", "detalle": "U_fb de BiVO4 puro solo comparado cualitativamente (Fig. 5b), sin valor numérico"}
+{"doi": "10.1039/d0sc03030a", "motivo": "otro", "detalle": "U_fb BiVO4 0.37 V vs RHE citado sin condiciones de medida ni XRD en texto; CuBi2O4 tomado de literatura"}
+{"doi": "10.3390/nano9050755", "motivo": "sin_medicion", "detalle": "Bi2WO6: sin Mott–Schottky ni U_fb"}
+{"doi": "10.1039/c7ra04615d", "motivo": "no_acuoso", "detalle": "Bi2MoO6: MS medido en aire con estructura ITO–muestra–ITO, sin electrolito"}
+{"doi": "10.1039/d1sc06401k", "motivo": "sin_medicion", "detalle": "Estudio de simulación/interpretación; sin valores experimentales de BiVO4"}
+{"doi": "10.3390/su15043129", "motivo": "no_monofasico", "detalle": "BiVO4 sin evidencia de fase (XRD de BiVO4 no reportado)"}
+{"doi": "10.1039/c6ra28323c", "motivo": "sin_medicion", "detalle": "Bi2MoO6/CdS: sin Mott–Schottky"}
+{"doi": "10.1039/d5sc01816a", "motivo": "otro", "detalle": "No contiene compuestos de Bi (Nb:SrTiO3)"}
+{"doi": "10.1039/d5na00667h", "motivo": "sin_acceso", "detalle": "Solo resumen accesible; texto completo en PDF no leído"}
+{"doi": "10.3762/bjnano.16.94", "motivo": "solo_en_figura", "detalle": "BiVO4: MS a 1 kHz pero sin valor numérico de U_fb en texto"}
+{"doi": "10.3390/molecules30183818", "motivo": "no_monofasico", "detalle": "BiVO4 con fases monoclínica+tetragonal (y V3O7); además sin MS"}

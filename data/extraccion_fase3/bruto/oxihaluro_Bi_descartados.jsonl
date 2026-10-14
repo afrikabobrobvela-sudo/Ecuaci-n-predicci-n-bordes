@@ -1,0 +1,16 @@
+{"doi": "10.1039/c9ra10256f", "motivo": "otro", "detalle": "Valores de BiOCl/BiOBr reportados como 'CB' (0.126 y −0.69 V) sin escala de referencia declarada para MS; BiOCl0.8Br0.2 es bifásico y sin MS."}
+{"doi": "10.1038/s41598-022-08213-0", "motivo": "solo_en_figura", "detalle": "U_fb de BiOI puro solo en Fig. S5; bordes de BiOI por ecuación de electronegatividad."}
+{"doi": "10.3389/fchem.2021.804204", "motivo": "solo_en_figura", "detalle": "Bi4O5Br2: solo CB (−0.82 V, sin escala) derivada; U_fb solo en Fig. 6C."}
+{"doi": "10.3389/fnano.2022.1023489", "motivo": "no_monofasico", "detalle": "Valores MS de BiOBr-15 (híbrido con esferas de carbono) y S-BiOBr dopado; sin control BiOBr puro; asignación muestra-valor ambigua."}
+{"doi": "10.3390/molecules30061286", "motivo": "solo_en_figura", "detalle": "Solo rango −0.35 a −0.16 'eV' sin referencia; valores individuales solo en Fig. 7c."}
+{"doi": "10.1039/c5ra21888h", "motivo": "sin_medicion", "detalle": "BiOCl: bordes de VB-XPS + Eg; sin Mott–Schottky."}
+{"doi": "10.1039/c7ra01723e", "motivo": "sin_medicion", "detalle": "BiOI: solo DFT."}
+{"doi": "10.1038/s41598-025-26948-4", "motivo": "sin_medicion", "detalle": "BiOBr/Zn-BiOBr: solo EIS y VB-XPS; sin Mott–Schottky."}
+{"doi": "10.1038/s41598-025-32882-2", "motivo": "otro", "detalle": "MS en B(20)/P (20 % BiOBr sobre PET), no polvo puro; sin Eg ni XRD propios de BiOBr puro."}
+{"doi": "10.3390/nano12111909", "motivo": "sin_medicion", "detalle": "MS descrito en métodos pero sin resultados reportados."}
+{"doi": "10.3390/catal12080820", "motivo": "solo_en_figura", "detalle": "Mott–Schottky solo en Fig. S2; bandas por VB+Eg."}
+{"doi": "10.1039/c2jm33556e", "motivo": "sin_acceso", "detalle": "Solo resumen accesible (J. Mater. Chem. 2012)."}
+{"doi": "10.1039/d0ra08211b", "motivo": "duplicado", "detalle": "BiOBr1−xIx películas: DOI en dois_piloto.txt."}
+{"doi": "10.1039/c6sc00389c", "motivo": "duplicado", "detalle": "Bismuth oxyhalides (Chem Sci 2016): DOI en dois_piloto.txt."}
+{"doi": "10.1038/srep28689", "motivo": "duplicado", "detalle": "Bi24O31Cl10/BiOCl: DOI en dois_piloto.txt."}
+{"doi": "10.1039/d4ew00410h", "motivo": "duplicado", "detalle": "Soluciones sólidas BiOX: DOI en dois_piloto.txt."}

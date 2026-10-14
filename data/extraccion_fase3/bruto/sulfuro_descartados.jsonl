@@ -1,0 +1,22 @@
+{"doi": "10.1039/c6ra22546b", "motivo": "otro", "detalle": "CZTS: solo 'conduction potential −1.25 V vs RHE' por MS, no U_fb; fases menores SnO2"}
+{"doi": "10.1039/c6ra05245b", "motivo": "otro", "detalle": "Solución sólida In0.2Cd0.8S; experimental no visible; sin valor para CdS puro"}
+{"doi": "10.1039/c4ra02868f", "motivo": "otro", "detalle": "Material Bi2WO6 (óxido), fuera de la familia sulfuro"}
+{"doi": "10.1038/s41467-025-60444-7", "motivo": "solo_en_figura", "detalle": "In2S3 MS solo en Fig. 3c, sin valor escrito; UPS VBM In2S3 −6.35 eV disponible"}
+{"doi": "10.3390/nano16010044", "motivo": "sin_medicion", "detalle": "Sin U_fb de In2S3 puro; solo TiO2 y heteroestructura TiO2/In2S3"}
+{"doi": "10.3390/nano9070924", "motivo": "otro", "detalle": "SnS2: Vfb ~0.67 V sin electrodo de referencia ni electrolito (medida 'device on ITO'); acuoso no verificable"}
+{"doi": "10.1038/s41598-025-94813-5", "motivo": "otro", "detalle": "MoS2 Efb −0.54 V vs NHE sin electrolito ni montaje electroquímico descritos; acuoso no verificable"}
+{"doi": "10.3390/met15050478", "motivo": "sin_medicion", "detalle": "Sb2S3: sin Mott–Schottky; VBM por XPS"}
+{"doi": "10.3390/ma18153528", "motivo": "ecuacion_electronegatividad", "detalle": "Bi2S3: bordes por electronegatividad, sin MS"}
+{"doi": "10.3390/coatings12081210", "motivo": "solo_en_figura", "detalle": "CdS y ZnIn2S4: Efb solo comparativo/figura 6b, sin números"}
+{"doi": "10.3390/chemengineering6060087", "motivo": "sin_medicion", "detalle": "ZnO/CdS: sin U_fb"}
+{"doi": "10.3390/catal9120999", "motivo": "sin_medicion", "detalle": "CdS/WO3/TiO2: sin Mott–Schottky"}
+{"doi": "10.3390/ma12244040", "motivo": "no_acuoso", "detalle": "CZTS/CdS: bordes por CV en TBAP-acetonitrilo"}
+{"doi": "10.3390/nano14131100", "motivo": "otro", "detalle": "CdS: valores solo en Tabla S4 (SI no leída); CdS no detectado por XRD"}
+{"doi": "10.1039/c5ra13171e", "motivo": "sin_acceso", "detalle": "Bi2S3/BiVO4: solo resumen accesible"}
+{"doi": "10.1039/d6ra00767h", "motivo": "otro", "detalle": "Sin sulfuros (TiO2/ZnO/g-C3N4); valores en SI"}
+{"doi": "10.1039/d3ra02803h", "motivo": "otro", "detalle": "Bi2S3/ZnCo2O4: solo potencial CB derivado (−0.355 V vs NHE), sin U_fb explícito; bordes inconsistentes"}
+{"doi": "10.1039/d5sc01816a", "motivo": "otro", "detalle": "SI revisada: solo óxidos, sin sulfuros"}
+{"doi": "10.1039/d4ra00184b", "motivo": "otro", "detalle": "SI revisada: solo WO3"}
+{"doi": "10.1039/c3ra45691a", "motivo": "no_monofasico", "detalle": "Muestra CuInS2 calcinada en N2 (−0.62 V vs Ag/AgCl) con In2O3 y CuxS; solo se admitió la muestra H2"}
+{"doi": "10.1149/2.0481910jes", "motivo": "sin_acceso", "detalle": "Bi2S3/Bi2O3 (JES/IOP, estudia dispersión en frecuencia): solo ficha CROSBI; IOP bloqueado, no intentado"}
+{"doi": null, "motivo": "sin_acceso", "detalle": "OSTI purl 1570464 (Sb2S3 photoanode): robots disallowed; DOI no identificado"}
