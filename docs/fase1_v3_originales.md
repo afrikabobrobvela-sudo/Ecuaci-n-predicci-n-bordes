@@ -43,7 +43,7 @@ Lectura: los ocho artículos se leyeron en texto completo (TC). Las tablas que l
    - El artículo no da ninguna regla para bordes de ternarios u oxihaluros (no encontrado). M3 necesita una regla nuestra, declarada.
    - Pelatt excluye los cationes s², incluido Bi³⁺, del cálculo de los aniones.
 
-## C. Decisiones nuevas (propuestas para tu aprobación)
+## C. Decisiones nuevas (**aprobadas por Rodrigo el 2026-10-14**)
 
 - **C6. Constante de M0.** M0 se implementa en dos variantes: 4.44 eV (la de uso común) y la original de Butler–Ginley (4.75 eV vs SCE). La diferencia, unos 0.07 V, se reporta como incertidumbre del propio baseline.
 - **C7. Subconjunto histórico.** Los 11 V_fb de la Tabla I de Butler–Ginley entran al piloto como `historico_BG`. Solo sirven para comprobar que nuestro M0 reproduce el original; no entrenan ni validan. Los U_fb⁰ de Xu y Schoonen no se extraen como datos, porque no son independientes.

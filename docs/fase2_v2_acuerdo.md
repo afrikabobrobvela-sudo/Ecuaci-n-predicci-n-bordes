@@ -2,7 +2,7 @@
 
 Este documento reemplaza a `fase2_protocolo.md` donde ambos discrepan. El piloto unificado está en `piloto_unificado_EQ.csv` y `piloto_unificado_FE.csv`, generados con `scripts/piloto_unificado.py` (en el repositorio).
 
-## A. Decisiones (las tomo yo, con base en ambos pilotos)
+## A. Decisiones (las tomo yo, con base en ambos pilotos). **Aprobadas por Rodrigo el 2026-10-14.**
 
 1. **Unidad de registro.** Adopto la de ChatGPT: estudio × muestra × observable × condición × determinación. Una serie de pH o de frecuencias da varios registros, nunca un promedio que oculte la condición. Los promedios publicados por el autor se admiten solo como registros propios, marcados como "no réplica independiente".
 2. **Cuatro capas separadas por registro.** (1) Valor publicado tal cual, con su escala. (2) Interpretación del autor (banda plana, "E_CB", tipo n o p) y su conversión, si la da. (3) Nuestra transformación. (4) Admisión (admitido, cuarentena o excluido) y aptitud para el ajuste. Ser admitido no implica ser apto.
