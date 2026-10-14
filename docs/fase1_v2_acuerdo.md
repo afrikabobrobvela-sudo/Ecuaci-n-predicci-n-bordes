@@ -1,6 +1,6 @@
 # Fase 1, versión 2: acuerdo de cierre (Claude y revisión externa)
 
-Fecha: 14 de octubre de 2026. Este documento sustituye las conclusiones de `fase1_estado_del_arte.md` (v1) donde haya conflicto. La v1 se conserva como registro de la búsqueda. **La Fase 2 no comienza hasta que Rodrigo apruebe este acuerdo.**
+Fecha: 14 de octubre de 2026. Este documento sustituye las conclusiones de `fase1_estado_del_arte.md` (v1) donde haya conflicto. La v1 se conserva como registro de la búsqueda. **Acuerdo cerrado el 14 de octubre de 2026 (secciones B y C aprobadas). La Fase 2 comienza cuando Rodrigo lo indique.**
 
 ---
 
@@ -55,19 +55,19 @@ Todas mis lecturas "TC" de la v1 se hicieron con una herramienta que descarga el
 
 ---
 
-## C. Puntos que mantengo y propongo cerrar
+## C. Formulaciones finales acordadas (cerrado el 14 de octubre de 2026)
 
-**C1. Separar no impide vincular.** Acepto los tres conjuntos separados. Propongo además un **subconjunto de enlace**: compuestos (idealmente la misma muestra o el mismo laboratorio) con medición en EQ y en FE. Solo ahí se estima la diferencia vacío/agua, específica de cada material, en lugar de suponer −0.5 eV. Es la única forma de poner a prueba M2 en lugar de heredarlo. Si el subconjunto es pequeño, se reporta como descriptivo.
+**C1. Subconjunto de enlace vacío/agua.** "Se construirá un subconjunto de enlace con materiales caracterizados mediante electroquímica y fotoemisión. Las mediciones emparejadas (misma muestra o muestras equivalentes, con fase, composición y estado superficial caracterizados) permitirán estimar los desplazamientos asociados al cambio de entorno, propagando la incertidumbre de las transformaciones entre observables. Las comparaciones no emparejadas se analizarán como evidencia exploratoria y no se identificarán directamente con un dipolo interfacial."
 
-**C2. Identificabilidad del PZC.** Acepto la limitación. Con una sola observación por material, U₀ y s·pH_pzc no se separan. Pero **cuando el mismo trabajo mide U_fb a varios pH**, la pendiente s sí es identificable. Una pendiente distinta de la nernstiana (ZnO, según Patel) es un dato en sí misma. Propongo un campo de **serie de pH** (sí o no, número de puntos, pendiente reportada o ajustada).
+**C2. Series de pH (corrección aceptada).** U_fb(pH) = A − s·pH, con A = U₀ + s·pH_pzc. Una serie identifica A y s, pero no separa U₀ de pH_pzc: cualquier δ con pH_pzc' = pH_pzc + δ y U₀' = U₀ − s·δ produce la misma curva. Formulación: "Se registrarán series de banda plana frente a pH para estimar pendientes, comprobar el comportamiento nernstiano y detectar cambios de régimen. Estas series no identifican por sí solas el PZC; separarlo de la referencia intrínseca requiere información independiente." **Las mediciones se conservan al pH original.** No se normalizan a pH 0 con una pendiente universal antes del análisis.
 
-**C3. Sesgos de estudio y laboratorio.** Para no confundir método con familia (el riesgo que señala el revisor), propongo un **efecto aleatorio por estudio** en lugar de un efecto fijo por método. La validación agrupa por estudio además de por compuesto y familia. Las familias se definen **a priori**, antes de ver los datos.
+**C3. Efecto aleatorio por estudio.** Modelo candidato: y_ij = f(x_ij) + b_j + ε_ij, con b_j ~ N(0, τ²). Formulación: "Se evaluará un efecto aleatorio por estudio para representar la dependencia entre observaciones. La validación agrupará los registros por estudio y, cuando corresponda, por compuesto. Las familias se definirán antes del ajuste. La posible confusión entre método, estudio y familia se examinará mediante análisis estratificados y de sensibilidad." Para predecir un estudio nuevo no se usa un b_j estimado con sus propios resultados: τ² entra en el intervalo predictivo. Si cada familia se mide predominantemente con un método distinto, esa separación **no** está identificada y se declarará así.
 
-**C4. BiOX como prueba externa.** De acuerdo, "cuando los datos lo permitan". Precisión: si no entra **ningún** compuesto de Bi en el ajuste, el término de par libre del Bi no se puede estimar. Se entrena con otros compuestos de Bi (BiVO4, Bi2O3, Bi2WO6, …) y se reservan **solo** BiOX y sus soluciones sólidas, declarando esa partición antes del ajuste.
+**C4. BiOX como prueba externa.** Decisión (Claude): se reserva **toda la familia de oxihaluros de bismuto**: BiOCl, BiOBr, BiOI, BiOF si hay datos, las soluciones sólidas BiOCl_xBr_(1−x) y BiOBr_xI_(1−x) **y las fases ricas en Bi** (Bi4O5Br2, Bi24O31Br10, Bi3O4Cl, Bi5O7I, etc.). En el entrenamiento solo entran compuestos de Bi que **no** sean oxihaluros (BiVO4, Bi2O3, Bi2WO6, Bi2MoO6, Bi2S3, …), con la lista definida antes del ajuste. Lo que se pone a prueba es la **transferencia a la familia oxihaluro con Bi presente en el entrenamiento**, no la extrapolación a un elemento desconocido. Un descriptor asociado al Bi no se interpretará como prueba del mecanismo de par libre sin evidencia adicional.
 
-**C5. Comparador ML.** El código y los datos de Haghshenas no están confirmados como disponibles. Si no lo están, M5 será una reimplementación declarada como tal (o un modelo de caja negra genérico con descriptores composicionales). No se atribuye a Haghshenas.
+**C5. Comparador ML.** Si no se dispone del código original: "Reimplementación basada en la arquitectura y el procedimiento publicados por Haghshenas et al., con las diferencias documentadas." No se le atribuyen sus métricas publicadas. Se evalúa sobre nuestras etiquetas curadas y nuestras particiones externas, con el ajuste de hiperparámetros dentro del entrenamiento.
 
----
+**Estado: acuerdo cerrado.** La única afirmación retirada de mi propuesta es que las series de pH identifiquen el PZC.
 
 ## D. Pendientes antes de abrir la Fase 2
 
@@ -75,7 +75,7 @@ Todas mis lecturas "TC" de la v1 se hicieron con una herramienta que descarga el
 2. Leer Pelatt 2015: alcance exacto y regla de predicción de la SSE.
 3. Leer Butler y Ginley 1978 y Xu y Schoonen 2000 en su forma original (convenciones y ecuaciones exactas).
 4. Leer Chandramohan 2026 y Zhang 2023 en texto completo.
-5. Que Rodrigo apruebe las secciones B y C.
+5. (Hecho) Aprobación de las secciones B y C.
 
 ---
 
