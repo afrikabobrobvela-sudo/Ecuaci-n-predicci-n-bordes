@@ -1,0 +1,46 @@
+compuesto,fase,fase_descripcion,cod_id,grupo_espacial,sg_num,R,anio,doi,celltemp_K,archivo,entradas_COD,candidatos,nota
+Ag3PO4,cubica,cúbica P-43n,1007043,P -4 3 n,218,0.042,1976,,,cif/Ag3PO4_cubica_COD1007043.cif,7,7,16 átomos en la celda
+Bi2MoO6,koechlinita,koechlinita (Pca21 / P21ab),1530868,P c a 21,29,,1984,,,cif/Bi2MoO6_koechlinita_COD1530868.cif,6,4,36 átomos en la celda
+Bi2O3,alfa,α monoclínica P21/c,1526458,P 1 21/c 1,14,,2001,,,cif/Bi2O3_alfa_COD1526458.cif,18,3,20 átomos en la celda
+Bi2WO6,russellita,russellita (Pca21 / P21ab),2108252,P c a 21,29,0.0168,2018,10.1107/S2052520618006133,296,cif/Bi2WO6_russellita_COD2108252.cif,5,4,36 átomos en la celda
+Bi4Ti3O12,ortorrombica,Aurivillius (B2cb / B1a1),1528445,A b a 2,41,,1971,,,cif/Bi4Ti3O12_ortorrombica_COD1528445.cif,3,3,76 átomos en la celda
+Bi4V2O11,cualquiera,"Bi4V2O11 (α, β o γ)",,,,,,,,,4,4,SIN CIF: 1532844: desordenada (ocupación parcial); 1532845: desordenada (ocupación parcial); 1533808: desordenada (ocupación parcial); 1533811: desordenada (ocupación parcial)
+BiVO4,scheelita_monoclinica,scheelita monoclínica I2/b,9013436,I 1 1 2/b,15,,1979,10.1016/0025-5408(72)90227-9,,cif/BiVO4_scheelita_monoclinica_COD9013436.cif,9,2,24 átomos en la celda
+CaCu3Ti4O12,cubica,Im-3,1008180,I m -3,204,0.01,1979,10.1016/0022-4596(79)90235-4,,cif/CaCu3Ti4O12_cubica_COD1008180.cif,3,2,40 átomos en la celda
+CdS,wurtzita,wurtzita P63mc,9011663,P 63 m c,186,,1993,10.1103/PhysRevB.48.4335,,cif/CdS_wurtzita_COD9011663.cif,7,3,4 átomos en la celda
+Cu3Ta7O19,cualquiera,la publicada,,,,,,,,,0,0,SIN CIF: ninguna entrada con el grupo espacial pedido
+Cu3VO4,cualquiera,la publicada,,,,,,,,,0,0,SIN CIF: ninguna entrada con el grupo espacial pedido
+CuBi2O4,kusachiita,P4/ncc,1006028,P 4/n c c :2,130,0.03,1990,10.1088/0953-8984/2/9/010,,cif/CuBi2O4_kusachiita_COD1006028.cif,7,6,28 átomos en la celda
+CuCrO2,delafossita,delafossita 3R (R-3m) o 2H,8104065,P 63/m m c,194,,1996,,,cif/CuCrO2_delafossita_COD8104065.cif,2,2,8 átomos en la celda
+CuFe2O4,espinela,espinela tetragonal I41/amd o cúbica,,,,,,,,,3,3,SIN CIF: 9011012: desordenada (ocupación parcial); 9012438: desordenada (ocupación parcial); 5910028: composición Cu16Fe8O32 distinta
+CuFeO2,delafossita,delafossita 3R (R-3m) o 2H,1533117,R -3 m :H,166,,2003,,,cif/CuFeO2_delafossita_COD1533117.cif,4,4,12 átomos en la celda
+CuO,tenorita,tenorita C2/c,7212242,C 1 2/c 1,15,0.032,2010,10.1039/b922978g,,cif/CuO_tenorita_COD7212242.cif,19,17,8 átomos en la celda
+CuWO4,triclinica,P-1,4000809,P -1,2,0.0256,2011,10.1021/cm201592h,293,cif/CuWO4_triclinica_COD4000809.cif,6,5,12 átomos en la celda
+Fe2O3,hematita,hematita R-3c,5910082,R -3 c :H,167,0.026,1980,10.1063/1.327451,,cif/Fe2O3_hematita_COD5910082.cif,25,13,30 átomos en la celda
+In2O3,bixbyita,bixbyita Ia-3,2310009,I a -3,206,,1966,10.1107/s0365110x66001749,,cif/In2O3_bixbyita_COD2310009.cif,6,2,80 átomos en la celda
+In2S3,beta,β I41/amd,4000813,I 41/a m d :2,141,0.0229,2011,10.1021/cm201830e,293,cif/In2S3_beta_COD4000813.cif,3,1,80 átomos en la celda
+LaFeO3,ortorrombica,Pnma,1561805,P n m a,62,,2015,10.1016/j.jssc.2015.07.019,275,cif/LaFeO3_ortorrombica_COD1561805.cif,8,2,20 átomos en la celda
+Li2SnO3,monoclinica,C2/c,,,,,,,,,1,1,SIN CIF: 1008199: desordenada (ocupación parcial)
+MgFe2O4,espinela,espinela Fd-3m,,,,,,,,,118,116,SIN CIF: 9003582: desordenada (ocupación parcial); 9003583: desordenada (ocupación parcial); 9003584: desordenada (ocupación parcial); 9003585: desordenada (ocupación parcial)
+MnFe2O4,espinela,espinela Fd-3m,1528316,F d -3 m :2,227,,2004,,,cif/MnFe2O4_espinela_COD1528316.cif,4,4,56 átomos en la celda
+MoO3,alfa,α Pbnm,2311689,P m c n,62,0.0624,2016,10.1107/S2052520615024804,293,cif/MoO3_alfa_COD2311689.cif,11,9,16 átomos en la celda
+MoS2,2H,2H P63/mmc,1531960,P 63/m m c,194,,2002,,,cif/MoS2_2H_COD1531960.cif,9,5,6 átomos en la celda
+Sb2S3,estibina,estibina Pnma,9007373,P n m a,62,,2005,10.1007/s00269-005-0470-y,,cif/Sb2S3_estibina_COD9007373.cif,20,20,20 átomos en la celda
+SnO2,casiterita,casiterita P42/mnm,1000062,P 42/m n m,136,0.036,1971,10.1107/S0567740871005466,,cif/SnO2_casiterita_COD1000062.cif,9,8,6 átomos en la celda
+SnS2,berndtita,2H P-3m1,7038075,P -3 m 1,164,0.0138,2016,10.1039/c5dt04532k,296,cif/SnS2_berndtita_COD7038075.cif,19,19,3 átomos en la celda
+SrTiO3,cubica,cúbica Pm-3m,1577245,P m -3 m,221,,2026,10.1016/j.materresbull.2026.114197,,cif/SrTiO3_cubica_COD1577245.cif,8,6,5 átomos en la celda
+TiO2,anatasa,anatasa I41/amd,5000223,I 41/a m d :1,141,0.023,1972,,,cif/TiO2_anatasa_COD5000223.cif,39,11,12 átomos en la celda
+TiO2,rutilo,rutilo P42/mnm (sensibilidad),4102355,P 42/m n m,136,,2010,10.1021/ja908128b,,cif/TiO2_rutilo_COD4102355.cif,39,12,6 átomos en la celda
+TiVO4,rutilo,tipo rutilo P42/mnm,,,,,,,,,2,1,SIN CIF: 1535999: desordenada (ocupación parcial)
+WO3,monoclinica,γ monoclínica P21/n,1563541,P 1 21/c 1,14,,2010,10.1016/j.jssc.2010.04.039,,cif/WO3_monoclinica_COD1563541.cif,11,4,16 átomos en la celda
+ZnFe2O4,espinela,espinela Fd-3m,9006893,F d -3 m :2,227,,2000,10.1007/s002690000117,,cif/ZnFe2O4_espinela_COD9006893.cif,34,34,56 átomos en la celda
+ZnIn2S4,hexagonal,hexagonal P63mc (o R3m),1539764,R 3 m :H,160,,1989,,,cif/ZnIn2S4_hexagonal_COD1539764.cif,6,4,42 átomos en la celda
+ZnO,wurtzita,wurtzita P63mc,2300116,P 63 m c,186,0.014,2006,10.1107/S0021889805042457,293,cif/ZnO_wurtzita_COD2300116.cif,18,16,4 átomos en la celda
+BiOCl,matlockita,P4/nmm,4509949,P 4/n m m :2,129,0.0624,2014,10.1021/cg4014366,293,cif/BiOCl_matlockita_COD4509949.cif,5,5,6 átomos en la celda
+BiOBr,matlockita,P4/nmm,9009161,P 4/n m m :1,129,,1963,,,cif/BiOBr_matlockita_COD9009161.cif,4,4,6 átomos en la celda
+BiOI,matlockita,P4/nmm,4341500,P 4/n m m :2,129,,2014,10.1021/ic5011709,295,cif/BiOI_matlockita_COD4341500.cif,4,4,6 átomos en la celda
+Bi12O17Cl2,cualquiera,la publicada,,,,,,,,,0,0,SIN CIF: ninguna entrada con el grupo espacial pedido
+Bi24O31Br10,cualquiera,la publicada,,,,,,,,,2,2,SIN CIF: 2102073: desordenada (ocupación parcial); 8104381: desordenada (ocupación parcial)
+Bi24O31Cl10,cualquiera,la publicada,2102072,P 1 2/c 1,13,0.063,2000,10.1107/S0108768100000550,293,cif/Bi24O31Cl10_cualquiera_COD2102072.cif,2,2,130 átomos en la celda
+Bi4O5I2,cualquiera,la publicada,8104103,P 1 21 1,4,,2002,,,cif/Bi4O5I2_cualquiera_COD8104103.cif,1,1,44 átomos en la celda
+Bi5O7I,cualquiera,la publicada,8104133,I b c a,73,,2001,,,cif/Bi5O7I_cualquiera_COD8104133.cif,2,2,104 átomos en la celda

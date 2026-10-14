@@ -1,0 +1,907 @@
+#------------------------------------------------------------------------------
+#$Date: 2016-02-20 02:53:41 +0200 (Sat, 20 Feb 2016) $
+#$Revision: 176768 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/2/10/20/2102072.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/. The original data for this entry
+# were provided by IUCr Journals, http://journals.iucr.org/.
+#
+# The file may be used within the scientific community so long as
+# proper attribution is given to the journal article from which the
+# data were obtained.
+#
+data_2102072
+loop_
+_publ_author_name
+'Eggenweiler, U.'
+'Keller, E.'
+'Kr\"amer, V.'
+_publ_section_title
+;
+ Redetermination of the crystal structures of the `Arppe compound'
+ Bi~24~O~31~Cl~10~ and the isomorphous Bi~24~O~31~Br~10~
+;
+_journal_issue                   3
+_journal_name_full               'Acta Crystallographica Section B'
+_journal_page_first              431
+_journal_page_last               437
+_journal_paper_doi               10.1107/S0108768100000550
+_journal_volume                  56
+_journal_year                    2000
+_chemical_formula_sum            'Bi24 Cl10 O31'
+_chemical_formula_weight         5866.02
+_chemical_name_common            'Arppe compound'
+_chemical_name_systematic
+;
+ ?
+;
+_space_group_IT_number           13
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_Hall  '-P 2yc'
+_symmetry_space_group_name_H-M   'P 1 2/c 1'
+_audit_creation_method           SHELXL-97
+_cell_angle_alpha                90.00
+_cell_angle_beta                 88.742(4)
+_cell_angle_gamma                90.00
+_cell_formula_units_Z            2
+_cell_length_a                   10.033(2)
+_cell_length_b                   7.9745(16)
+_cell_length_c                   29.552(6)
+_cell_measurement_reflns_used    15924
+_cell_measurement_temperature    293(2)
+_cell_measurement_theta_max      28.33
+_cell_measurement_theta_min      1.38
+_cell_volume                     2363.8(8)
+_computing_cell_refinement       'Bruker SMART'
+_computing_data_collection       'Bruker SMART'
+_computing_data_reduction        'Bruker SHELXTL'
+_computing_molecular_graphics    'SCHAKAL 97 (Keller 1997)'
+_computing_publication_material  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_diffrn_ambient_temperature      293(2)
+_diffrn_measured_fraction_theta_full .939
+_diffrn_measured_fraction_theta_max .939
+_diffrn_measurement_device_type  'CCD area detector'
+_diffrn_measurement_method       'phi and omega scans'
+_diffrn_radiation_monochromator  graphite
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_wavelength     .71073
+_diffrn_reflns_av_R_equivalents  .1299
+_diffrn_reflns_av_sigmaI/netI    .0972
+_diffrn_reflns_limit_h_max       13
+_diffrn_reflns_limit_h_min       -13
+_diffrn_reflns_limit_k_max       0
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_l_max       39
+_diffrn_reflns_limit_l_min       0
+_diffrn_reflns_number            15924
+_diffrn_reflns_theta_full        28.33
+_diffrn_reflns_theta_max         28.33
+_diffrn_reflns_theta_min         1.38
+_diffrn_standards_number         0
+_exptl_absorpt_coefficient_mu    89.601
+_exptl_absorpt_correction_T_max  .4035
+_exptl_absorpt_correction_T_min  .0293
+_exptl_absorpt_correction_type   integration
+_exptl_absorpt_process_details   'XPREP / Bruker SHELXTL'
+_exptl_crystal_colour            'pale green'
+_exptl_crystal_density_diffrn    8.242
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_description       needle
+_exptl_crystal_F_000             4820
+_exptl_crystal_size_max          .22
+_exptl_crystal_size_mid          .02
+_exptl_crystal_size_min          .014
+_refine_diff_density_max         5.984
+_refine_diff_density_min         -6.162
+_refine_ls_extinction_coef       .000152(8)
+_refine_ls_extinction_method     SHELXL
+_refine_ls_goodness_of_fit_ref   .900
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_parameters     218
+_refine_ls_number_reflns         5546
+_refine_ls_number_restraints     0
+_refine_ls_restrained_S_all      .900
+_refine_ls_R_factor_all          .1089
+_refine_ls_R_factor_gt           .0630
+_refine_ls_shift/su_max          .001
+_refine_ls_shift/su_mean         .000
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details
+'calc w=1/[\s^2^(Fo^2^)+(0.0599P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         .1463
+_reflns_number_gt                3184
+_reflns_number_total             5546
+_reflns_threshold_expression     >2sigma(I)
+_cod_data_source_file            jz0008.cif
+_cod_data_source_block           bi24ocl
+_cod_original_sg_symbol_H-M      P2/c
+_cod_database_code               2102072
+_cod_database_fobs_code          2102072
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x, y, -z+1/2'
+'-x, -y, -z'
+'x, -y, z-1/2'
+loop_
+_atom_site_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_occupancy
+_atom_site_type_symbol
+Bi1 .08954(12) .15098(13) .31393(4) .0160(3) Uani d . 1 Bi
+Bi1A .07898(12) .65569(13) .30449(3) .0142(3) Uani d . 1 Bi
+Bi2 .24586(11) .11927(12) .42714(3) .0108(2) Uani d . 1 Bi
+Bi2A .25409(11) .65391(13) .42667(3) .0119(3) Uani d . 1 Bi
+Bi3 .42866(11) .12419(11) .54524(3) .0091(2) Uani d . 1 Bi
+Bi3A .43899(11) .62388(11) .54670(3) .0092(2) Uani d . 1 Bi
+Bi4 .59455(11) .12297(12) .66644(3) .0094(2) Uani d . 1 Bi
+Bi4A .60071(11) .61913(12) .66265(3) .0089(2) Uani d . 1 Bi
+Bi5 .79200(12) .10376(13) .78250(3) .0129(2) Uani d . 1 Bi
+Bi5A .75409(11) .62361(11) .78521(3) .0105(2) Uani d . 1 Bi
+Bi6 .93266(12) .15522(12) .90838(3) .0132(3) Uani d . 1 Bi
+Bi6A .90338(12) .62165(11) .90284(3) .0114(2) Uani d . 1 Bi
+Cl1 .5000 .1151(13) .2500 .024(2) Uani d S 1 Cl
+Cl1A .5000 .6313(11) .2500 .017(2) Uani d S 1 Cl
+Cl2 .6551(8) .1233(8) .3684(2) .0234(18) Uani d . 1 Cl
+Cl2A .6619(8) .6269(8) .3700(2) .0213(18) Uani d . 1 Cl
+Cl3 .8110(9) .1264(9) .4870(2) .027(2) Uani d . 1 Cl
+Cl3A .8037(9) .6202(8) .4909(2) .0229(18) Uani d . 1 Cl
+O1 .1392(19) .153(2) .2342(6) .011(4) Uiso d . 1 O
+O1A .140(2) .602(2) .2317(6) .016(4) Uiso d . 1 O
+O2 .3093(19) .1240(19) .3542(5) .008(4) Uiso d . 1 O
+O2A .3074(18) .6324(18) .3546(5) .007(4) Uiso d . 1 O
+O3 .4777(19) .124(2) .4723(6) .013(4) Uiso d . 1 O
+O3A .4688(19) .6244(19) .4718(6) .010(4) Uiso d . 1 O
+O4 .6054(19) .130(2) .5863(6) .013(4) Uiso d . 1 O
+O4A .620(2) .624(2) .5881(6) .014(4) Uiso d . 1 O
+O5 .773(2) .126(2) .7046(6) .016(4) Uiso d . 1 O
+O5A .7797(19) .628(2) .7017(6) .013(4) Uiso d . 1 O
+O6 .939(2) .122(2) .8389(6) .015(4) Uiso d . 1 O
+O6A .918(2) .631(2) .8317(6) .018(4) Uiso d . 1 O
+O7 1.138(2) .116(2) .9048(6) .019(4) Uiso d . 1 O
+O8 1.071(3) .769(3) .8941(7) .038(6) Uiso d . 1 O
+O8A 1.0152(18) .3990(19) .8992(5) .009(4) Uiso d . 1 O
+O9 1.0000 .143(3) .7500 .019(6) Uiso d S 1 O
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Bi1 .0195(7) .0129(5) .0156(6) -.0032(5) .0011(5) .0030(4)
+Bi1A .0183(6) .0138(5) .0104(5) -.0020(5) .0011(5) -.0003(4)
+Bi2 .0115(6) .0108(5) .0100(5) .0009(4) .0003(5) -.0002(4)
+Bi2A .0150(6) .0105(5) .0103(5) -.0019(4) .0008(5) .0010(4)
+Bi3 .0083(6) .0097(5) .0093(5) -.0005(4) -.0005(4) .0001(4)
+Bi3A .0096(6) .0091(5) .0089(5) -.0003(4) .0001(4) .0004(3)
+Bi4 .0092(6) .0090(5) .0101(5) .0004(4) -.0005(4) -.0002(3)
+Bi4A .0081(5) .0103(5) .0082(5) .0004(4) .0001(4) -.0005(4)
+Bi5 .0128(6) .0142(5) .0118(5) -.0008(5) -.0004(4) .0006(4)
+Bi5A .0079(5) .0083(5) .0153(5) .0007(4) .0014(4) -.0006(4)
+Bi6 .0133(6) .0154(5) .0109(5) -.0022(4) .0016(4) .0012(4)
+Bi6A .0105(6) .0095(5) .0140(5) -.0004(4) .0034(4) -.0008(4)
+Cl1 .026(7) .026(5) .021(6) .000 -.001(5) .000
+Cl1A .017(6) .013(5) .021(5) .000 .007(4) .000
+Cl2 .024(5) .019(4) .027(4) .001(3) .002(4) -.001(3)
+Cl2A .034(5) .013(3) .017(4) .010(3) .003(4) -.002(3)
+Cl3 .040(6) .023(4) .017(4) -.001(4) .006(4) -.002(3)
+Cl3A .033(5) .016(3) .019(4) .000(3) .014(4) -.001(3)
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+O O .0106 .0060 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Cl Cl .1484 .1585 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Bi Bi -4.1077 10.2566 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle
+O5A Bi1 O1 3_666 . 71.6(6)
+O5A Bi1 O8 3_666 4_465 91.4(7)
+O1 Bi1 O8 . 4_465 162.8(7)
+O5A Bi1 O6A 3_666 4_465 83.7(6)
+O1 Bi1 O6A . 4_465 109.2(6)
+O8 Bi1 O6A 4_465 4_465 65.1(7)
+O5A Bi1 O2 3_666 . 69.7(6)
+O1 Bi1 O2 . . 107.3(6)
+O8 Bi1 O2 4_465 . 67.5(7)
+O6A Bi1 O2 4_465 . 124.2(6)
+O5A Bi1 O5 3_666 3_656 108.2(6)
+O1 Bi1 O5 . 3_656 73.0(6)
+O8 Bi1 O5 4_465 3_656 116.2(6)
+O6A Bi1 O5 4_465 3_656 167.7(6)
+O2 Bi1 O5 . 3_656 64.7(5)
+O5A Bi1 O1 3_666 2 112.5(6)
+O1 Bi1 O1 . 2 69.3(7)
+O8 Bi1 O1 4_465 2 117.1(7)
+O6A Bi1 O1 4_465 2 61.4(6)
+O2 Bi1 O1 . 2 174.4(5)
+O5 Bi1 O1 3_656 2 109.8(5)
+O5A Bi1 O6 3_666 4_455 175.8(6)
+O1 Bi1 O6 . 4_455 111.8(5)
+O8 Bi1 O6 4_465 4_455 85.3(6)
+O6A Bi1 O6 4_465 4_455 97.1(6)
+O2 Bi1 O6 . 4_455 106.6(5)
+O5 Bi1 O6 3_656 4_455 71.2(6)
+O1 Bi1 O6 2 4_455 71.3(5)
+O5A Bi1 O9 3_666 3_656 129.4(5)
+O1 Bi1 O9 . 3_656 58.2(5)
+O8 Bi1 O9 4_465 3_656 139.0(6)
+O6A Bi1 O9 4_465 3_656 116.2(5)
+O2 Bi1 O9 . 3_656 118.6(4)
+O5 Bi1 O9 3_656 3_656 54.0(5)
+O1 Bi1 O9 2 3_656 55.8(4)
+O6 Bi1 O9 4_455 3_656 53.8(4)
+O1A Bi1A O5 . 3_666 82.7(6)
+O1A Bi1A O9 . 3_666 65.1(5)
+O5 Bi1A O9 3_666 3_666 69.0(6)
+O1A Bi1A O6 . 4_465 131.9(6)
+O5 Bi1A O6 3_666 4_465 82.3(6)
+O9 Bi1A O6 3_666 4_465 66.8(5)
+O1A Bi1A O1A . 2 77.4(7)
+O5 Bi1A O1A 3_666 2 130.7(6)
+O9 Bi1A O1A 3_666 2 61.7(5)
+O6 Bi1A O1A 4_465 2 78.6(6)
+O1A Bi1A O5A . 3_666 69.0(6)
+O5 Bi1A O5A 3_666 3_666 106.9(6)
+O9 Bi1A O5A 3_666 3_666 134.1(5)
+O6 Bi1A O5A 4_465 3_666 158.8(5)
+O1A Bi1A O5A 2 3_666 107.1(6)
+O1A Bi1A O2A . . 106.7(6)
+O5 Bi1A O2A 3_666 . 64.6(6)
+O9 Bi1A O2A 3_666 . 133.6(4)
+O6 Bi1A O2A 4_465 . 107.4(6)
+O1A Bi1A O2A 2 . 164.7(5)
+O5A Bi1A O2A 3_666 . 62.3(5)
+O1A Bi1A O8A . 4_465 160.1(5)
+O5 Bi1A O8A 3_666 4_465 110.8(6)
+O9 Bi1A O8A 3_666 4_465 132.5(4)
+O6 Bi1A O8A 4_465 4_465 66.3(5)
+O1A Bi1A O8A 2 4_465 102.2(5)
+O5A Bi1A O8A 3_666 4_465 92.5(5)
+O2A Bi1A O8A . 4_465 68.8(5)
+O1A Bi1A O6A . 4_465 104.5(6)
+O5 Bi1A O6A 3_666 4_465 169.2(6)
+O9 Bi1A O6A 3_666 4_465 121.3(5)
+O6 Bi1A O6A 4_465 4_465 98.3(6)
+O1A Bi1A O6A 2 4_465 59.7(6)
+O5A Bi1A O6A 3_666 4_465 69.1(5)
+O2A Bi1A O6A . 4_465 105.1(5)
+O8A Bi1A O6A 4_465 4_465 60.2(5)
+O8 Bi2 O2 4_465 . 77.2(7)
+O8 Bi2 O7 4_465 4_455 79.5(8)
+O2 Bi2 O7 . 4_455 82.0(6)
+O8 Bi2 O4A 4_465 3_666 91.1(7)
+O2 Bi2 O4A . 3_666 70.7(6)
+O7 Bi2 O4A 4_455 3_666 152.5(6)
+O8 Bi2 O4 4_465 3_656 136.2(7)
+O2 Bi2 O4 . 3_656 72.8(6)
+O7 Bi2 O4 4_455 3_656 65.5(7)
+O4A Bi2 O4 3_666 3_656 107.8(6)
+O8 Bi2 O3 4_465 . 155.5(7)
+O2 Bi2 O3 . . 104.2(6)
+O7 Bi2 O3 4_455 . 125.0(6)
+O4A Bi2 O3 3_666 . 67.1(6)
+O4 Bi2 O3 3_656 . 64.8(6)
+O8 Bi2 Cl3A 4_465 3_666 87.8(6)
+O2 Bi2 Cl3A . 3_666 138.6(4)
+O7 Bi2 Cl3A 4_455 3_666 133.2(5)
+O4A Bi2 Cl3A 3_666 3_666 71.3(4)
+O4 Bi2 Cl3A 3_656 3_666 135.3(4)
+O3 Bi2 Cl3A . 3_666 75.0(4)
+O8 Bi2 Cl3 4_465 3_656 117.5(6)
+O2 Bi2 Cl3 . 3_656 143.7(4)
+O7 Bi2 Cl3 4_455 3_656 69.7(5)
+O4A Bi2 Cl3 3_666 3_656 136.4(4)
+O4 Bi2 Cl3 3_656 3_656 75.0(4)
+O3 Bi2 Cl3 . 3_656 76.2(4)
+Cl3A Bi2 Cl3 3_666 3_656 77.28(17)
+O2A Bi2A O4 . 3_666 75.9(6)
+O2A Bi2A O7 . 4_465 84.4(6)
+O4 Bi2A O7 3_666 4_465 69.8(7)
+O2A Bi2A O3A . . 107.9(6)
+O4 Bi2A O3A 3_666 . 68.3(6)
+O7 Bi2A O3A 4_465 . 131.3(6)
+O2A Bi2A O8A . 4_465 83.7(6)
+O4 Bi2A O8A 3_666 4_465 130.7(6)
+O7 Bi2A O8A 4_465 4_465 63.9(6)
+O3A Bi2A O8A . 4_465 160.5(5)
+O2A Bi2A O4A . 3_666 70.1(6)
+O4 Bi2A O4A 3_666 3_666 109.0(6)
+O7 Bi2A O4A 4_465 3_666 153.6(6)
+O3A Bi2A O4A . 3_666 66.2(6)
+O8A Bi2A O4A 4_465 3_666 105.1(6)
+O2A Bi2A Cl3 . 3_666 150.7(4)
+O4 Bi2A Cl3 3_666 3_666 80.3(4)
+O7 Bi2A Cl3 4_465 3_666 71.5(5)
+O3A Bi2A Cl3 . 3_666 78.0(4)
+O8A Bi2A Cl3 4_465 3_666 99.7(4)
+O4A Bi2A Cl3 3_666 3_666 134.9(4)
+O2A Bi2A Cl3A . 3_666 134.2(4)
+O4 Bi2A Cl3A 3_666 3_666 136.7(5)
+O7 Bi2A Cl3A 4_465 3_666 131.2(5)
+O3A Bi2A Cl3A . 3_666 72.1(4)
+O8A Bi2A Cl3A 4_465 3_666 88.5(4)
+O4A Bi2A Cl3A 3_666 3_666 68.7(4)
+Cl3 Bi2A Cl3A 3_666 3_666 75.03(17)
+O4 Bi3 O3 . . 112.4(7)
+O4 Bi3 O3 . 3_656 78.7(6)
+O3 Bi3 O3 . 3_656 71.9(7)
+O4 Bi3 O3A . 3_666 74.8(6)
+O3 Bi3 O3A . 3_666 72.5(6)
+O3 Bi3 O3A 3_656 3_666 122.2(7)
+O4 Bi3 Cl3 . 3_656 141.9(4)
+O3 Bi3 Cl3 . 3_656 82.2(5)
+O3 Bi3 Cl3 3_656 3_656 72.7(5)
+O3A Bi3 Cl3 3_666 3_656 142.4(5)
+O4 Bi3 Cl3A . 3_666 139.6(4)
+O3 Bi3 Cl3A . 3_666 80.1(5)
+O3 Bi3 Cl3A 3_656 3_666 140.0(5)
+O3A Bi3 Cl3A 3_666 3_666 72.9(5)
+Cl3 Bi3 Cl3A 3_656 3_666 75.78(19)
+O4 Bi3 Cl2A . 3_666 77.2(5)
+O3 Bi3 Cl2A . 3_666 142.6(4)
+O3 Bi3 Cl2A 3_656 3_666 144.1(5)
+O3A Bi3 Cl2A 3_666 3_666 76.0(4)
+Cl3 Bi3 Cl2A 3_656 3_666 113.2(2)
+Cl3A Bi3 Cl2A 3_666 3_666 71.89(17)
+O4 Bi3 Cl2 . 3_656 77.2(5)
+O3 Bi3 Cl2 . 3_656 143.1(4)
+O3 Bi3 Cl2 3_656 3_656 75.6(4)
+O3A Bi3 Cl2 3_666 3_656 142.2(4)
+Cl3 Bi3 Cl2 3_656 3_656 71.74(18)
+Cl3A Bi3 Cl2 3_666 3_656 116.6(2)
+Cl2A Bi3 Cl2 3_666 3_656 73.39(17)
+O4A Bi3A O3A . . 117.1(7)
+O4A Bi3A O3 . 3_666 80.4(6)
+O3A Bi3A O3 . 3_666 73.1(6)
+O4A Bi3A O3A . 3_666 78.2(6)
+O3A Bi3A O3A . 3_666 73.4(7)
+O3 Bi3A O3A 3_666 3_666 125.4(7)
+O4A Bi3A Cl2A . 3_666 80.2(5)
+O3A Bi3A Cl2A . 3_666 140.5(4)
+O3 Bi3A Cl2A 3_666 3_666 146.4(5)
+O3A Bi3A Cl2A 3_666 3_666 76.5(4)
+O4A Bi3A Cl3A . 3_666 143.2(4)
+O3A Bi3A Cl3A . 3_666 75.7(5)
+O3 Bi3A Cl3A 3_666 3_666 135.4(5)
+O3A Bi3A Cl3A 3_666 3_666 72.8(5)
+Cl2A Bi3A Cl3A 3_666 3_666 71.39(18)
+O4A Bi3A Cl2 . 3_666 78.8(5)
+O3A Bi3A Cl2 . 3_666 140.8(4)
+O3 Bi3A Cl2 3_666 3_666 75.2(4)
+O3A Bi3A Cl2 3_666 3_666 145.4(4)
+Cl2A Bi3A Cl2 3_666 3_666 74.30(16)
+Cl3A Bi3A Cl2 3_666 3_666 114.0(2)
+O4A Bi3A Cl3 . 3_666 142.1(4)
+O3A Bi3A Cl3 . 3_666 77.9(5)
+O3 Bi3A Cl3 3_666 3_666 70.9(5)
+O3A Bi3A Cl3 3_666 3_666 138.9(5)
+Cl2A Bi3A Cl3 3_666 3_666 111.0(2)
+Cl3A Bi3A Cl3 3_666 3_666 72.07(19)
+Cl2 Bi3A Cl3 3_666 3_666 70.45(18)
+O5 Bi4 O2A . 3_666 76.8(6)
+O5 Bi4 O2 . 3_656 78.2(6)
+O2A Bi4 O2 3_666 3_656 119.6(6)
+O5 Bi4 O4 . . 120.5(7)
+O2A Bi4 O4 3_666 . 72.3(6)
+O2 Bi4 O4 3_656 . 75.0(6)
+O5 Bi4 Cl1 . 3_656 80.7(5)
+O2A Bi4 Cl1 3_666 3_656 146.3(4)
+O2 Bi4 Cl1 3_656 3_656 79.2(4)
+O4 Bi4 Cl1 . 3_656 141.4(4)
+O5 Bi4 Cl1A . 3_666 80.0(5)
+O2A Bi4 Cl1A 3_666 3_666 79.0(4)
+O2 Bi4 Cl1A 3_656 3_666 146.7(4)
+O4 Bi4 Cl1A . 3_666 138.2(4)
+Cl1 Bi4 Cl1A 3_656 3_666 72.60(19)
+O5 Bi4 Cl2 . 3_656 143.7(5)
+O2A Bi4 Cl2 3_666 3_656 137.8(5)
+O2 Bi4 Cl2 3_656 3_656 74.1(5)
+O4 Bi4 Cl2 . 3_656 74.1(5)
+Cl1 Bi4 Cl2 3_656 3_656 71.54(14)
+Cl1A Bi4 Cl2 3_666 3_656 112.02(14)
+O5 Bi4 Cl2A . 3_666 143.0(5)
+O2A Bi4 Cl2A 3_666 3_666 74.8(5)
+O2 Bi4 Cl2A 3_656 3_666 137.2(5)
+O4 Bi4 Cl2A . 3_666 72.1(5)
+Cl1 Bi4 Cl2A 3_656 3_666 111.67(14)
+Cl1A Bi4 Cl2A 3_666 3_666 71.56(12)
+Cl2 Bi4 Cl2A 3_656 3_666 71.11(18)
+O5A Bi4A O4A . . 118.6(7)
+O5A Bi4A O2A . 3_666 79.0(6)
+O4A Bi4A O2A . 3_666 76.3(6)
+O5A Bi4A O2 . 3_666 76.0(6)
+O4A Bi4A O2 . 3_666 75.1(6)
+O2A Bi4A O2 3_666 3_666 126.0(6)
+O5A Bi4A Cl1A . 3_666 81.3(4)
+O4A Bi4A Cl1A . 3_666 141.8(5)
+O2A Bi4A Cl1A 3_666 3_666 76.3(4)
+O2 Bi4A Cl1A 3_666 3_666 143.1(4)
+O5A Bi4A Cl2 . 3_666 139.5(4)
+O4A Bi4A Cl2 . 3_666 76.8(5)
+O2A Bi4A Cl2 3_666 3_666 140.8(5)
+O2 Bi4A Cl2 3_666 3_666 72.5(5)
+Cl1A Bi4A Cl2 3_666 3_666 110.08(14)
+O5A Bi4A Cl2A . 3_666 145.1(4)
+O4A Bi4A Cl2A . 3_666 77.3(5)
+O2A Bi4A Cl2A 3_666 3_666 75.0(5)
+O2 Bi4A Cl2A 3_666 3_666 138.6(5)
+Cl1A Bi4A Cl2A 3_666 3_666 70.21(12)
+Cl2 Bi4A Cl2A 3_666 3_666 71.58(17)
+O5A Bi4A Cl1 . 3_666 79.3(4)
+O4A Bi4A Cl1 . 3_666 138.5(5)
+O2A Bi4A Cl1 3_666 3_666 145.1(4)
+O2 Bi4A Cl1 3_666 3_666 73.9(4)
+Cl1A Bi4A Cl1 3_666 3_666 73.58(18)
+Cl2 Bi4A Cl1 3_666 3_666 68.03(14)
+Cl2A Bi4A Cl1 3_666 3_666 110.15(13)
+O1 Bi5 O6 3_656 . 91.0(6)
+O1 Bi5 O9 3_656 . 76.0(8)
+O6 Bi5 O9 . . 72.4(5)
+O1 Bi5 O5 3_656 . 83.2(6)
+O6 Bi5 O5 . . 143.0(7)
+O9 Bi5 O5 . . 70.8(5)
+O1 Bi5 O1A 3_656 3_666 139.1(6)
+O6 Bi5 O1A . 3_666 83.3(6)
+O9 Bi5 O1A . 3_666 63.6(7)
+O5 Bi5 O1A . 3_666 77.8(6)
+O1 Bi5 Cl2 3_656 4_556 78.0(5)
+O6 Bi5 Cl2 . 4_556 75.0(5)
+O9 Bi5 Cl2 . 4_556 137.4(4)
+O5 Bi5 Cl2 . 4_556 138.0(5)
+O1A Bi5 Cl2 3_666 4_556 137.7(4)
+O1 Bi5 Cl1 3_656 3_656 75.0(5)
+O6 Bi5 Cl1 . 3_656 141.8(4)
+O9 Bi5 Cl1 . 3_656 134.3(3)
+O5 Bi5 Cl1 . 3_656 71.5(5)
+O1A Bi5 Cl1 3_666 3_656 130.1(5)
+Cl2 Bi5 Cl1 4_556 3_656 67.49(15)
+O1 Bi5 Cl2A 3_656 4_566 145.3(4)
+O6 Bi5 Cl2A . 4_566 70.2(5)
+O9 Bi5 Cl2A . 4_566 122.1(5)
+O5 Bi5 Cl2A . 4_566 129.2(4)
+O1A Bi5 Cl2A 3_666 4_566 69.5(4)
+Cl2 Bi5 Cl2A 4_556 4_566 69.16(16)
+Cl1 Bi5 Cl2A 3_656 4_566 101.52(16)
+O1 Bi5 Cl1A 3_656 3_666 134.8(5)
+O6 Bi5 Cl1A . 3_666 132.8(4)
+O9 Bi5 Cl1A . 3_666 121.5(5)
+O5 Bi5 Cl1A . 3_666 67.7(5)
+O1A Bi5 Cl1A 3_666 3_666 68.7(5)
+Cl2 Bi5 Cl1A 4_556 3_666 100.76(16)
+Cl1 Bi5 Cl1A 3_656 3_666 63.61(18)
+Cl2A Bi5 Cl1A 4_566 3_666 64.77(14)
+O1A Bi5A O1 3_666 3_666 113.0(7)
+O1A Bi5A O6A 3_666 . 77.9(7)
+O1 Bi5A O6A 3_666 . 76.4(7)
+O1A Bi5A O5A 3_666 . 74.8(6)
+O1 Bi5A O5A 3_666 . 71.5(6)
+O6A Bi5A O5A . . 124.5(7)
+O1A Bi5A Cl2 3_666 4_566 145.4(5)
+O1 Bi5A Cl2 3_666 4_566 80.4(5)
+O6A Bi5A Cl2 . 4_566 74.6(5)
+O5A Bi5A Cl2 . 4_566 138.9(4)
+O1A Bi5A Cl2A 3_666 4_566 78.5(5)
+O1 Bi5A Cl2A 3_666 4_566 146.0(5)
+O6A Bi5A Cl2A . 4_566 75.0(5)
+O5A Bi5A Cl2A . 4_566 141.4(4)
+Cl2 Bi5A Cl2A 4_566 4_566 74.49(17)
+O1A Bi5A Cl1A 3_666 3_666 78.5(5)
+O1 Bi5A Cl1A 3_666 3_666 141.0(5)
+O6A Bi5A Cl1A . 3_666 141.8(5)
+O5A Bi5A Cl1A . 3_666 76.6(4)
+Cl2 Bi5A Cl1A 4_566 3_666 111.83(16)
+Cl2A Bi5A Cl1A 4_566 3_666 71.15(15)
+O1A Bi5A Cl1 3_666 3_666 142.9(5)
+O1 Bi5A Cl1 3_666 3_666 77.7(5)
+O6A Bi5A Cl1 . 3_666 138.4(5)
+O5A Bi5A Cl1 . 3_666 75.7(4)
+Cl2 Bi5A Cl1 4_566 3_666 69.31(16)
+Cl2A Bi5A Cl1 4_566 3_666 113.16(17)
+Cl1A Bi5A Cl1 3_666 3_666 73.13(18)
+O6 Bi6 O7 . . 85.5(8)
+O6 Bi6 O8A . . 89.4(6)
+O7 Bi6 O8A . . 75.5(7)
+O6 Bi6 Cl3A . 4_566 144.4(5)
+O7 Bi6 Cl3A . 4_566 119.7(5)
+O8A Bi6 Cl3A . 4_566 75.0(4)
+O6 Bi6 Cl3 . 4_556 126.1(5)
+O7 Bi6 Cl3 . 4_556 105.7(5)
+O8A Bi6 Cl3 . 4_556 144.5(4)
+Cl3A Bi6 Cl3 4_566 4_556 74.03(17)
+O6 Bi6 Cl2A . 4_566 75.2(5)
+O7 Bi6 Cl2A . 4_566 147.9(5)
+O8A Bi6 Cl2A . 4_566 78.7(5)
+Cl3A Bi6 Cl2A 4_566 4_566 70.51(18)
+Cl3 Bi6 Cl2A 4_556 4_566 106.4(2)
+O6 Bi6 Cl2 . 4_556 67.7(5)
+O7 Bi6 Cl2 . 4_556 129.1(5)
+O8A Bi6 Cl2 . 4_556 141.8(5)
+Cl3A Bi6 Cl2 4_566 4_556 105.9(2)
+Cl3 Bi6 Cl2 4_556 4_556 64.74(18)
+Cl2A Bi6 Cl2 4_566 4_556 66.44(16)
+O8 Bi6A O8A . . 92.3(8)
+O8 Bi6A O6A . . 79.3(8)
+O8A Bi6A O6A . . 87.3(7)
+O8 Bi6A Cl2A . 4_566 155.3(6)
+O8A Bi6A Cl2A . 4_566 82.7(5)
+O6A Bi6A Cl2A . 4_566 76.4(5)
+O8 Bi6A Cl3 . 4_566 87.9(6)
+O8A Bi6A Cl3 . 4_566 133.7(5)
+O6A Bi6A Cl3 . 4_566 137.8(5)
+Cl2A Bi6A Cl3 4_566 4_566 113.0(2)
+O8 Bi6A Cl3A . 4_566 130.5(6)
+O8A Bi6A Cl3A . 4_566 72.8(4)
+O6A Bi6A Cl3A . 4_566 143.5(5)
+Cl2A Bi6A Cl3A 4_566 4_566 71.06(18)
+Cl3 Bi6A Cl3A 4_566 4_566 72.21(17)
+O8 Bi6A Cl2 . 4_566 102.9(7)
+O8A Bi6A Cl2 . 4_566 152.5(5)
+O6A Bi6A Cl2 . 4_566 73.5(5)
+Cl2A Bi6A Cl2 4_566 4_566 73.88(19)
+Cl3 Bi6A Cl2 4_566 4_566 70.51(18)
+Cl3A Bi6A Cl2 4_566 4_566 111.6(2)
+Bi4 Cl1 Bi4 3_656 4 108.3(3)
+Bi4 Cl1 Bi5A 3_656 4_565 109.15(3)
+Bi4 Cl1 Bi5A 4 4_565 112.07(3)
+Bi4 Cl1 Bi5A 3_656 3_666 112.07(3)
+Bi4 Cl1 Bi5A 4 3_666 109.15(3)
+Bi5A Cl1 Bi5A 4_565 3_666 106.2(3)
+Bi4 Cl1 Bi4A 3_656 3_666 73.48(3)
+Bi4 Cl1 Bi4A 4 3_666 178.2(3)
+Bi5A Cl1 Bi4A 4_565 3_666 67.31(14)
+Bi5A Cl1 Bi4A 3_666 3_666 69.68(14)
+Bi4 Cl1 Bi4A 3_656 4_565 178.2(3)
+Bi4 Cl1 Bi4A 4 4_565 73.48(3)
+Bi5A Cl1 Bi4A 4_565 4_565 69.68(14)
+Bi5A Cl1 Bi4A 3_666 4_565 67.31(14)
+Bi4A Cl1 Bi4A 3_666 4_565 104.8(3)
+Bi4 Cl1 Bi5 3_656 4 74.69(14)
+Bi4 Cl1 Bi5 4 4 71.91(14)
+Bi5A Cl1 Bi5 4_565 4 66.37(3)
+Bi5A Cl1 Bi5 3_666 4 171.7(3)
+Bi4A Cl1 Bi5 3_666 4 109.05(4)
+Bi4A Cl1 Bi5 4_565 4 105.78(4)
+Bi4 Cl1 Bi5 3_656 3_656 71.91(14)
+Bi4 Cl1 Bi5 4 3_656 74.69(14)
+Bi5A Cl1 Bi5 4_565 3_656 171.7(3)
+Bi5A Cl1 Bi5 3_666 3_656 66.37(3)
+Bi4A Cl1 Bi5 3_666 3_656 105.78(4)
+Bi4A Cl1 Bi5 4_565 3_656 109.05(4)
+Bi5 Cl1 Bi5 4 3_656 121.3(3)
+Bi4 Cl1A Bi4 3_666 4_565 106.5(2)
+Bi4 Cl1A Bi4A 3_666 3_666 72.71(3)
+Bi4 Cl1A Bi4A 4_565 3_666 179.2(2)
+Bi4 Cl1A Bi4A 3_666 4_565 179.2(2)
+Bi4 Cl1A Bi4A 4_565 4_565 72.71(3)
+Bi4A Cl1A Bi4A 3_666 4_565 108.1(2)
+Bi4 Cl1A Bi5A 3_666 4_565 109.25(3)
+Bi4 Cl1A Bi5A 4_565 4_565 112.16(3)
+Bi4A Cl1A Bi5A 3_666 4_565 68.47(12)
+Bi4A Cl1A Bi5A 4_565 4_565 70.89(12)
+Bi4 Cl1A Bi5A 3_666 3_666 112.16(3)
+Bi4 Cl1A Bi5A 4_565 3_666 109.25(3)
+Bi4A Cl1A Bi5A 3_666 3_666 70.89(12)
+Bi4A Cl1A Bi5A 4_565 3_666 68.47(12)
+Bi5A Cl1A Bi5A 4_565 3_666 107.5(2)
+Bi4 Cl1A Bi5 3_666 4_565 71.65(12)
+Bi4 Cl1A Bi5 4_565 4_565 69.00(12)
+Bi4A Cl1A Bi5 3_666 4_565 110.91(3)
+Bi4A Cl1A Bi5 4_565 4_565 107.71(3)
+Bi5A Cl1A Bi5 4_565 4_565 70.58(3)
+Bi5A Cl1A Bi5 3_666 4_565 176.18(12)
+Bi4 Cl1A Bi5 3_666 3_666 69.00(12)
+Bi4 Cl1A Bi5 4_565 3_666 71.65(12)
+Bi4A Cl1A Bi5 3_666 3_666 107.71(3)
+Bi4A Cl1A Bi5 4_565 3_666 110.91(3)
+Bi5A Cl1A Bi5 4_565 3_666 176.18(12)
+Bi5A Cl1A Bi5 3_666 3_666 70.58(3)
+Bi5 Cl1A Bi5 4_565 3_666 111.5(2)
+Bi5A Cl2 Bi3 4_565 3_656 176.8(3)
+Bi5A Cl2 Bi3A 4_565 3_666 105.36(18)
+Bi3 Cl2 Bi3A 3_656 3_666 73.66(15)
+Bi5A Cl2 Bi4 4_565 3_656 110.0(2)
+Bi3 Cl2 Bi4 3_656 3_656 73.17(15)
+Bi3A Cl2 Bi4 3_666 3_656 112.5(2)
+Bi5A Cl2 Bi5 4_565 4 70.10(14)
+Bi3 Cl2 Bi5 3_656 4 110.49(18)
+Bi3A Cl2 Bi5 3_666 4 171.9(3)
+Bi4 Cl2 Bi5 3_656 4 75.56(15)
+Bi5A Cl2 Bi6A 4_565 4_565 69.34(14)
+Bi3 Cl2 Bi6A 3_656 4_565 107.5(2)
+Bi3A Cl2 Bi6A 3_666 4_565 67.01(14)
+Bi4 Cl2 Bi6A 3_656 4_565 178.9(2)
+Bi5 Cl2 Bi6A 4 4_565 104.9(2)
+Bi5A Cl2 Bi4A 4_565 3_666 69.57(14)
+Bi3 Cl2 Bi4A 3_656 3_666 112.6(2)
+Bi3A Cl2 Bi4A 3_666 3_666 68.80(14)
+Bi4 Cl2 Bi4A 3_656 3_666 72.61(17)
+Bi5 Cl2 Bi4A 4 3_666 114.5(2)
+Bi6A Cl2 Bi4A 4_565 3_666 106.28(18)
+Bi5A Cl2 Bi6 4_565 4 112.3(2)
+Bi3 Cl2 Bi6 3_656 4 65.49(13)
+Bi3A Cl2 Bi6 3_666 4 108.6(2)
+Bi4 Cl2 Bi6 3_656 4 108.18(17)
+Bi5 Cl2 Bi6 4 4 68.25(13)
+Bi6A Cl2 Bi6 4_565 4 72.94(16)
+Bi4A Cl2 Bi6 3_666 4 177.3(2)
+Bi6A Cl2A Bi3 4_565 3_666 109.3(2)
+Bi6A Cl2A Bi3A 4_565 3_666 68.45(13)
+Bi3 Cl2A Bi3A 3_666 3_666 74.06(14)
+Bi6A Cl2A Bi5A 4_565 4_565 70.47(13)
+Bi3 Cl2A Bi5A 3_666 4_565 179.7(3)
+Bi3A Cl2A Bi5A 3_666 4_565 105.85(17)
+Bi6A Cl2A Bi6 4_565 4_565 67.38(16)
+Bi3 Cl2A Bi6 3_666 4_565 69.69(14)
+Bi3A Cl2A Bi6 3_666 4_565 106.9(2)
+Bi5A Cl2A Bi6 4_565 4_565 110.1(2)
+Bi6A Cl2A Bi4A 4_565 3_666 108.21(17)
+Bi3 Cl2A Bi4A 3_666 3_666 110.8(2)
+Bi3A Cl2A Bi4A 3_666 3_666 68.95(14)
+Bi5A Cl2A Bi4A 4_565 3_666 69.35(13)
+Bi6 Cl2A Bi4A 4_565 3_666 175.1(2)
+Bi6A Cl2A Bi4 4_565 3_666 178.2(2)
+Bi3 Cl2A Bi4 3_666 3_666 72.22(14)
+Bi3A Cl2A Bi4 3_666 3_666 111.3(2)
+Bi5A Cl2A Bi4 4_565 3_666 108.0(2)
+Bi6 Cl2A Bi4 4_565 3_666 114.28(17)
+Bi4A Cl2A Bi4 3_666 3_666 70.16(16)
+Bi6A Cl2A Bi5 4_565 4_565 108.3(2)
+Bi3 Cl2A Bi5 3_666 4_565 106.03(17)
+Bi3A Cl2A Bi5 3_666 4_565 176.4(3)
+Bi5A Cl2A Bi5 4_565 4_565 74.04(13)
+Bi6 Cl2A Bi5 4_565 4_565 69.96(14)
+Bi4A Cl2A Bi5 3_666 4_565 114.1(2)
+Bi4 Cl2A Bi5 3_666 4_565 71.96(13)
+Bi2A Cl3 Bi2 3_666 3_656 70.90(15)
+Bi2A Cl3 Bi3 3_666 3_656 115.6(3)
+Bi2 Cl3 Bi3 3_656 3_656 75.06(17)
+Bi2A Cl3 Bi6A 3_666 4_565 108.7(2)
+Bi2 Cl3 Bi6A 3_656 4_565 173.8(3)
+Bi3 Cl3 Bi6A 3_656 4_565 110.2(2)
+Bi2A Cl3 Bi3A 3_666 3_666 76.60(17)
+Bi2 Cl3 Bi3A 3_656 3_666 117.9(3)
+Bi3 Cl3 Bi3A 3_656 3_666 73.70(19)
+Bi6A Cl3 Bi3A 4_565 3_666 67.52(15)
+Bi2A Cl3 Bi6 3_666 4 167.2(3)
+Bi2 Cl3 Bi6 3_656 4 100.82(19)
+Bi3 Cl3 Bi6 3_656 4 69.98(14)
+Bi6A Cl3 Bi6 4_565 4 78.44(15)
+Bi3A Cl3 Bi6 3_666 4 116.2(2)
+Bi2 Cl3A Bi6 3_666 4_565 105.05(19)
+Bi2 Cl3A Bi3 3_666 3_666 75.28(15)
+Bi6 Cl3A Bi3 4_565 3_666 71.97(15)
+Bi2 Cl3A Bi2A 3_666 3_666 81.43(15)
+Bi6 Cl3A Bi2A 4_565 3_666 165.8(3)
+Bi3 Cl3A Bi2A 3_666 3_666 122.2(2)
+Bi2 Cl3A Bi3A 3_666 3_666 121.8(2)
+Bi6 Cl3A Bi3A 4_565 3_666 110.6(2)
+Bi3 Cl3A Bi3A 3_666 3_666 74.05(19)
+Bi2A Cl3A Bi3A 3_666 3_666 75.05(15)
+Bi2 Cl3A Bi6A 3_666 4_565 170.8(3)
+Bi6 Cl3A Bi6A 4_565 4_565 68.41(13)
+Bi3 Cl3A Bi6A 3_666 4_565 107.7(2)
+Bi2A Cl3A Bi6A 3_666 4_565 103.53(18)
+Bi3A Cl3A Bi6A 3_666 4_565 67.33(14)
+Bi5A O1 Bi5 3_666 3_656 123.8(8)
+Bi5A O1 Bi1 3_666 . 111.1(7)
+Bi5 O1 Bi1 3_656 . 105.6(6)
+Bi5A O1 Bi1 3_666 2 106.6(6)
+Bi5 O1 Bi1 3_656 2 98.1(6)
+Bi1 O1 Bi1 . 2 110.7(7)
+Bi5A O1A Bi1A 3_666 . 120.3(8)
+Bi5A O1A Bi5 3_666 3_666 128.4(9)
+Bi1A O1A Bi5 . 3_666 92.8(6)
+Bi5A O1A Bi1A 3_666 2 118.7(8)
+Bi1A O1A Bi1A . 2 98.8(7)
+Bi5 O1A Bi1A 3_666 2 90.3(6)
+Bi2 O2 Bi4 . 3_656 110.8(7)
+Bi2 O2 Bi4A . 3_666 109.1(6)
+Bi4 O2 Bi4A 3_656 3_666 123.7(8)
+Bi2 O2 Bi1 . . 102.8(7)
+Bi4 O2 Bi1 3_656 . 108.4(6)
+Bi4A O2 Bi1 3_666 . 99.5(6)
+Bi2A O2A Bi4A . 3_666 112.3(7)
+Bi2A O2A Bi4 . 3_666 107.2(6)
+Bi4A O2A Bi4 3_666 3_666 121.9(8)
+Bi2A O2A Bi1A . . 109.2(7)
+Bi4A O2A Bi1A 3_666 . 106.1(6)
+Bi4 O2A Bi1A 3_666 . 98.9(6)
+Bi3 O3 Bi3 . 3_656 108.1(7)
+Bi3 O3 Bi3A . 3_666 108.4(7)
+Bi3 O3 Bi3A 3_656 3_666 125.5(8)
+Bi3 O3 Bi2 . . 107.9(7)
+Bi3 O3 Bi2 3_656 . 103.6(6)
+Bi3A O3 Bi2 3_666 . 102.0(6)
+Bi3A O3A Bi3A . 3_666 106.6(7)
+Bi3A O3A Bi3 . 3_666 105.6(7)
+Bi3A O3A Bi3 3_666 3_666 122.2(8)
+Bi3A O3A Bi2A . . 114.9(7)
+Bi3A O3A Bi2A 3_666 . 107.4(6)
+Bi3 O3A Bi2A 3_666 . 100.5(6)
+Bi3 O4 Bi2A . 3_666 115.8(7)
+Bi3 O4 Bi4 . . 122.6(8)
+Bi2A O4 Bi4 3_666 . 101.7(7)
+Bi3 O4 Bi2 . 3_656 112.6(7)
+Bi2A O4 Bi2 3_666 3_656 102.2(7)
+Bi4 O4 Bi2 . 3_656 98.9(6)
+Bi4A O4A Bi3A . . 119.9(8)
+Bi4A O4A Bi2 . 3_666 103.3(7)
+Bi3A O4A Bi2 . 3_666 110.3(7)
+Bi4A O4A Bi2A . 3_666 100.7(6)
+Bi3A O4A Bi2A . 3_666 108.1(7)
+Bi2 O4A Bi2A 3_666 3_666 114.5(7)
+Bi4 O5 Bi1A . 3_666 119.6(8)
+Bi4 O5 Bi5 . . 127.8(9)
+Bi1A O5 Bi5 3_666 . 96.0(7)
+Bi4 O5 Bi1 . 3_656 108.7(7)
+Bi1A O5 Bi1 3_666 3_656 105.8(7)
+Bi5 O5 Bi1 . 3_656 95.0(6)
+Bi4A O5A Bi1 . 3_666 113.9(7)
+Bi4A O5A Bi5A . . 117.6(8)
+Bi1 O5A Bi5A 3_666 . 105.3(7)
+Bi4A O5A Bi1A . 3_666 112.5(7)
+Bi1 O5A Bi1A 3_666 3_666 110.2(7)
+Bi5A O5A Bi1A . 3_666 95.8(6)
+Bi6 O6 Bi5 . . 137.4(10)
+Bi6 O6 Bi1A . 4_666 108.7(7)
+Bi5 O6 Bi1A . 4_666 96.7(6)
+Bi6 O6 Bi1 . 4_656 112.0(7)
+Bi5 O6 Bi1 . 4_656 96.7(6)
+Bi1A O6 Bi1 4_666 4_656 98.9(6)
+Bi6A O6A Bi5A . . 126.3(9)
+Bi6A O6A Bi1 . 4_666 105.6(8)
+Bi5A O6A Bi1 . 4_666 114.5(7)
+Bi6A O6A Bi1A . 4_666 106.1(7)
+Bi5A O6A Bi1A . 4_666 103.3(6)
+Bi1 O6A Bi1A 4_666 4_666 96.7(6)
+Bi6 O7 Bi2 . 4_656 125.9(8)
+Bi6 O7 Bi2A . 4_666 111.9(8)
+Bi2 O7 Bi2A 4_656 4_666 109.6(8)
+Bi6A O8A Bi6 . . 124.0(8)
+Bi6A O8A Bi2A . 4_666 128.4(7)
+Bi6 O8A Bi2A . 4_666 99.9(6)
+Bi6A O8A Bi1A . 4_666 106.4(6)
+Bi6 O8A Bi1A . 4_666 93.6(5)
+Bi2A O8A Bi1A 4_666 4_666 95.3(5)
+Bi6A O8 Bi2 . 4_666 145.6(11)
+Bi6A O8 Bi1 . 4_666 108.2(10)
+Bi5 O9 Bi5 . 2_756 164.3(12)
+Bi5 O9 Bi1A . 4_666 96.9(4)
+Bi5 O9 Bi1A 2_756 4_666 93.5(3)
+Bi5 O9 Bi1A . 3_666 93.5(3)
+Bi5 O9 Bi1A 2_756 3_666 96.9(4)
+Bi1A O9 Bi1A 4_666 3_666 96.9(9)
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Bi1 O1 . 2.398(17) yes
+Bi1 O1 2 2.726(19) yes
+Bi1 O2 . 2.538(19) yes
+Bi1 O5 3_656 2.656(17) yes
+Bi1 O5A 3_666 2.240(17) yes
+Bi1 O6 4_455 2.741(17) yes
+Bi1 O6A 4_465 2.492(19) yes
+Bi1 O8 4_465 2.46(2) yes
+Bi1A O1A . 2.264(17) yes
+Bi1A O1A 2 2.50(2) yes
+Bi1A O2A . 2.763(18) yes
+Bi1A O5 3_666 2.303(18) yes
+Bi1A O5A 3_666 2.673(17) yes
+Bi1A O6 4_465 2.469(17) yes
+Bi1A O6A 4_465 2.898(18) yes
+Bi1A O8A 4_465 2.891(16) yes
+Bi1A O9 3_666 2.419(16) yes
+Bi2 Cl3 3_656 3.247(7) yes
+Bi2 Cl3A 3_666 3.222(7) yes
+Bi2 O2 . 2.235(16) yes
+Bi2 O3 . 2.707(19) yes
+Bi2 O4 3_656 2.511(17) yes
+Bi2 O4A 3_666 2.488(17) yes
+Bi2 O7 4_455 2.267(18) yes
+Bi2 O8 4_465 2.21(2) yes
+Bi2A Cl3 3_666 3.152(7) yes
+Bi2A Cl3A 3_666 3.315(7) yes
+Bi2A O2A . 2.190(16) yes
+Bi2A O3A . 2.569(19) yes
+Bi2A O4 3_666 2.256(17) yes
+Bi2A O4A 3_666 2.583(17) yes
+Bi2A O7 4_465 2.275(18) yes
+Bi2A O8A 4_465 2.581(18) yes
+Bi3 Cl2 3_656 3.320(7) yes
+Bi3 Cl2A 3_666 3.307(6) yes
+Bi3 Cl3 3_656 3.284(9) yes
+Bi3 Cl3A 3_666 3.292(8) yes
+Bi3 O3 . 2.201(17) yes
+Bi3 O3 3_656 2.244(17) yes
+Bi3 O3A 3_666 2.304(16) yes
+Bi3 O4 . 2.171(19) yes
+Bi3A Cl2 3_666 3.339(7) yes
+Bi3A Cl2A 3_666 3.312(7) yes
+Bi3A Cl3 3_666 3.370(9) yes
+Bi3A Cl3A 3_666 3.327(8) yes
+Bi3A O3 3_666 2.247(17) yes
+Bi3A O3A . 2.227(16) yes
+Bi3A O3A 3_666 2.248(16) yes
+Bi3A O4A . 2.21(2) yes
+Bi4 Cl1 3_656 3.240(6) yes
+Bi4 Cl1A 3_666 3.276(5) yes
+Bi4 Cl2 3_656 3.362(8) yes
+Bi4 Cl2A 3_666 3.447(8) yes
+Bi4 O2 3_656 2.270(16) yes
+Bi4 O2A 3_666 2.266(16) yes
+Bi4 O4 . 2.368(17) yes
+Bi4 O5 . 2.13(2) yes
+Bi4A Cl1 3_666 3.473(6) yes
+Bi4A Cl1A 3_666 3.400(5) yes
+Bi4A Cl2 3_666 3.427(8) yes
+Bi4A Cl2A 3_666 3.440(8) yes
+Bi4A O2 3_666 2.289(16) yes
+Bi4A O2A 3_666 2.261(15) yes
+Bi4A O4A . 2.207(17) yes
+Bi4A O5A . 2.16(2) yes
+Bi5 Cl1 3_656 3.560(5) yes
+Bi5 Cl1A 3_666 3.754(5) yes
+Bi5 Cl2 4_556 3.385(7) yes
+Bi5 Cl2A 4_566 3.586(7) yes
+Bi5 O1 3_656 2.214(16) yes
+Bi5 O1A 3_666 2.479(18) yes
+Bi5 O5 . 2.322(18) yes
+Bi5 O6 . 2.254(19) yes
+Bi5 O9 . 2.300(4) yes
+Bi5A Cl1 3_666 3.470(6) yes
+Bi5A Cl1A 3_666 3.439(5) yes
+Bi5A Cl2 4_566 3.316(7) yes
+Bi5A Cl2A 4_566 3.320(6) yes
+Bi5A O1 3_666 2.149(17) yes
+Bi5A O1A 3_666 2.142(18) yes
+Bi5A O6A . 2.17(2) yes
+Bi5A O5A . 2.476(17) yes
+Bi6 O6 . 2.070(17) yes
+Bi6 O7 . 2.09(2) yes
+Bi6 O8A . 2.128(16) yes
+Bi6 Cl3A 4_566 3.269(7) yes
+Bi6 Cl3 4_556 3.436(7) yes
+Bi6 Cl2A 4_566 3.438(8) yes
+Bi6 Cl2 4_556 3.773(8) yes
+Bi6A Cl2 4_566 3.390(8) yes
+Bi6A Cl2A 4_566 3.292(8) yes
+Bi6A Cl3 4_566 3.313(7) yes
+Bi6A Cl3A 4_566 3.373(7) yes
+Bi6A O8 . 2.07(2) yes
+Bi6A O8A . 2.102(16) yes
+Bi6A O6A . 2.107(18) yes
+O1 O6A 3_666 2.67(2) yes
+O1A O9 3_666 2.52(3) yes
+O3 O3 3_656 2.61(3) yes
+O3 O3A 3_666 2.66(2) yes
+O4 O7 2_756 2.59(3) yes
+O5 O9 . 2.68(2) yes
+O6 O9 . 2.690(17) yes
+O6A O8 . 2.66(3) yes
+O7 O8A . 2.58(2) yes

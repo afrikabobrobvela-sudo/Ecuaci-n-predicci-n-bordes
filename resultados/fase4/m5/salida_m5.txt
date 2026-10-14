@@ -1,0 +1,66 @@
+M5 (Haghshenas 2024, código original, CIF del COD). Error = U_obs − predicho (V vs SHE).
+Formulas del set de ajuste fino de Haghshenas presentes: ['Ag3PO4', 'Bi2WO6', 'BiVO4', 'CdS', 'CuFeO2', 'CuO', 'CuWO4', 'Fe2O3', 'In2S3', 'MoS2', 'Sb2S3', 'SnO2', 'SnS2', 'SrTiO3', 'TiO2', 'WO3', 'ZnO']
+Sin predicción M5 (sin CIF ordenado en COD): ['Bi12O17Cl2', 'Bi24O31Br10', 'Bi4V2O11', 'Ca2Nb3O10', 'Cu3Ta7O19', 'Cu3VO4', 'CuFe2O4', 'Li2SnO3', 'MgFe2O4', 'TiVO4']
+
+== entrenamiento, tipo n: 49 registros, 45 con M5 ==
+  [todos]
+    M0a       n=45 est=32  MAE 0.41 [0.31, 0.51]  sesgo -0.26 [-0.40, -0.13]
+    M5        n=45 est=32  MAE 0.70 [0.52, 0.87]  sesgo -0.43 [-0.68, -0.17]
+    M5_Egexp  n=45 est=32  MAE 0.73 [0.53, 0.92]  sesgo -0.50 [-0.72, -0.29]
+    MAE(M5) − MAE(M0a) = +0.29 [+0.12, +0.47]
+    MAE(M5_Egexp) − MAE(M0a) = +0.32 [+0.15, +0.48]
+  [fuera del ajuste de Haghshenas]
+    M0a       n=15 est=13  MAE 0.39 [0.21, 0.61]  sesgo -0.21 [-0.51, +0.05]
+    M5        n=15 est=13  MAE 0.57 [0.26, 0.91]  sesgo -0.44 [-0.82, -0.07]
+    M5_Egexp  n=15 est=13  MAE 0.61 [0.29, 0.93]  sesgo -0.39 [-0.81, +0.02]
+    MAE(M5) − MAE(M0a) = +0.18 [-0.03, +0.49]
+    MAE(M5_Egexp) − MAE(M0a) = +0.22 [+0.03, +0.43]
+  [dentro del ajuste (no ciego)]
+    M0a       n=30 est=21  MAE 0.42 [0.31, 0.51]  sesgo -0.28 [-0.41, -0.15]
+    M5        n=30 est=21  MAE 0.76 [0.56, 0.94]  sesgo -0.43 [-0.73, -0.08]
+    M5_Egexp  n=30 est=21  MAE 0.79 [0.55, 1.00]  sesgo -0.56 [-0.80, -0.33]
+    MAE(M5) − MAE(M0a) = +0.34 [+0.13, +0.55]
+    MAE(M5_Egexp) − MAE(M0a) = +0.37 [+0.15, +0.57]
+
+== entrenamiento, tipo p: 16 registros, 12 con M5 ==
+  [todos]
+    M0a       n=12 est=10  MAE 1.59 [1.29, 1.86]  sesgo -1.59 [-1.86, -1.29]
+    M5        n=12 est=10  MAE 1.16 [0.89, 1.50]  sesgo -1.16 [-1.50, -0.89]
+    M5_Egexp  n=12 est=10  MAE 1.16 [0.89, 1.50]  sesgo -1.16 [-1.50, -0.89]
+    MAE(M5) − MAE(M0a) = -0.43 [-0.66, -0.15]
+    MAE(M5_Egexp) − MAE(M0a) = -0.43 [-0.66, -0.15]
+  [fuera del ajuste de Haghshenas]
+    M0a       n= 6 est= 6  MAE 1.51 [0.98, 1.88]  sesgo -1.51 [-1.88, -0.98]
+    M5        n= 6 est= 6  MAE 1.19 [0.73, 1.57]  sesgo -1.19 [-1.57, -0.73]
+    M5_Egexp  n= 6 est= 6  MAE 1.19 [0.73, 1.57]  sesgo -1.19 [-1.57, -0.73]
+    MAE(M5) − MAE(M0a) = -0.33 [-0.70, +0.03]
+    MAE(M5_Egexp) − MAE(M0a) = -0.33 [-0.70, +0.03]
+  [dentro del ajuste (no ciego)]
+    M0a       n= 6 est= 4  MAE 1.67 [1.51, 2.01]  sesgo -1.67 [-2.01, -1.51]
+    M5        n= 6 est= 4  MAE 1.13 [0.88, 1.66]  sesgo -1.13 [-1.66, -0.88]
+    M5_Egexp  n= 6 est= 4  MAE 1.13 [0.88, 1.66]  sesgo -1.13 [-1.66, -0.88]
+    MAE(M5) − MAE(M0a) = -0.54 [-0.74, -0.14]
+    MAE(M5_Egexp) − MAE(M0a) = -0.54 [-0.74, -0.14]
+
+== reserva_BiOX, tipo n: 20 registros, 15 con M5 ==
+  [todos]
+    M0a       n=15 est=13  MAE 0.63 [0.46, 0.81]  sesgo -0.60 [-0.80, -0.40]
+    M5        n=15 est=13  MAE 2.41 [1.63, 3.37]  sesgo -2.41 [-3.37, -1.63]
+    M5_Egexp  n=15 est=13  MAE 2.32 [1.58, 3.24]  sesgo -2.32 [-3.24, -1.58]
+    K1        n=15 est=13  MAE 0.46 [0.35, 0.59]  sesgo -0.34 [-0.53, -0.14]
+    MAE(M5) − MAE(M0a) = +1.78 [+0.99, +2.74]
+    MAE(M5_Egexp) − MAE(M0a) = +1.69 [+0.96, +2.59]
+  [fuera del ajuste de Haghshenas]
+    M0a       n=15 est=13  MAE 0.63 [0.46, 0.81]  sesgo -0.60 [-0.80, -0.40]
+    M5        n=15 est=13  MAE 2.41 [1.63, 3.37]  sesgo -2.41 [-3.37, -1.63]
+    M5_Egexp  n=15 est=13  MAE 2.32 [1.58, 3.24]  sesgo -2.32 [-3.24, -1.58]
+    K1        n=15 est=13  MAE 0.46 [0.35, 0.59]  sesgo -0.34 [-0.53, -0.14]
+    MAE(M5) − MAE(M0a) = +1.78 [+0.99, +2.74]
+    MAE(M5_Egexp) − MAE(M0a) = +1.69 [+0.96, +2.59]
+  [dentro del ajuste (no ciego)] n=0: muy pocos
+
+== reserva_BiOX, tipo p: 1 registros, 1 con M5 ==
+
+TiO2 (n=4): MAE M5 anatasa 1.54, rutilo 1.51; M5_Egexp anatasa 1.59, rutilo 1.23
+
+Eg M5 − Eg exp (todos los registros con M5, n=73): media -0.04 eV, MAE 0.36 eV

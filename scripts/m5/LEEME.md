@@ -48,3 +48,13 @@ Con torch>=2.6, el checkpoint de band gap requiere allow-listar `numpy.core.mult
   SnO2 y BiVO4 la fase del repo NO es la pedida (p.ej. ZnO sal de roca, TiO2 Pmm2, Fe2O3 Pnma): se reportan como
   tales y las fases pedidas quedan vacías. LaFeO3 no está en el repo: sin predicción.
 - Todas las fórmulas excepto LaFeO3 están en el set experimental de fine-tuning -> valores in-sample.
+
+## Actualización 2026-10-14: estructuras del COD
+El dominio www.crystallography.net quedó habilitado en un entorno nuevo. Flujo:
+
+    git clone https://github.com/yousof96/physical_band_potentials ../hagh_repo   # commit 50326f4
+    python3 cod_descargar.py            # -> data/estructuras_cod/cif/*.cif, seleccion_cod.csv (regla en el docstring)
+    ./correr_m5_cod.sh                  # -> work/pred_cod.jsonl (copia en resultados/fase4/m5/)
+    python3 m5_evaluar.py               # -> resultados/fase4/m5/m5_registros.csv, salida_m5.txt
+
+Resultados en `docs/fase4_M5_resultados.md`. Esto reemplaza la sección anterior de "Fuentes de estructura": M5 ya no se limita a los CIF del repo.
