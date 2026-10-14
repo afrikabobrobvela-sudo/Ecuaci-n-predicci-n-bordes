@@ -12,7 +12,8 @@ REF = {"Ag/AgCl sat": 0.197, "Ag/AgCl 3 M": 0.210, "SCE sat": 0.241, "Hg/Hg2SO4 
 ESCENARIO = {"Ag/AgCl n.r.": (0.197, 0.235), "SCE n.r.": (0.241, 0.280)}
 BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "extraccion_fase3")
 FAMILIAS = ["oxido_binario", "oxido_ternario", "oxido_ternario_Bi", "sulfuro", "oxihaluro_Bi",
-            "ronda2_oxidos", "ronda2_sulfuros_BiOX"]  # los archivos de la ronda 2 mezclan familias
+            "ronda2_oxidos", "ronda2_sulfuros_BiOX",  # los archivos de la ronda 2 mezclan familias
+            "ronda3_oxidos", "ronda3_sulfuros", "ronda3_BiOX"]
 
 def num(x):
     if x is None: return None
@@ -80,6 +81,10 @@ def admision(r, esc, defin, estado):
     motivos = []
     texto = " ".join(map(str, r.get("banderas") or [])).lower() + " " + str(r.get("electrolito") or "").lower()
     if any(k in texto for k in ("fe(cn)", "ferri", "ferro", "redox")): motivos.append("electrolito con par redox")
+    elec = str(r.get("electrolito") or "").lower()  # solo el electrolito del MS, no las banderas
+    # S2− (Na2S) se adsorbe específicamente y desplaza U_fb: excluye. Sulfito solo (Na2SO3) queda como bandera.
+    if re.search(r"na2s\b|s2−|s2-|sulfuro sódico", elec):
+        motivos.append("electrolito con S2− (adsorción específica)")
     if "dopad" in texto or "doped" in texto or "dopad" in str(r.get("muestra", "")).lower(): motivos.append("dopado")
     muestra = str(r.get("muestra", "")).lower()
     if re.search(r"\b(?!0\b)\d+(\.\d+)?\s*kgy", muestra) or "irradi" in muestra:
