@@ -52,3 +52,15 @@ No se añaden candidatas después de ver los residuos. La búsqueda simbólica (
 1. ¿Te parecen bien las metas de tamaño (60/30/3×3/20) o prefieres otras?
 2. ¿Seguimos con ChatGPT extrayendo en paralelo?
 3. Que M5 use el código original en vez de una reimplementación es un cambio sobre C5. Lo propongo porque es más justo con su trabajo y más barato.
+
+## 6. Respuestas de Rodrigo y estado (2026-10-14)
+
+1. **Metas de tamaño: aprobadas** (60/30/3×3/20).
+2. **ChatGPT no extrae en paralelo.** La doble verificación la hace una segunda extracción independiente: cada registro se vuelve a extraer a ciegas, a partir del DOI y la muestra pero sin ver el valor, y se aceptan solo los que coinciden. Lo que no coincide se revisa contra la fuente.
+3. **M5 con el código original: aprobado.** Se usa el repositorio público y su checkpoint 3D-TL. Su conjunto de ajuste fino contiene materiales que también están en nuestra base (TiO2, ZnO, BiVO4, CdS…), así que cada predicción de M5 se marca según el compuesto estuviera o no en su entrenamiento.
+
+**Avances de implementación** (`scripts/comparadores.py`):
+- **Reproducción de Butler–Ginley.** Con los datos de su Tabla I, el residuo entre la EA medida (Ec. [1]) y la calculada da un RMS de 0.19 eV (n = 11). Coincide con el "∼0.2V" que declaran, así que la comprobación de C7 se cumple.
+- **χ elemental.** Uso (I₁ + A)/2 de `mendeleev` 1.3.0. En 9 de los 11 óxidos coincide con Butler–Ginley a ±0.12 eV. En ZnO y CdO la diferencia es de +0.20 y +0.27 eV porque Zn y Cd no tienen anión estable: la librería no da valor y se toma A = 0, mientras que Butler–Ginley usaron un valor negativo. Esos elementos se marcan y su χ se trata como una incertidumbre del propio M0.
+- **Signo de M2 verificado en los originales.** Según Stevanović 2014 (p. 3706), los bordes se desplazan "closer to the vacuum". Ali et al. 2021 (Ec. 6) restan 0.5 eV. Por tanto ΔU = −0.5 V.
+- **SSE.** La Tabla 1 de Pelatt 2015 está transcrita en `data/escalas/sse_pelatt2015_tabla1.csv` (78 entradas). Mn²⁺ queda sin valor porque la transcripción de la imagen es dudosa.
