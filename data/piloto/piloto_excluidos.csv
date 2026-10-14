@@ -1,0 +1,22 @@
+id,compuesto,doi,motivo,categoria_exclusion,lectura
+X01,BiOBr/BiOI (bicapas),10.1038/srep32764,DFT (HSE06+SOC) sin medición,calculado_DFT,TC-d
+X02,Bi2WO6,10.1038/ncomms9340,Sin medición de bordes,sin_medicion,TC-d
+X03,"BiVO4, Bi4V2O11",10.1038/srep31406,Mott-Schottky sin valor numérico reportado,sin_valor,TC-d
+X04,BiOI,10.1038/s41598-022-08213-0,"Bordes calculados con la ecuación de electronegatividad (χ=6.10 eV, Ee=4.50 eV)",ecuacion_electronegatividad,TC-d
+X05,BiVO4,10.1038/s41598-022-08213-0,Mott-Schottky sin electrodo de referencia ni electrolito declarados para la medición,referencia_no_identificable,TC-d
+X06,BiOCl,10.1039/c9ra10256f,"Mott-Schottky sin electrodo de referencia, electrolito ni pH",referencia_no_identificable,TC-d
+X07,BiOBr,10.1039/c9ra10256f,"Mott-Schottky sin electrodo de referencia, electrolito ni pH",referencia_no_identificable,TC-d
+X08,BiOCl0.8Br0.2,10.1039/c9ra10256f,Muestra bifásica (no solución sólida); sin medición propia,fase_no_confirmada,TC-d
+X09,Bi2WO6,10.1038/s41598-020-75003-x,XPS-VB referido a E_F reportado como 'vs NHE' sin conversión,conversion_invalida,TC-d
+X10,BiOCl,10.1038/s41598-020-75003-x,XPS-VB referido a E_F reportado como 'vs NHE' sin conversión,conversion_invalida,TC-d
+X11,Cu2O,10.1039/d1ra08863g,Sin valor numérico para Cu2O monofásico; heteroestructura,sin_valor,TC-d
+X12,CuBi2O4,10.1038/s41598-023-32804-0,Solo compuesto CuO/CuBi2O4,no_monofasico,TC-d
+X13,ZnO,10.1038/srep29907,Sin Mott-Schottky ni otra medición de bordes,sin_medicion,TC-d
+X14,BiVO4,10.3390/molecules30112454,Vfb solo de la muestra modificada (Ag–Fe),no_monofasico,TC-d
+X15,Nb:SrTiO3,10.1039/d5sc01816a,Valores solo en figuras; se usa como referencia metodológica (tampón),sin_valor_textual,TC-d
+X16,BiOX,10.3389/fchem.2022.900622,Revisión (fuente secundaria),fuente_secundaria,TC-d
+X17,Cu2O,10.1038/s41467-019-13987-5,Sin Vfb de Cu2O; VBM ~0.35 eV sin referencia declarada,sin_valor,TC-d
+X18,"Cu2O, CuO",10.1038/srep35158,Mott-Schottky no recuperado en el texto accesible (pendiente),no_verificado,P
+X19,TiO2 anatasa,10.5155/eurjchem.10.1.82-94.1809,Bordes calculados con la ecuación de electronegatividad,ecuacion_electronegatividad,TC-d
+X20,"CuFeS2, FeS2, CuS, Cu2S",10.1007/s43630-023-00415-3,Bordes calculados por electronegatividad y función de trabajo atómica,ecuacion_electronegatividad,R
+X21,~5400 perovskitas,10.1039/c1ee02717d,Butler–Ginley aplicado en cribado computacional,ecuacion_electronegatividad,R (SI TC-d)
