@@ -1,0 +1,46 @@
+{"doi": "10.1016/j.cattod.2019.02.013", "motivo": "ronda2_filtro", "detalle": "BiOBrxI1-x (Kong 2019): sin Mott–Schottky; bordes por VB-XPS y electronegatividad"}
+{"doi": "10.1038/srep22800", "motivo": "ronda2_filtro", "detalle": "BiOBrxI1-x: sin Mott–Schottky; bordes por VB-XPS"}
+{"doi": "10.1039/c8ra02971g", "motivo": "ronda2_filtro", "detalle": "BiOCl1-xBrx@AgBr: sin Mott–Schottky; bordes por electronegatividad"}
+{"doi": "10.1039/d6sc02302a", "motivo": "ronda2_filtro", "detalle": "BiOBr1-xIx (Suzuki 2026): sin Mott–Schottky; solo PYS sin números en texto"}
+{"doi": "10.3389/fchem.2022.900622", "motivo": "otro", "detalle": "Revisión BiOX, sin datos propios"}
+{"doi": "10.3389/fchem.2022.911291", "motivo": "ronda2_filtro", "detalle": "SnS2/CQDs: MS descrito en métodos sin valores; CB citado de literatura"}
+{"doi": "10.1038/s41598-021-94966-z", "motivo": "ronda2_filtro", "detalle": "In2S3/MoS2: sin MS; bordes por ecuación de electronegatividad"}
+{"doi": "10.3390/ijms231912024", "motivo": "ronda2_filtro", "detalle": "Bi2S3 ref: Efb −0.45 V vs NHE y Eg 1.3 eV, pero electrolito del MS no declarado (Na2SO4 solo para PEC/EIS) (criterio 3)"}
+{"doi": "10.3390/nano14201628", "motivo": "ronda2_filtro", "detalle": "In2S3/MoS2 fotoánodo: sin Mott–Schottky; sin XRD"}
+{"doi": "10.3390/nano13040758", "motivo": "ronda2_filtro", "detalle": "ZnIn2S4 Efb −0.76 V vs Ag/AgCl: relleno n.r., oscuridad y frecuencia n.r. (criterios 1,3)"}
+{"doi": "10.1039/d3ra08425f", "motivo": "ronda2_filtro", "detalle": "Ag-ZnIn2S4/Co3O4: sin Mott–Schottky; bordes UPS"}
+{"doi": "10.1039/d5ra00586h", "motivo": "ronda2_filtro", "detalle": "Sb2S3 fotoánodo por espesor: sin Mott–Schottky"}
+{"doi": "10.3390/nano13121841", "motivo": "ronda2_filtro", "detalle": "BiOCl Efb −0.99/−0.93 V vs Ag/AgCl: relleno n.r., pH n.r., oscuridad n.r. (criterios 1,3)"}
+{"doi": "10.3390/molecules26185624", "motivo": "ronda2_filtro", "detalle": "BiOI: sin MS; bordes por electronegatividad"}
+{"doi": "10.3390/nano15201579", "motivo": "ronda2_filtro", "detalle": "BiOI Efb −0.63 V vs Ag/AgCl: relleno n.r., referencia contradictoria (SCE en métodos), oscuridad n.r., Eg de BiOI puro no medido"}
+{"doi": "10.1038/s41598-020-67768-y", "motivo": "otro", "detalle": "Película compuesta Bi-V-O, sin sulfuros ni BiOX"}
+{"doi": "10.1038/s41598-023-34743-2", "motivo": "ronda2_filtro", "detalle": "MoS2 −0.64 V vs Ag/AgCl sat.: Eg de MoS2 solo en SI, oscuridad n.r., XRD puro solo en SI (criterios 3,4)"}
+{"doi": "10.3390/molecules29061362", "motivo": "ronda2_filtro", "detalle": "BiOCl-GQDs: MS solo de BiOCl-VO (vacantes), sin escala ni electrolito; sin MS de BiOCl puro"}
+{"doi": "10.1039/c9ra01639b", "motivo": "ronda2_filtro", "detalle": "h-BN/OV-BiOCl: sin valor numérico de U_fb; BiOCl con vacantes"}
+{"doi": "10.1038/s42004-020-0319-9", "motivo": "ronda2_filtro", "detalle": "BiOCl OV: sin valor numérico de U_fb para BiOCl prístino; oscuridad n.r."}
+{"doi": "10.1039/d3sc03474g", "motivo": "ronda2_filtro", "detalle": "Au/Bi24O31Br10: sin valor de U_fb de Bi24O31Br10 puro en texto"}
+{"doi": "10.3390/ma14164449", "motivo": "ronda2_filtro", "detalle": "Bi4O5I2 −0.24 V con escala ambigua ('(0 V vs. SCE)') (criterio 1)"}
+{"doi": "10.1039/d5ra09129b", "motivo": "ronda2_filtro", "detalle": "ZnS/CdS/TiO2: Efb ZnS −1.02, CdS −0.63 V vs SCE, pero Eg de literatura y ZnS sin XRD (criterio 4)"}
+{"doi": "10.1038/srep03314", "motivo": "ronda2_filtro", "detalle": "CdS −0.71 V vs Ag/AgCl: relleno n.r. (criterio 1); MS en SI"}
+{"doi": "10.1007/s40820-025-01755-8", "motivo": "ronda2_filtro", "detalle": "CZTS fotocátodo: sin valor numérico de U_fb"}
+{"doi": "10.1038/s41598-026-49579-9", "motivo": "ronda2_filtro", "detalle": "In2S3 −0.98 V 'vs SCE' pero Métodos declaran Ag/AgCl sin relleno: escala contradictoria (criterio 1)"}
+{"doi": "10.1038/s41598-021-94129-0", "motivo": "ronda2_filtro", "detalle": "MoS2 medido en MCN-600 (no puro); Eg MoS2 solo en SI (criterios 4,5)"}
+{"doi": "10.3390/molecules28073084", "motivo": "ronda2_filtro", "detalle": "Bi5O7I −0.92 V vs Ag/AgCl: relleno y electrolito en SI (criterios 1,3)"}
+{"doi": "10.3389/fchem.2021.781991", "motivo": "ecuacion_electronegatividad", "detalle": "Bi5O7I/g-C3N4: sin MS; bordes por electronegatividad"}
+{"doi": "10.3390/nano13010188", "motivo": "ronda2_filtro", "detalle": "Bi4O5Br2 −0.42 V vs Ag/AgCl: relleno y electrolito n.r. (criterios 1,3)"}
+{"doi": "10.3389/fctls.2022.839072", "motivo": "otro", "detalle": "Revisión BiOX sin datos propios"}
+{"doi": "10.3390/nano12122030", "motivo": "ronda2_filtro", "detalle": "SnS2 −0.44 V 'vs SCE' pero Métodos declaran Ag/AgCl (sat. KCl): escala contradictoria (criterio 1)"}
+{"doi": "10.1039/c8na00264a", "motivo": "ronda2_filtro", "detalle": "BiOI −0.59 V vs Ag/AgCl: relleno n.r. (criterio 1)"}
+{"doi": "10.3390/catal12040400", "motivo": "ronda2_filtro", "detalle": "ZnIn2S4 2D: sin Mott–Schottky; bordes por VB-XPS"}
+{"doi": "10.3390/catal13050909", "motivo": "ronda2_filtro", "detalle": "TiO2/SnS2 fotoánodo: sin U_fb numérico, sin Eg ni XRD"}
+{"doi": "10.3390/cryst15110940", "motivo": "ronda2_filtro", "detalle": "SnS nanocintas: sin Mott–Schottky; bordes por VB-XPS"}
+{"doi": "10.1038/s41598-017-00055-5", "motivo": "ronda2_filtro", "detalle": "CdIn2S4 −0.80 V vs Ag/AgCl (oscuridad, 1 kHz, Na2SO4) pero relleno n.r. (criterio 1)"}
+{"doi": "10.1038/s41467-020-16800-w", "motivo": "ronda2_filtro", "detalle": "CdIn2S4 prístino: U_fb solo en figura; Eg no numérico"}
+{"doi": "10.3390/molecules30081735", "motivo": "ronda2_filtro", "detalle": "B-BiOBr: sin Mott–Schottky; bordes VB-XPS"}
+{"doi": "10.3389/fchem.2019.00649", "motivo": "ecuacion_electronegatividad", "detalle": "g-C3N4/BiOBr: sin MS; bordes por electronegatividad"}
+{"doi": "10.3390/catal16020199", "motivo": "ronda2_filtro", "detalle": "BiOBr −0.43 V vs SCE pero electrolito del MS n.r., frecuencias en SI (criterio 3)"}
+{"doi": "10.3389/fmicb.2023.1210790", "motivo": "ronda2_filtro", "detalle": "Bi3O4Cl: U_fb solo de 0.025-Ag-Bi3O4Cl (compuesto); condiciones en SI"}
+{"doi": "10.3390/molecules29245979", "motivo": "ronda2_filtro", "detalle": "Bi3O4Cl −0.12 V vs Ag/AgCl: relleno y electrolito n.r. (criterios 1,3)"}
+{"doi": "10.1039/d5ra02536b", "motivo": "ronda2_filtro", "detalle": "BiOI 0.52 V vs SCE: electrolito n.r.; Eg citado de literatura (criterios 3,4)"}
+{"doi": "10.3390/catal12101117", "motivo": "ronda2_filtro", "detalle": "TiO2/CdS/BiSbS3: CdS −0.61 V vs Ag/AgCl rotulado CB; relleno y electrolito del MS n.r.; XRD de CdS puro en SI (criterios 1,3)"}
+{"doi": "10.1002/chem.201501427", "motivo": "sin_acceso", "detalle": "BiOClxBr1-x soluciones sólidas (Chem Eur J 2015): Wiley no accesible"}

@@ -1,0 +1,122 @@
+{"doi": "10.1038/srep31406", "motivo": "ronda2_filtro", "detalle": "criterio: valor U_fb no escrito (solo onset); MS bajo luz"}
+{"doi": "10.1038/s41598-017-08912-z", "motivo": "ronda2_filtro", "detalle": "criterio 1-3: sin condiciones MS ni electrodo de referencia; Eg solo como rango"}
+{"doi": "10.3390/catal13071063", "motivo": "sin_medicion", "detalle": "no hay Mott-Schottky ni U_fb"}
+{"doi": "10.1038/s41598-024-73352-5", "motivo": "ronda2_filtro", "detalle": "criterio 1: sin valor de U_fb ni condiciones MS en el texto"}
+{"doi": "10.1038/s41598-023-34743-2", "motivo": "no_monofasico", "detalle": "TiO2 P25 anatasa+rutilo; ademas sin pH/frecuencia MS"}
+{"doi": "10.1039/d2ra03940k", "motivo": "solo_en_figura", "detalle": "U_fb solo en Fig. S7; referencia sin relleno"}
+{"doi": "10.1039/c5ta04716a", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky ni U_fb; Eg solo de literatura"}
+{"doi": "10.1039/c2ra21979d", "motivo": "ronda2_filtro", "detalle": "criterio 4: Eg solo de IPCE (no Tauc/absorcion); ademas fase CuO/Cu2O mezclada"}
+{"doi": "10.3390/molecules30112454", "motivo": "ronda2_filtro", "detalle": "criterio 5: U_fb solo de Ag-Fe-BiVO4 dopado; puro no reportado"}
+{"doi": "10.1039/c9ra00639g", "motivo": "ronda2_filtro", "detalle": "criterio 4 y 1: Eg de ZnO (3.2) sin origen Tauc explicito; relleno contradictorio (3 M vs saturado); electrolito MS no declarado"}
+{"doi": "10.1038/s41598-018-34248-3", "motivo": "ronda2_filtro", "detalle": "criterio 1: Ag/AgCl sin relleno; electrolito/oscuridad MS no declarados"}
+{"doi": "10.1038/s41529-025-00707-2", "motivo": "ronda2_filtro", "detalle": "criterio 1: sin valor U_fb (solo ECB vs NHE); Ag/AgCl sin relleno"}
+{"doi": "10.3390/catal14090639", "motivo": "ronda2_filtro", "detalle": "criterio 2 y 4: RHE sin pH del MS; Eg de IPCE"}
+{"doi": "10.3390/nanomanufacturing5040015", "motivo": "solo_en_figura", "detalle": "U_fb y Eg solo en figuras"}
+{"doi": "10.1038/srep35158", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky ni U_fb en el texto"}
+{"doi": "10.1039/c7ra01426k", "motivo": "ronda2_filtro", "detalle": "criterio 1 y 4: Ag/AgCl sin relleno; sin Eg numerico"}
+{"doi": "10.1039/c5ra21290a", "motivo": "ronda2_filtro", "detalle": "criterio 3 y 4: MS sin oscuridad declarada; Eg solo como rango comun 2.10-2.15 eV"}
+{"doi": "10.1039/d1nr04763a", "motivo": "ronda2_filtro", "detalle": "criterio 2 y 4: RHE sin pH; Eg de IPCE (Tauc solo en ESI)"}
+{"doi": "10.1038/s41598-024-78887-1", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.3390/ma18245639", "motivo": "ronda2_filtro", "detalle": "criterio 1/3: U_fb de BiVO4 puro no reportado; sin referencia/frecuencia/oscuridad"}
+{"doi": "10.20964/2018.01.100", "motivo": "otro", "detalle": "fuera de alcance (grafito, sin MS)"}
+{"doi": "10.20964/2017.11.68", "motivo": "otro", "detalle": "fuera de alcance (corrosion de Cu, sin MS)"}
+{"doi": "IJES 10 (2015) 9666", "motivo": "otro", "detalle": "fuera de alcance (latón, sin MS)"}
+{"doi": "10.20964/2020.12.79", "motivo": "otro", "detalle": "fuera de alcance (composite Mo-TiC, sin MS)"}
+{"doi": "IJES 7 (2012) 9622 (Garcia-Perez, BiVO4)", "motivo": "ronda2_filtro", "detalle": "criterio 3: metodo de slurry con metilviologeno (par redox), sin MS; cuasi-nivel de Fermi, no U_fb"}
+{"doi": "10.20964/2016.08.22", "motivo": "ronda2_filtro", "detalle": "criterio 4: sin Eg medido (solo literatura)"}
+{"doi": "IJES 7 (2012) 9074", "motivo": "sin_acceso", "detalle": "robots bloquea"}
+{"doi": "IJES 12 (2017) 7240", "motivo": "sin_acceso", "detalle": "robots bloquea"}
+{"doi": "10.20964/2019.04.36", "motivo": "ronda2_filtro", "detalle": "criterio 4 y fase: sin Eg ni XRD; producto de corrosion"}
+{"doi": "10.20964/2020.11.61", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.33961/jecst.2024.00626", "motivo": "ronda2_filtro", "detalle": "criterio 2/4: U_fb de muestra ref solo en ESI; pH no declarado; Eg solo aproximado general"}
+{"doi": "10.33961/JECST.2018.9.4.282", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.33961/jecst.2022.00171", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky; sin XRD"}
+{"doi": "10.5229/JECST.2019.10.1.89", "motivo": "otro", "detalle": "fuera de alcance (baterias)"}
+{"doi": "10.33961/jecst.2022.01032", "motivo": "otro", "detalle": "revision, sin datos propios"}
+{"doi": "arxiv:1911.12188", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.1021/acsami.8b08564 (arxiv:2004.06573)", "motivo": "ronda2_filtro", "detalle": "criterio 4/5 y 2: Eg de fotocorriente; SrTiO3 sin dopar solo hidrogenado; escala no declarada"}
+{"doi": "arxiv:2105.05331", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.1038/srep06627", "motivo": "solo_en_figura", "detalle": "U_fb de hematita pristina solo en inserto Fig. 7; pH/referencia MS no declarados"}
+{"doi": "10.1038/s41598-017-14463-0", "motivo": "ronda2_filtro", "detalle": "criterio 3: MS bajo luz UV; U_fb solo en figura; TiO2 trifasico"}
+{"doi": "10.1038/s41598-024-72514-9", "motivo": "otro", "detalle": "fuera de alcance (MOF/g-C3N4)"}
+{"doi": "10.3390/catal14120946", "motivo": "ronda2_filtro", "detalle": "criterio 1/3: Ag/AgCl sin relleno; electrolito MS no declarado"}
+{"doi": "10.1039/c9ta04482e", "motivo": "ronda2_filtro", "detalle": "criterio 4: sin Eg numerico (solo borde ~400 nm)"}
+{"doi": "10.1039/d1ee01772a", "motivo": "ronda2_filtro", "detalle": "criterio 5 y 4: hematita dopada con Sn; sin Eg medido"}
+{"doi": "10.1039/c4cp00096j", "motivo": "sin_acceso", "detalle": "error de carga"}
+{"doi": "10.1039/c8cp00981c", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky; hematita dopada"}
+{"doi": "10.3390/catal13030469", "motivo": "ronda2_filtro", "detalle": "criterio 1/3: Ag/AgCl sin relleno; electrolito y oscuridad MS no declarados"}
+{"doi": "10.3389/fchem.2023.1301172", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.3389/fchem.2021.637501", "motivo": "otro", "detalle": "revision"}
+{"doi": "10.1039/d3ra07329g", "motivo": "ronda2_filtro", "detalle": "criterio 2: U_fb vs RHE sin pH del electrolito (ecuacion de conversion sin valor de pH)"}
+{"doi": "10.1039/c6ta07997k", "motivo": "ronda2_filtro", "detalle": "criterio 1/4: Ag/AgCl sin relleno; Eg de las peliculas solo en figura"}
+{"doi": "10.1039/c5ra26582g", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky; mezclas de fases"}
+{"doi": "10.3390/ma9120968", "motivo": "ronda2_filtro", "detalle": "criterio 1: U_fb no reportado numericamente; condiciones MS en SI"}
+{"doi": "10.1038/s41598-023-30096-y", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky (CB de literatura)"}
+{"doi": "10.3390/nano15050410", "motivo": "sin_medicion", "detalle": "sin U_fb ni condiciones MS"}
+{"doi": "10.3390/app16167989", "motivo": "sin_medicion", "detalle": "sin U_fb"}
+{"doi": "RSC Adv 16 37607 (CeVO4@ZnTiO3)", "motivo": "sin_acceso", "detalle": "error de carga"}
+{"doi": "10.3390/surfaces2010011", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.3389/fchem.2024.1454524", "motivo": "ronda2_filtro", "detalle": "criterio 4: Eg no medido (solo literatura); relleno n.r."}
+{"doi": "10.3389/fchem.2025.1526745", "motivo": "ronda2_filtro", "detalle": "criterio 2: U_fb vs RHE sin pH (0.1 M KOH); calomel sin relleno"}
+{"doi": "JMCA 14 11018 (tungstatos)", "motivo": "sin_acceso", "detalle": "error de carga"}
+{"doi": "10.1038/s41467-023-38343-6", "motivo": "ronda2_filtro", "detalle": "criterio 1: U_fb de hematita pristina no reportado"}
+{"doi": "10.3390/catal16040342 (WO3)", "motivo": "no_monofasico", "detalle": "solo se extrajo TiO2; WO3 puro sin fase XRD asignada (y Eg 3.04 atipico)"}
+{"doi": "10.3390/catal11111349", "motivo": "ronda2_filtro", "detalle": "criterio 1: escala del valor U_fb no escrita; TiO2 puro sin XRD propio"}
+{"doi": "10.1038/srep31641", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.3389/fchem.2021.682979", "motivo": "sin_medicion", "detalle": "sin MS ni Eg experimental"}
+{"doi": "10.3389/fnano.2022.827925", "motivo": "otro", "detalle": "revision/sin datos MS propios"}
+{"doi": "10.1038/s41598-025-99604-6", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.1039/d4dt00697f", "motivo": "ronda2_filtro", "detalle": "criterio 1/3: U_fb no reportado numericamente (solo CB vs NHE); electrolito con colorante IC; relleno n.r."}
+{"doi": "10.3762/bjnano.4.27", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky; Eg citado"}
+{"doi": "10.1038/s41467-024-49004-7", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky (UPS)"}
+{"doi": "10.3390/nano12091546", "motivo": "ronda2_filtro", "detalle": "criterio 5: sin control TiO2 puro (todas las muestras con Fe2O3)"}
+{"doi": "JMCA 12 17422 (BiFeO3)", "motivo": "sin_acceso", "detalle": "error de carga"}
+{"doi": "10.1039/d3ta05617a", "motivo": "ecuacion_electronegatividad", "detalle": "U_fb calculado de posiciones de banda en vacio, no MS; Eg comun a todas"}
+{"doi": "10.1039/d2ra00900e (BiVO4)", "motivo": "ronda2_filtro", "detalle": "criterio 5: muestra B es Zr:W-BiVO4 (dopada); solo se extrajeron F y Z"}
+{"doi": "10.1039/d5ra02606g", "motivo": "ronda2_filtro", "detalle": "criterio 1: Ag/AgCl sin relleno"}
+{"doi": "10.1039/d4ra05989a", "motivo": "sin_acceso", "detalle": "error de carga"}
+{"doi": "10.1039/d3ra02691d", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.1039/c8se00420j", "motivo": "sin_medicion", "detalle": "U_fb de literatura"}
+{"doi": "10.3390/inorganics13070227", "motivo": "ronda2_filtro", "detalle": "criterio 3: condiciones del MS (electrolito, referencia) no declaradas; valor etiquetado ECB"}
+{"doi": "10.3390/ma16165661", "motivo": "ronda2_filtro", "detalle": "criterio 1: U_fb de BiVO4 puro no reportado; Ag/AgCl sin relleno"}
+{"doi": "10.3390/nano12091608", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.3390/photonics12050438", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.3390/molecules30122626", "motivo": "ronda2_filtro", "detalle": "criterio 3: MS medido bajo iluminacion ('under light conditions')"}
+{"doi": "10.3390/ma18153513", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky; P25 bifasico"}
+{"doi": "10.3390/ma16237300", "motivo": "ronda2_filtro", "detalle": "criterio 2: U_fb (por POP) vs RHE sin pH; referencia sulfato de mercurio sin relleno; Eg citado"}
+{"doi": "10.3390/ma16155461", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.3390/ma16083147", "motivo": "no_monofasico", "detalle": "TiO2 anatasa mayoritaria con rutilo; valor inconsistente (0.055 vs 0.44)"}
+{"doi": "10.1038/s41598-026-50404-6", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.3390/coatings12121839", "motivo": "ronda2_filtro", "detalle": "criterio 1: escala del valor U_fb no escrita en la frase (solo conversión general a RHE); orden de muestras ambiguo"}
+{"doi": "Nanoscale Adv 8 4159 (CuO/Pt)", "motivo": "sin_acceso", "detalle": "error de carga"}
+{"doi": "10.1039/d4ma00343h (CuO)", "motivo": "ronda2_filtro", "detalle": "criterio 3: Efb de CuO por punto de transicion bajo iluminacion intermitente, no MS; solo se extrajo Cu2O"}
+{"doi": "10.1039/d1ra02193a", "motivo": "ronda2_filtro", "detalle": "criterio 2: CuO vs RHE sin pH; referencia sin relleno"}
+{"doi": "10.3390/nano15070551", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky; CuO con Cu2O"}
+{"doi": "10.1039/c5ra24397a", "motivo": "no_monofasico", "detalle": "CuBO2 amorfo con CuO; sin Eg numerico"}
+{"doi": "10.3389/fchem.2019.00158", "motivo": "sin_medicion", "detalle": "estudio computacional (DFT)"}
+{"doi": "10.1039/d0ra04673f", "motivo": "ronda2_filtro", "detalle": "criterio 2: U_fb vs RHE; MS en 'various pH' sin pH asignado al valor"}
+{"doi": "10.1039/c9ra08785k", "motivo": "ronda2_filtro", "detalle": "criterio 1: Ag/AgCl sin relleno"}
+{"doi": "10.1039/c5ra08227g", "motivo": "no_monofasico", "detalle": "3R + 2H CuFeO2; sin MS"}
+{"doi": "10.1039/d3ra02181e", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "JMCA c3ta14072e (CuGaO2)", "motivo": "sin_acceso", "detalle": "error de carga"}
+{"doi": "10.1039/c7sc00940b", "motivo": "ronda2_filtro", "detalle": "criterio 1 y 4: escala del valor (+0.47 V) no escrita; sin Eg numerico"}
+{"doi": "10.1039/c7sc03442c", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.1039/d2cy01523d", "motivo": "sin_medicion", "detalle": "sin MS; electrolito liquido ionico"}
+{"doi": "10.1038/am.2017.15", "motivo": "ronda2_filtro", "detalle": "criterio 3: MS bajo iluminacion; U_fb solo en SI"}
+{"doi": "10.1039/d5ta00440c", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.1039/d1ra00974e", "motivo": "ronda2_filtro", "detalle": "criterio 1: U_fb no reportado (solo CB sin escala); XRD n.r."}
+{"doi": "10.1039/d2ma01016j", "motivo": "sin_acceso", "detalle": "error de carga"}
+{"doi": "10.3389/fchem.2021.795291", "motivo": "no_acuoso", "detalle": "MS en dispositivo de estado solido; escala n.r."}
+{"doi": "RSC Adv 10 1275 (KNbO3)", "motivo": "sin_acceso", "detalle": "error de carga"}
+{"doi": "10.1038/s41598-025-22201-0", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.1038/s41598-018-29402-w", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.1038/s41598-023-39622-4", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.1039/c5ta07040f", "motivo": "sin_acceso", "detalle": "error de carga"}
+{"doi": "10.3389/fchem.2024.1394191", "motivo": "otro", "detalle": "sulfuro CZTS, fuera de alcance"}
+{"doi": "10.3762/bjnano.9.244", "motivo": "ronda2_filtro", "detalle": "criterio 2/4: RHE sin pH (0.5 M H2SO4); Eg de fotocorriente (IPCE); referencia inconsistente"}
+{"doi": "10.3762/bjnano.6.231", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky de sustratos"}
+{"doi": "10.1039/d4na00890a", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.1039/d2ra04313k", "motivo": "ronda2_filtro", "detalle": "criterio 1: U_fb no reportado numericamente"}
+{"doi": "10.1039/d5ma00354g", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.1038/s41598-024-77752-5", "motivo": "sin_medicion", "detalle": "sin Mott-Schottky"}
+{"doi": "10.1039/d4na00088a", "motivo": "ronda2_filtro", "detalle": "criterio 4: Eg de BiVO4 solo en ESI (texto cita literatura); fotocatodo Cu2O/CuO/TiO2 multifasico"}

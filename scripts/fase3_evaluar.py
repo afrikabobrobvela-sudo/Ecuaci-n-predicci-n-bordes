@@ -17,6 +17,10 @@ ESTADOS = {  # estados de oxidación de cationes para M3 cuando hay más de un c
     "Bi4Ti3O12": {"Bi": 3, "Ti": 4}, "Bi2WO6": {"Bi": 3, "W": 6}, "ZnIn2S4": {"Zn": 2, "In": 3},
     "CuInS2": {"Cu": 1, "In": 3}, "Bi2Sn2O7": {"Bi": 3, "Sn": 4}, "BiFeO3": {"Bi": 3, "Fe": 3},
     "ZnFe2O4": {"Zn": 2, "Fe": 3}, "CuFe2O4": {"Cu": 2, "Fe": 3}, "SrTiO3": {"Sr": 2, "Ti": 4},
+    "Bi2MoO6": {"Bi": 3, "Mo": 6}, "Bi4V2O11": {"Bi": 3, "V": 5}, "MgFe2O4": {"Mg": 2, "Fe": 3},
+    "CuCrO2": {"Cu": 1, "Cr": 3}, "Li2SnO3": {"Li": 1, "Sn": 4}, "Cu3Ta7O19": {"Cu": 1, "Ta": 5},
+    "Cu3VO4": {"Cu": 1, "V": 5}, "CuNbO3": {"Cu": 1, "Nb": 5}, "Cu5V2O10": {"Cu": 2, "V": 5},
+    # Sin estados asignados (valencia mixta o catión sin SSE en la tabla): Co3O4, TiVO4, Ag3PO4 (P5+).
 }
 
 def formula(nombre):

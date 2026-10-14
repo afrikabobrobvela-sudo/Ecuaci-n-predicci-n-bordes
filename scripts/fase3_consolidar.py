@@ -11,7 +11,8 @@ NERNST = 0.0592
 REF = {"Ag/AgCl sat": 0.197, "Ag/AgCl 3 M": 0.210, "SCE sat": 0.241, "Hg/Hg2SO4 sat": 0.640, "SHE": 0.0}
 ESCENARIO = {"Ag/AgCl n.r.": (0.197, 0.235), "SCE n.r.": (0.241, 0.280)}
 BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "extraccion_fase3")
-FAMILIAS = ["oxido_binario", "oxido_ternario", "oxido_ternario_Bi", "sulfuro", "oxihaluro_Bi"]
+FAMILIAS = ["oxido_binario", "oxido_ternario", "oxido_ternario_Bi", "sulfuro", "oxihaluro_Bi",
+            "ronda2_oxidos", "ronda2_sulfuros_BiOX"]  # los archivos de la ronda 2 mezclan familias
 
 def num(x):
     if x is None: return None
@@ -112,7 +113,7 @@ def main():
             adm, apto, mot = admision(r, esc, d, estado)
             comp_rows.append([rid, r.get("estudio"), r.get("doi"), r.get("compuesto"), r.get("valor"),
                               (ver.get(rid) or {}).get("U_fb_publicado", (ver.get(rid) or {}).get("U_fb")), estado, det])
-            reserva = fam == "oxihaluro_Bi"
+            reserva = str(r.get("familia", "")).startswith("oxihaluro")
             base_rows.append([rid, r.get("estudio"), r.get("doi"), r.get("muestra"), r.get("compuesto"),
                               r.get("familia"), "reserva_BiOX" if reserva else "principal", r.get("observable"),
                               v, r.get("unidad"), r.get("referencia_publicada"), r.get("relleno"), esc, ph,
