@@ -80,6 +80,10 @@ def admision(r, esc, defin, estado):
     texto = " ".join(map(str, r.get("banderas") or [])).lower() + " " + str(r.get("electrolito") or "").lower()
     if any(k in texto for k in ("fe(cn)", "ferri", "ferro", "redox")): motivos.append("electrolito con par redox")
     if "dopad" in texto or "doped" in texto or "dopad" in str(r.get("muestra", "")).lower(): motivos.append("dopado")
+    muestra = str(r.get("muestra", "")).lower()
+    if re.search(r"\b(?!0\b)\d+(\.\d+)?\s*kgy", muestra) or "irradi" in muestra:
+        motivos.append("variante tratada (irradiada)")
+    if "fermi" in texto: motivos.append("observable reportado como nivel de Fermi, no U_fb")
     if str(r.get("unidad", "")).lower().startswith("ev"): motivos.append("publicado en eV")
     if esc is None: motivos.append("escala no identificable")
     if defin is None: motivos.append("sin conversión definitiva")
